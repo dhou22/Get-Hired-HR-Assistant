@@ -1,0 +1,452 @@
+[
+  {
+    "candidate_id": "CAND_001",
+    "raw_text": "Python Developer with experience in Python, Tensorflow, Numpy, C, C++, MySQL, and various platforms.\nPython Developer at Fresher\nSkills: programming_languages: Python, C++, C; frameworks: Tensorflow, Numpy; databases: MySQL; cloud: Unknown",
+    "text_length": 239,
+    "word_count": 30,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_002",
+    "raw_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "text_length": 576,
+    "word_count": 69,
+    "extraction_status": "success",
+    "category": "Operations Manager",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_003",
+    "raw_text": "Software Proficiency in various languages and tools. Worked on several projects including FPGA Implementation, Sorting Robot, and RFID Based Student Attendance System.\nDevOps Engineer at Parkar Consulting and Labs\nSkills: programming_languages: C, SQL, PL/SQL, JAVA, JAVAEE, Javascript, HTML, CSS, jquery, mysql, Spring, Hibernate, Python; frameworks: Not Provided; databases: Not Provided; cloud: AWS",
+    "text_length": 401,
+    "word_count": 52,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_004",
+    "raw_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "text_length": 576,
+    "word_count": 69,
+    "extraction_status": "success",
+    "category": "Operations Manager",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_005",
+    "raw_text": "Python Developer at Atos Syntel\nSkills: programming_languages: Python; frameworks: Django; databases: MySQL",
+    "text_length": 107,
+    "word_count": 12,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_006",
+    "raw_text": "Python Developer at Cybage Software Pvt. Ltd\nSkills: programming_languages: Python",
+    "text_length": 82,
+    "word_count": 10,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_007",
+    "raw_text": "Java Developer at Inouvelle Ventures Private Limited\nSkills: programming_languages: C, C++, J2EE; frameworks: Spring, Hibernate; databases: My SQL, PostgreSQL",
+    "text_length": 158,
+    "word_count": 19,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_008",
+    "raw_text": "Experienced Java Developer with expertise in JSP, Servlets, Spring, Hibernate, and front-end technologies like HTML, CSS, JavaScript, and jQuery. Proficient in MySQL and development tools such as Eclipse and NetBeans.\nJava Developer at Kunal IT Services Pvt Ltd\nJava Developer at Winsol Solution Pvt Ltd\nSkills: programming_languages: Java; frameworks: Spring, Hibernate; databases: MySQL",
+    "text_length": 388,
+    "word_count": 53,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_009",
+    "raw_text": "Java Developer at Xoriant Solutions Pvt Ltd\nSkills: programming_languages: Java, SQL, PL/SQL, C, C++; frameworks: JSP, Ext JS; databases: Oracle, MS-SQL, MS-Access, MS-Excel",
+    "text_length": 173,
+    "word_count": 23,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_010",
+    "raw_text": "Jr. Java Developer at Wab It Software Pvt. Ltd.\nSkills: programming_languages: Java, JavaScript",
+    "text_length": 95,
+    "word_count": 13,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_011",
+    "raw_text": "Devops Engineer with experience in various DevOps methodologies and tools.\nDevops Engineer at Nendrasys Technologies Pvt Ltd\nSkills: programming_languages: C, Core Java; frameworks: Unknown; databases: Unknown; cloud: Unknown",
+    "text_length": 225,
+    "word_count": 28,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_012",
+    "raw_text": "Java Developer at Tech Mahindra\nJava Developer at Tech Mahindra\nSkills: programming_languages: Java, J2EE, Swift, HTML, Shell Script; databases: MySQL",
+    "text_length": 150,
+    "word_count": 20,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_013",
+    "raw_text": "IABAC Certified Data Scientist with versatile experience over 1+ years in managing business, data science consulting and leading innovation projects, bringing business ideas to working real world solutions. Being a strong advocator of augmented era, where human capabilities are enhanced by machines, Fahed is passionate about bringing business concepts in area of machine learning, AI, robotics etc., to real life solutions.\nData Science Consultant at Datamites\nNone at Heretic Solutions Pvt Ltd\nSkills: programming_languages: Python, R Studio; frameworks: Machine Learning, Data Visualization, Tableau",
+    "text_length": 603,
+    "word_count": 83,
+    "extraction_status": "success",
+    "category": "Data Science Consultant",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_014",
+    "raw_text": "Python Developer/analyst\nPython Developer/analyst at Ace The Power of 5\nPython Developer/analyst at Kranti Dynamics\nSkills: programming_languages: Python, C, C++, Java, HTML; frameworks: Django; databases: MySQL; cloud: Unknown",
+    "text_length": 227,
+    "word_count": 28,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_015",
+    "raw_text": "Java Developer with experience in Hibernate, JSP, and Servlets. Passionate about software development and programming.\nJava Developer at Maxgen Technologies Pvt. Ltd.\nTrainer at Prakshal IT Academy\nSkills: programming_languages: Java, C, C++; frameworks: Hibernate, JSP, Servlets; databases: SQL, MySQL, Oracle 9i, Oracle 10g",
+    "text_length": 325,
+    "word_count": 43,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_016",
+    "raw_text": "IABAC Certified Data Scientist with versatile experience over 1+ years in managing business, data science consulting and leading innovation projects, bringing business ideas to working real world solutions. Being a strong advocator of augmented era, where human capabilities are enhanced by machines, Fahed is passionate about bringing business concepts in area of machine learning, AI, robotics etc., to real life solutions.\nData Science Consultant at Datamites\nNone at Heretic Solutions Pvt Ltd\nSkills: programming_languages: Python, R Studio; frameworks: Machine Learning, Data Visualization, Tableau",
+    "text_length": 603,
+    "word_count": 83,
+    "extraction_status": "success",
+    "category": "Data Science Consultant",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_017",
+    "raw_text": "Final year Computer Science student at City, University of London with strong focus on machine learning and software engineering. Experienced in developing ML-powered applications and passionate about solving complex technical challenges.\nProject Manager at AT&T\nSkills: programming_languages: Python, Visual Basic 6.0; frameworks: Selenium, RALLY / IBM TD Platform, SAFe - Agile Craft; databases: MS-SQL Server / Oracle 8/8i; cloud: AWS, Docker",
+    "text_length": 445,
+    "word_count": 61,
+    "extraction_status": "success",
+    "category": "Project Manager",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_018",
+    "raw_text": "Cloud Operations Architect (DevOps) with experience in various technologies and platforms.\nCloud Operations Architect (DevOps) at DevOps\nSkills: programming_languages: Python, Shell Scripting; frameworks: Not Provided; databases: Not Provided; cloud: AWS, Azure",
+    "text_length": 261,
+    "word_count": 31,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_019",
+    "raw_text": "Java Developer at Vertical Software\nSkills: programming_languages: Java; frameworks: Spring, Hibernate; databases: MongoDB, MySQL",
+    "text_length": 129,
+    "word_count": 14,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_020",
+    "raw_text": "A Microsoft Certified Systems Engineer and Advocate with exceptional knowledge of administrative procedures, evidence rules and trials. Able to communicate clearly and concisely with people of diverse backgrounds and levels of authority. Focused and driven to always meet deadlines for pretrial procedures, trials and appellate briefings by effectively utilizing resources.\nAdvocate at District Courts",
+    "text_length": 401,
+    "word_count": 54,
+    "extraction_status": "success",
+    "category": "Advocate",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_021",
+    "raw_text": "Final year Computer Science student at City, University of London with strong focus on machine learning and software engineering. Experienced in developing ML-powered applications and passionate about solving complex technical challenges.\nMachine Learning Engineer Intern at TechStart AI\nSkills: programming_languages: Python, JavaScript, Java; frameworks: PyTorch, FastAPI, React; databases: PostgreSQL, MongoDB; cloud: AWS, Docker",
+    "text_length": 432,
+    "word_count": 53,
+    "extraction_status": "success",
+    "category": "Data Scientist",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_022",
+    "raw_text": "Highly motivated Software Testing & Automation Engineer with strong work ethics, quick learning ability, and experience in test automation, defect tracking, and Agile methodologies.\nSoftware Testing & Automation Engineer at Tech Mahindra\nSoftware Engineer at Tech Mahindra",
+    "text_length": 272,
+    "word_count": 37,
+    "extraction_status": "success",
+    "category": "Software Testing & Automation Engineer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_023",
+    "raw_text": "Cloud Operations Architect (DevOps) with experience in various technologies and platforms.\nCloud Operations Architect (DevOps) at DevOps\nAdministration, automation & Monitoring at Synechron Technologies Limited\nSkills: programming_languages: Python, Shell Scripting; frameworks: Not Provided; databases: Not Provided; cloud: AWS, Azure",
+    "text_length": 335,
+    "word_count": 39,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_024",
+    "raw_text": "Hardworking Java Developer enthusiastic about working with multicultural teams. Having 2 years of experience in working with a Payment Gateway Solutions provider with Core Java.\nJava Developer at Aurus Tech Pvt. Ltd\nSkills: programming_languages: Java, Advanced Java; databases: Oracle, Derby, MySQL; operating_systems: Windows, Linux (CentOS 6.6); tools: Eclipse (Oxygen), SonarQube, Putty",
+    "text_length": 390,
+    "word_count": 51,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_025",
+    "raw_text": "Java Developer at Almighty Tech Pvt Ltd\nSkills: programming_languages: C++, C, Java, DS; frameworks: Hibernate, JDBC, Java J2EE",
+    "text_length": 127,
+    "word_count": 18,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_026",
+    "raw_text": "Senior Business Analyst with extensive experience in RPA, process automation, and business analysis. Skilled in documentation, testing, and integration with a strong background in Agile and Waterfall methodologies.\nSenior Business Analyst - RPA at Hexaware Technologies\nBusiness Analyst at BBH - Brown Brothers Harriman & Co\nBusiness Analyst at First Advantage\nSkills: databases: SQL",
+    "text_length": 383,
+    "word_count": 54,
+    "extraction_status": "success",
+    "category": "Data Analyst",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_027",
+    "raw_text": "Experienced Python RESTful API developer with expertise in MongoDB, MySQL, and AS/400. Strong background in software development life cycle, debugging, and testing. Skilled in agile methodologies and cloud deployment using Pivotal Cloud Foundry.\nPython RESTful API Developer at KPIT Technologies\nM3 Java Developer & Stream Serve Developer at KPIT Technologies\nSenior AS/400 & Stream Serve Developer at KPIT Technologies\nSkills: programming_languages: Python, Java, RPG/400; frameworks: Flask, Django; databases: MongoDB, MySQL, PostgreSQL, DB2/400; cloud: Pivotal Cloud Foundry",
+    "text_length": 577,
+    "word_count": 76,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_028",
+    "raw_text": "Java Developer at Replete Business Solutions Pvt Ltd\nSkills: programming_languages: Java, J2EE; frameworks: Spring MVC, Ionic 3, AngularJS, Struts; databases: MySQL, MsSQL, Oracle; cloud: Azure Web Services",
+    "text_length": 206,
+    "word_count": 27,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_029",
+    "raw_text": "SAP Technical Architect with 13+ years of experience in SAP, ranging from development to subject matter expertise. Strong background in implementation, upgrade, application development, and maintenance. Certified in SAP ABAP, ITIL 2011 Foundation, and PRINCE2 Practitioner. Extensive experience in SAP ABAP FRICEW components, multiple SAP modules, and S/4HANA. Proven ability to lead technical teams and manage full-lifecycle SAP projects.\nSAP Technical Architect at \nSkills: programming_languages: SAP ABAP; frameworks: SAP NetWeaver Gateway, oData, Fiori",
+    "text_length": 556,
+    "word_count": 73,
+    "extraction_status": "success",
+    "category": "Sap Technical Architect",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_030",
+    "raw_text": "Java Developer with experience in Hibernate, JSP, and Servlets. Passionate about software development and programming.\nJava Developer at Maxgen Technologies Pvt. Ltd.\nTrainer at Prakshal IT Academy\nSkills: programming_languages: Java, C, C++; frameworks: Hibernate, Spring; databases: SQL, MySQL, Oracle 9i, Oracle 10g",
+    "text_length": 318,
+    "word_count": 42,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_031",
+    "raw_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "text_length": 576,
+    "word_count": 69,
+    "extraction_status": "success",
+    "category": "Operations Manager",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_032",
+    "raw_text": "Java Developer with experience in Spring MVC, Hibernate, JDBC, and various web technologies. Skilled in database management and front-end scripting.\nJava Developer at Replete Business Solutions Pvt Ltd\nSkills: programming_languages: Java, J2EE; frameworks: Spring MVC, Ionic 3, AngularJS; databases: MySQL, MsSQL, Oracle; cloud: Azure Web Services",
+    "text_length": 347,
+    "word_count": 46,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_033",
+    "raw_text": "Business Analyst at Fino Payments Bank\nBusiness Analyst at Fino Paytech Pvt. Ltd",
+    "text_length": 80,
+    "word_count": 13,
+    "extraction_status": "success",
+    "category": "Data Analyst",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_034",
+    "raw_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "text_length": 576,
+    "word_count": 69,
+    "extraction_status": "success",
+    "category": "Operations Manager",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_035",
+    "raw_text": "SAP Technical Architect and Consultant with 13+ years of experience in SAP, covering implementation, upgrade, application development, and maintenance. Expertise in SAP ABAP, SAP NetWeaver Gateway, S/4HANA, and multiple SAP modules. Strong leadership, client interaction, and project management skills.\nSAP Technical Architect at Unknown\nSkills: programming_languages: SAP ABAP; frameworks: SAP NetWeaver Gateway, oData, Fiori",
+    "text_length": 426,
+    "word_count": 54,
+    "extraction_status": "success",
+    "category": "Sap Technical Architect",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_036",
+    "raw_text": "Experienced Java Developer with expertise in JSP, Servlets, Spring, Hibernate, and front-end technologies like HTML, CSS, JavaScript, and jQuery. Proficient in MySQL and development tools such as Eclipse and NetBeans.\nJava Developer at Kunal IT Services Pvt Ltd\nJava Developer at Winsol Solution Pvt Ltd\nSkills: programming_languages: Java; frameworks: Spring, Hibernate; databases: MySQL",
+    "text_length": 388,
+    "word_count": 53,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_037",
+    "raw_text": "DevOps Engineer with software proficiency in various languages and tools.\nDevOps Engineer at Parkar Consulting and Labs\nSkills: programming_languages: C, SQL, PL/SQL, JAVA, JAVAEE, Javascript, HTML, CSS, jquery, mysql, Spring, Hibernate, Python; frameworks: Unknown; databases: Unknown; cloud: AWS",
+    "text_length": 297,
+    "word_count": 38,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_038",
+    "raw_text": "Python Developer at Atos Syntel\nSkills: programming_languages: Python, Database, MySQL, Django, HTML5, REST API; frameworks: Unknown; databases: Unknown; cloud: Unknown",
+    "text_length": 168,
+    "word_count": 20,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_039",
+    "raw_text": "Devops Engineer with strong focus on Dev-ops methodologies, C, Core Java, GIT, Bitbucket, ANT, Maven, Jenkins, Ansible, Shell Script, Apache Tomcat server.\nDevops Engineer at Nendrasys Technologies Pvt Ltd\nSkills: programming_languages: C, Core Java; frameworks: Unknown; databases: Unknown; cloud: Unknown",
+    "text_length": 306,
+    "word_count": 40,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_040",
+    "raw_text": "Not Provided\nProject Manager at Aditya Birla Group\nSkills: programming_languages: MICROSOFT SHAREPOINT, SHAREPOINT, SQL, ASP, ASP.NET; frameworks: Not Provided; databases: Not Provided; cloud: Not Provided",
+    "text_length": 205,
+    "word_count": 25,
+    "extraction_status": "success",
+    "category": "Project Manager",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_041",
+    "raw_text": "Java Developer at Replete Business Solutions Pvt Ltd\nSkills: programming_languages: Java, J2EE; frameworks: Spring MVC, Ionic 3, AngularJS; databases: MySQL, MsSQL; other: AJAX, HTML",
+    "text_length": 182,
+    "word_count": 24,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_042",
+    "raw_text": "Network Security Engineer with Cisco certifications and experience in various networking technologies.\nNetwork Security Engineer at Stormfur Technologies LLP",
+    "text_length": 157,
+    "word_count": 19,
+    "extraction_status": "success",
+    "category": "Network Engineer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_043",
+    "raw_text": "Python RESTful API developer at KPIT Technologies\nSkills: programming_languages: Python, Java; frameworks: Flask, Django; databases: MongoDB, MySQL, PostgreSQL; cloud: Pivotal Cloud Foundry",
+    "text_length": 189,
+    "word_count": 22,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_044",
+    "raw_text": "Java Developer at Maxgen Technologies\n at MIS Generation of Tata Sky and Tata Power\nSkills: programming_languages: C, C++, Java, Android; databases: MS Access, SQL, Oracle",
+    "text_length": 171,
+    "word_count": 25,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_045",
+    "raw_text": "Hardworking Java Developer enthusiastic about working with multicultural teams. Having 2 years of experience in working with a Payment Gateway Solutions provider with Core Java.\nJava Developer at Aurus Tech Pvt. Ltd\nSkills: programming_languages: Java, Advanced Java; databases: Oracle, Derby, MySQL; operating_systems: Windows, Linux (CentOS 6.6); tools: Eclipse (Oxygen), SonarQube, Putty",
+    "text_length": 390,
+    "word_count": 51,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_046",
+    "raw_text": "IABAC Certified Data Scientist with versatile experience over 1+ years in managing business, data science consulting and leading innovation projects, bringing business ideas to working real world solutions. Being a strong advocator of augmented era, where human capabilities are enhanced by machines, Fahed is passionate about bringing business concepts in area of machine learning, AI, robotics etc., to real life solutions.\nData Science Consultant at Datamites\nNone at Heretic Solutions Pvt Ltd\nSkills: programming_languages: Python, R Studio; frameworks: Machine Learning, Data Visualization, Tableau",
+    "text_length": 603,
+    "word_count": 83,
+    "extraction_status": "success",
+    "category": "Data Science Consultant",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_047",
+    "raw_text": "Java Developer at Vertical Software\nSkills: programming_languages: Java; frameworks: Spring, Hibernate; databases: MongoDB, MySQL",
+    "text_length": 129,
+    "word_count": 14,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_048",
+    "raw_text": "Java Developer at Inouvelle Ventures Private Limited\nSkills: programming_languages: C, C++, Java, J2EE; frameworks: Spring, Hibernate; databases: MySQL, PostgreSQL; operating_systems: Windows, Linux; tools: MS Office; testing: Functional Testing, Manual Testing",
+    "text_length": 261,
+    "word_count": 30,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_049",
+    "raw_text": "Experienced Database Administrator with expertise in Oracle RDBMS, RMAN, Data Guard, ASM, RAC, and Golden Gate. Skilled in database management, upgrades, migrations, and troubleshooting in production environments.\nDatabase Administrator at BNY Mellon\nDatabase Administrator at Brose India\nDatabase Administrator at Brose India\nSkills: databases: Oracle RDBMS; operating_systems: RHEL, UNIX, Windows; tools: RMAN, Netbackup, SCOM",
+    "text_length": 428,
+    "word_count": 54,
+    "extraction_status": "success",
+    "category": "Database Administrator",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_050",
+    "raw_text": "DevOps Engineer with software proficiency in various languages and tools. Experienced in project roles such as Programmer and Mechanism designer.\nDevOps Engineer at Parkar Consulting and Labs\nSkills: programming_languages: C, SQL, PL/SQL, JAVA, JAVAEE, Javascript, HTML, CSS, jquery, mysql, Spring, Hibernate, Python",
+    "text_length": 316,
+    "word_count": 42,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  }
+]

@@ -1,0 +1,1233 @@
+[
+  {
+    "id": "CAND_001",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Python Developer with experience in Python, Tensorflow, Numpy, C, C++, MySQL, and various platforms.",
+        "linkedin": "Unknown",
+        "github": "Unknown"
+      },
+      "experience": [
+        {
+          "company": "Fresher",
+          "company_info": {
+            "industry": "Unknown",
+            "size": "Unknown"
+          },
+          "title": "Python Developer",
+          "level": "entry",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Present",
+            "duration": "6 months",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Python programming"
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Python",
+              "Tensorflow",
+              "Numpy",
+              "C",
+              "C++",
+              "MySQL"
+            ],
+            "methodologies": [
+              "Unknown"
+            ],
+            "tools": [
+              "Ubuntu",
+              "Fedora",
+              "Cent OS",
+              "Windows"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "ME",
+            "field": "Computer Engineering",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "Unknown",
+            "expected_graduation": "2016-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": [
+              "Unknown"
+            ]
+          }
+        },
+        {
+          "degree": {
+            "level": "B.E",
+            "field": "Computer Engineering",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "Unknown",
+            "expected_graduation": "2014-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": [
+              "Unknown"
+            ]
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": "intermediate"
+            },
+            {
+              "name": "C++",
+              "level": "intermediate"
+            },
+            {
+              "name": "C",
+              "level": "intermediate"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Tensorflow",
+              "level": "intermediate"
+            },
+            {
+              "name": "Numpy",
+              "level": "intermediate"
+            }
+          ],
+          "databases": [
+            {
+              "name": "MySQL",
+              "level": "intermediate"
+            }
+          ],
+          "cloud": [
+            {
+              "name": "Unknown",
+              "level": "Unknown"
+            }
+          ],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "Unknown",
+            "level": "Unknown"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "Unknown",
+          "description": "Unknown",
+          "technologies": [
+            "Unknown"
+          ],
+          "role": "Unknown",
+          "url": "Unknown",
+          "impact": "Unknown"
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Python Developer with experience in Python, Tensorflow, Numpy, C, C++, MySQL, and various platforms.\nPython Developer at Fresher\nSkills: programming_languages: Python, C++, C; frameworks: Tensorflow, Numpy; databases: MySQL; cloud: Unknown",
+    "category": "Python Developer with experience in Python, Tensorflow, Numpy, C, C++, MySQL, and various platforms.",
+    "fetch_timestamp": 1760481623.771344,
+    "status": "success"
+  },
+  {
+    "id": "CAND_002",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.",
+        "linkedin": null,
+        "github": null
+      },
+      "experience": [
+        {
+          "company": "Delta Controls, Dubai FZCO",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Unknown"
+          },
+          "title": "Operations Manager",
+          "level": "senior",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2017-08",
+            "end": "Present",
+            "duration": "7 years",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Reporting to the GM-Operations",
+            "Reviewing SOW, RFQ, and assisting the proposal team",
+            "Managing project execution plans and client meetings",
+            "Ensuring project profitability and budget monitoring",
+            "Applying quality management systems and processes",
+            "Coordinating site activities and project closeout",
+            "Providing feedback for future proposals",
+            "Preparing project management reports and variance analysis"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Honeywell Automation India Ltd",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Large"
+          },
+          "title": "Project Lead",
+          "level": "mid-senior",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2015-05",
+            "end": "2016-06",
+            "duration": "1 year 1 month",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Coordinating between Honeywell Korea and GES teams",
+            "Managing project scope, estimation, and execution",
+            "Ensuring quality of deliverables and compliance with standards",
+            "Attending project review meetings and technical discussions",
+            "Supporting sales and proposal teams in project estimations"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Fox Controls",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Unknown"
+          },
+          "title": "Project Engineer",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Developing PLC and SCADA-based applications",
+            "Managing engineering and commissioning of process plants",
+            "Ensuring project documentation and compliance",
+            "Interacting with clients for technical discussions",
+            "Tracking project schedules and ensuring timely delivery"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Enercon (India) Limited",
+          "company_info": {
+            "industry": "Renewable Energy",
+            "size": "Unknown"
+          },
+          "title": "Commissioning Leader",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Completed 7 projects ranging from 1.2 MW to 8.4 MW",
+            "Worked with inverter-converter systems and power devices",
+            "Handled SAP system for project management"
+          ],
+          "technical_environment": null
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E",
+            "field": "Electronics",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "1996-08",
+            "expected_graduation": "2000-08",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": null,
+          "frameworks": null,
+          "databases": null,
+          "cloud": null,
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": [
+            {
+              "name": "Project Execution",
+              "level": "expert"
+            },
+            {
+              "name": "Quality Management",
+              "level": "advanced"
+            },
+            {
+              "name": "Budget Monitoring",
+              "level": "advanced"
+            }
+          ],
+          "automation": [
+            {
+              "name": "PLC Programming",
+              "level": "advanced"
+            },
+            {
+              "name": "SCADA Systems",
+              "level": "advanced"
+            }
+          ],
+          "software_tools": [
+            {
+              "name": "SAP",
+              "level": "intermediate"
+            },
+            {
+              "name": "Microsoft Visio",
+              "level": "intermediate"
+            }
+          ],
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "English",
+            "level": "fluent"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "FGP/WPMP",
+          "description": "Led system configuration and application development for EPKS DCS + SIS + FGS.",
+          "technologies": [
+            "EPKS DCS",
+            "C-300 Application Development"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Ensured timely delivery and quality control."
+        },
+        {
+          "name": "Grain LNG RTLF",
+          "description": "Managed LNG Tanker Loading system development.",
+          "technologies": [
+            "EPKS DCS",
+            "C-300 Controller"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Successfully completed a fast-track project with client appreciation."
+        },
+        {
+          "name": "AMC TO HPM Migration-MX8800",
+          "description": "Led migration of HPM controllers for Thai Oil Public Co. Ltd.",
+          "technologies": [
+            "TPS",
+            "HPM Controller"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Ensured smooth transition and quality assurance."
+        },
+        {
+          "name": "Utilities and Offsites",
+          "description": "Managed utilities for ETHYLENE plant in Egypt.",
+          "technologies": [
+            "Experion R410.2",
+            "Redundant Controllers"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Successfully completed FAT in Abu Dhabi."
+        },
+        {
+          "name": "Control Plant-3/ Control Plant-6",
+          "description": "Led HVAC system development for Qatar Foundation.",
+          "technologies": [
+            "ML200 R (PLC)",
+            "Experion R410.2"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Delivered all project deliverables on time."
+        },
+        {
+          "name": "Graphics Development",
+          "description": "Developed HMI graphics for Chevron Oronite, Singapore.",
+          "technologies": [
+            "EPKS HMIWEB Display Builder"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Completed development with minimal client comments."
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "category": "Experienced Operations Manager with expertise in project execution, engineering, and team coordinati",
+    "fetch_timestamp": 1760481623.7723489,
+    "status": "success"
+  },
+  {
+    "id": "CAND_003",
+    "raw_data": {
+      "personal_info": {
+        "name": "Not Provided",
+        "email": "Not Provided",
+        "phone": "Not Provided",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Not Provided"
+        },
+        "summary": "Software Proficiency in various languages and tools. Worked on several projects including FPGA Implementation, Sorting Robot, and RFID Based Student Attendance System.",
+        "linkedin": "Not Provided",
+        "github": "Not Provided"
+      },
+      "experience": [
+        {
+          "company": "Parkar Consulting and Labs",
+          "company_info": {
+            "industry": "Not Provided",
+            "size": "Not Provided"
+          },
+          "title": "DevOps Engineer",
+          "level": "Not Provided",
+          "employment_type": "Not Provided",
+          "dates": {
+            "start": "Not Provided",
+            "end": "Present",
+            "duration": "Not Provided",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Working on the DevOps team in Parkar Consulting and Labs. Hands on the AWS as well as Python"
+          ],
+          "technical_environment": {
+            "technologies": [
+              "C",
+              "SQL",
+              "PL/SQL",
+              "JAVA",
+              "JAVAEE",
+              "Javascript",
+              "HTML",
+              "CSS",
+              "jquery",
+              "mysql",
+              "Spring",
+              "Hibernate",
+              "Python"
+            ],
+            "methodologies": [
+              "Not Provided"
+            ],
+            "tools": [
+              "Xillinx",
+              "Modelsim",
+              "Matlab",
+              "Multisim"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E.",
+            "field": "Not Provided",
+            "major": "Not Provided"
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": "Not Provided"
+          },
+          "dates": {
+            "start": "Not Provided",
+            "expected_graduation": "May 2016",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Not Provided",
+            "relevant_coursework": [
+              "Not Provided"
+            ]
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "C",
+              "level": "Basic"
+            },
+            {
+              "name": "SQL",
+              "level": "Basic"
+            },
+            {
+              "name": "PL/SQL",
+              "level": "Basic"
+            },
+            {
+              "name": "JAVA",
+              "level": "Basic"
+            },
+            {
+              "name": "JAVAEE",
+              "level": "Basic"
+            },
+            {
+              "name": "Javascript",
+              "level": "Basic"
+            },
+            {
+              "name": "HTML",
+              "level": "Basic"
+            },
+            {
+              "name": "CSS",
+              "level": "Basic"
+            },
+            {
+              "name": "jquery",
+              "level": "Basic"
+            },
+            {
+              "name": "mysql",
+              "level": "Basic"
+            },
+            {
+              "name": "Spring",
+              "level": "Basic"
+            },
+            {
+              "name": "Hibernate",
+              "level": "Basic"
+            },
+            {
+              "name": "Python",
+              "level": "Basic"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Not Provided",
+              "level": "Not Provided"
+            }
+          ],
+          "databases": [
+            {
+              "name": "Not Provided",
+              "level": "Not Provided"
+            }
+          ],
+          "cloud": [
+            {
+              "name": "AWS",
+              "level": "Not Provided"
+            }
+          ],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "English",
+            "level": "Not Provided"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "FPGA Implementation",
+          "description": "AES is Advanced Encryption Standard which is used in cryptography by which we can protect our data. It encrypted by a Secret Key.",
+          "technologies": [
+            "Not Provided"
+          ],
+          "role": "Programmer",
+          "url": "Not Provided",
+          "impact": "Not Provided"
+        },
+        {
+          "name": "Sorting Robot",
+          "description": "The TCS 230 sensor sorts the RGB color balls according to their color.",
+          "technologies": [
+            "Not Provided"
+          ],
+          "role": "Mechanism designer",
+          "url": "Not Provided",
+          "impact": "Not Provided"
+        },
+        {
+          "name": "RFID Based Student Attendance System",
+          "description": "In this student show RFID card of his own and then message send via GSM to their parent that his ward is present.",
+          "technologies": [
+            "Not Provided"
+          ],
+          "role": "Interface",
+          "url": "Not Provided",
+          "impact": "Not Provided"
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Software Proficiency in various languages and tools. Worked on several projects including FPGA Implementation, Sorting Robot, and RFID Based Student Attendance System.\nDevOps Engineer at Parkar Consulting and Labs\nSkills: programming_languages: C, SQL, PL/SQL, JAVA, JAVAEE, Javascript, HTML, CSS, jquery, mysql, Spring, Hibernate, Python; frameworks: Not Provided; databases: Not Provided; cloud: AWS",
+    "category": "Software Proficiency in various languages and tools. Worked on several projects including FPGA Imple",
+    "fetch_timestamp": 1760481623.7723489,
+    "status": "success"
+  },
+  {
+    "id": "CAND_004",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.",
+        "linkedin": null,
+        "github": null
+      },
+      "experience": [
+        {
+          "company": "Delta Controls, Dubai FZCO",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Unknown"
+          },
+          "title": "Operations Manager",
+          "level": "senior",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2017-08",
+            "end": "Present",
+            "duration": "7 years",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Reporting to the GM-Operations",
+            "Reviewing SOW, RFQ, and assisting the proposal team",
+            "Managing project execution plans and client meetings",
+            "Ensuring project profitability and budget monitoring",
+            "Applying quality management systems and processes",
+            "Coordinating site activities and project closeout",
+            "Providing feedback for future proposals",
+            "Preparing project management reports and variance analysis"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Honeywell Automation India Ltd",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Large"
+          },
+          "title": "Project Lead",
+          "level": "mid-senior",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2015-05",
+            "end": "2016-06",
+            "duration": "1 year 1 month",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Coordinating between Honeywell Korea and GES teams",
+            "Managing project scope, estimation, and execution",
+            "Ensuring quality of deliverables and compliance with standards",
+            "Attending project review meetings and technical discussions",
+            "Supporting sales and proposal teams in project estimations"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Fox Controls",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Unknown"
+          },
+          "title": "Project Engineer",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Developing PLC and SCADA-based applications",
+            "Managing engineering and commissioning of process plants",
+            "Ensuring project documentation and compliance",
+            "Interacting with clients for technical discussions",
+            "Tracking project schedules and ensuring timely delivery"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Enercon (India) Limited",
+          "company_info": {
+            "industry": "Renewable Energy",
+            "size": "Unknown"
+          },
+          "title": "Commissioning Leader",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Completed 7 projects ranging from 1.2 MW to 8.4 MW",
+            "Worked with inverter-converter systems and power devices",
+            "Handled SAP system for project management"
+          ],
+          "technical_environment": null
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E",
+            "field": "Electronics",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "1996-08",
+            "expected_graduation": "2000-08",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": null,
+          "frameworks": null,
+          "databases": null,
+          "cloud": null,
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": [
+            {
+              "name": "Project Execution",
+              "level": "expert"
+            },
+            {
+              "name": "Quality Management",
+              "level": "advanced"
+            },
+            {
+              "name": "Budget Monitoring",
+              "level": "advanced"
+            }
+          ],
+          "automation": [
+            {
+              "name": "PLC Programming",
+              "level": "advanced"
+            },
+            {
+              "name": "SCADA Systems",
+              "level": "advanced"
+            }
+          ],
+          "software_tools": [
+            {
+              "name": "SAP",
+              "level": "intermediate"
+            },
+            {
+              "name": "Microsoft Visio",
+              "level": "intermediate"
+            }
+          ],
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "English",
+            "level": "fluent"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "FGP/WPMP",
+          "description": "Led system configuration and application development for EPKS DCS + SIS + FGS.",
+          "technologies": [
+            "EPKS DCS",
+            "C-300 Application Development"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Ensured timely delivery and quality control."
+        },
+        {
+          "name": "Grain LNG RTLF",
+          "description": "Managed LNG Tanker Loading system development.",
+          "technologies": [
+            "EPKS DCS",
+            "C-300 Controller"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Successfully completed a fast-track project with client appreciation."
+        },
+        {
+          "name": "AMC TO HPM Migration-MX8800",
+          "description": "Led migration of HPM controllers for Thai Oil Public Co. Ltd.",
+          "technologies": [
+            "TPS",
+            "HPM Controller"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Ensured smooth transition and quality assurance."
+        },
+        {
+          "name": "Utilities and Offsites",
+          "description": "Managed utilities for ETHYLENE plant in Egypt.",
+          "technologies": [
+            "Experion R410.2",
+            "Redundant Controllers"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Successfully completed FAT in Abu Dhabi."
+        },
+        {
+          "name": "Control Plant-3/ Control Plant-6",
+          "description": "Led HVAC system development for Qatar Foundation.",
+          "technologies": [
+            "ML200 R (PLC)",
+            "Experion R410.2"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Delivered all project deliverables on time."
+        },
+        {
+          "name": "Graphics Development",
+          "description": "Developed HMI graphics for Chevron Oronite, Singapore.",
+          "technologies": [
+            "EPKS HMIWEB Display Builder"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Completed development with minimal client comments."
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "category": "Experienced Operations Manager with expertise in project execution, engineering, and team coordinati",
+    "fetch_timestamp": 1760481623.7733521,
+    "status": "success"
+  },
+  {
+    "id": "CAND_005",
+    "raw_data": {
+      "personal_info": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": ""
+        },
+        "summary": "",
+        "linkedin": "",
+        "github": ""
+      },
+      "experience": [
+        {
+          "company": "Atos Syntel",
+          "company_info": {
+            "industry": "IT Services",
+            "size": ""
+          },
+          "title": "Python Developer",
+          "level": "",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "",
+            "end": "",
+            "duration": "15 months",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Working as a developer in the field of computer vision for a US-based client in the banking domain.",
+            "Design and development of computer vision-based algorithms for image preprocessing using OpenCV, PIL, and Numpy.",
+            "Unit testing and debugging the code and maintaining the versions using Git."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Python",
+              "OpenCV",
+              "PIL",
+              "Numpy",
+              "Django",
+              "REST API",
+              "HTML5",
+              "MySQL"
+            ],
+            "methodologies": [],
+            "tools": [
+              "Git"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "Bachelor of Engineering",
+            "field": "Computer",
+            "major": ""
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2018-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": null,
+            "relevant_coursework": null
+          }
+        },
+        {
+          "degree": {
+            "level": "HSC",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "Maharashtra State Board",
+            "location": "India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2014-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": null,
+            "relevant_coursework": null
+          }
+        },
+        {
+          "degree": {
+            "level": "SSC",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "Maharashtra State Board",
+            "location": "India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2012-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": null,
+            "relevant_coursework": null
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": "intermediate"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Django",
+              "level": "beginner"
+            }
+          ],
+          "databases": [
+            {
+              "name": "MySQL",
+              "level": "beginner"
+            }
+          ],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "{\"name\": \"ESD Program\", \"issuer\": \"Zensar Technologies\", \"date\": \"2017\", \"description\": \"Successfully completed ESD program conducted by Zensar Technologies, Pune.\"}, {\"name\": \"Employability Training\", \"issuer\": \"Barclays, Global Talent Track, and NASSCOM Foundation\", \"date\": \"2015\", \"description\": \"Successfully completed Employability training.\"}",
+      "publications": null,
+      "internships": null,
+      "achievements": [
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        }
+      ],
+      "workshops": [
+        {
+          "name": "Medical IoT",
+          "issuer": "IEEE Standards Association",
+          "date": "2017",
+          "details": null,
+          "description": "Successfully completed 4-day workshop on ‘Medical IoT’ at VIP, Pune.",
+          "duration": null,
+          "location": null
+        },
+        {
+          "name": "Introduction to Arduino",
+          "issuer": "SCOE",
+          "date": "2016",
+          "details": null,
+          "description": "Successfully completed 2-day workshop on ‘Introduction to Arduino’ at SCOE, Pune.",
+          "duration": null,
+          "location": null
+        },
+        {
+          "name": "Robotics for Juniors",
+          "issuer": "Computer Society of India",
+          "date": "2016",
+          "details": null,
+          "description": "Successfully completed 3-day workshop on ‘Robotics for Juniors’ at SKNCOE, Pune.",
+          "duration": null,
+          "location": null
+        },
+        {
+          "name": "Inter-college technical competitions",
+          "issuer": "SCOE, PICT, and AISSMS",
+          "date": "",
+          "details": null,
+          "description": "Participated in various inter-college technical competitions at SCOE, PICT, and AISSMS, Pune.",
+          "duration": null,
+          "location": null
+        }
+      ],
+      "teaching_experience": null
+    },
+    "resume_text": "Python Developer at Atos Syntel\nSkills: programming_languages: Python; frameworks: Django; databases: MySQL",
+    "category": "",
+    "fetch_timestamp": 1760481623.7733521,
+    "status": "success"
+  }
+]

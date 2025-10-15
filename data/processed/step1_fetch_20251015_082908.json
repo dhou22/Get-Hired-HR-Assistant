@@ -1,0 +1,3987 @@
+[
+  {
+    "id": "CAND_001",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Python Developer with experience in Python, Tensorflow, Numpy, C, C++, MySQL, and various platforms.",
+        "linkedin": "Unknown",
+        "github": "Unknown"
+      },
+      "experience": [
+        {
+          "company": "Fresher",
+          "company_info": {
+            "industry": "Unknown",
+            "size": "Unknown"
+          },
+          "title": "Python Developer",
+          "level": "entry",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Present",
+            "duration": "6 months",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Python programming"
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Python",
+              "Tensorflow",
+              "Numpy",
+              "C",
+              "C++",
+              "MySQL"
+            ],
+            "methodologies": [
+              "Unknown"
+            ],
+            "tools": [
+              "Ubuntu",
+              "Fedora",
+              "Cent OS",
+              "Windows"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "ME",
+            "field": "Computer Engineering",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "Unknown",
+            "expected_graduation": "2016-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": [
+              "Unknown"
+            ]
+          }
+        },
+        {
+          "degree": {
+            "level": "B.E",
+            "field": "Computer Engineering",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "Unknown",
+            "expected_graduation": "2014-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": [
+              "Unknown"
+            ]
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": "intermediate"
+            },
+            {
+              "name": "C++",
+              "level": "intermediate"
+            },
+            {
+              "name": "C",
+              "level": "intermediate"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Tensorflow",
+              "level": "intermediate"
+            },
+            {
+              "name": "Numpy",
+              "level": "intermediate"
+            }
+          ],
+          "databases": [
+            {
+              "name": "MySQL",
+              "level": "intermediate"
+            }
+          ],
+          "cloud": [
+            {
+              "name": "Unknown",
+              "level": "Unknown"
+            }
+          ],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "Unknown",
+            "level": "Unknown"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "Unknown",
+          "description": "Unknown",
+          "technologies": [
+            "Unknown"
+          ],
+          "role": "Unknown",
+          "url": "Unknown",
+          "impact": "Unknown"
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Python Developer with experience in Python, Tensorflow, Numpy, C, C++, MySQL, and various platforms.\nPython Developer at Fresher\nSkills: programming_languages: Python, C++, C; frameworks: Tensorflow, Numpy; databases: MySQL; cloud: Unknown",
+    "category": "Python Developer with experience in Python, Tensorflow, Numpy, C, C++, MySQL, and various platforms.",
+    "fetch_timestamp": 1760513348.3576818,
+    "status": "success"
+  },
+  {
+    "id": "CAND_002",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.",
+        "linkedin": null,
+        "github": null
+      },
+      "experience": [
+        {
+          "company": "Delta Controls, Dubai FZCO",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Unknown"
+          },
+          "title": "Operations Manager",
+          "level": "senior",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2017-08",
+            "end": "Present",
+            "duration": "7 years",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Reporting to the GM-Operations",
+            "Reviewing SOW, RFQ, and assisting the proposal team",
+            "Managing project execution plans and client meetings",
+            "Ensuring project profitability and budget monitoring",
+            "Applying quality management systems and processes",
+            "Coordinating site activities and project closeout",
+            "Providing feedback for future proposals",
+            "Preparing project management reports and variance analysis"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Honeywell Automation India Ltd",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Large"
+          },
+          "title": "Project Lead",
+          "level": "mid-senior",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2015-05",
+            "end": "2016-06",
+            "duration": "1 year 1 month",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Coordinating between Honeywell Korea and GES teams",
+            "Managing project scope, estimation, and execution",
+            "Ensuring quality of deliverables and compliance with standards",
+            "Attending project review meetings and technical discussions",
+            "Supporting sales and proposal teams in project estimations"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Fox Controls",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Unknown"
+          },
+          "title": "Project Engineer",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Developing PLC and SCADA-based applications",
+            "Managing engineering and commissioning of process plants",
+            "Ensuring project documentation and compliance",
+            "Interacting with clients for technical discussions",
+            "Tracking project schedules and ensuring timely delivery"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Enercon (India) Limited",
+          "company_info": {
+            "industry": "Renewable Energy",
+            "size": "Unknown"
+          },
+          "title": "Commissioning Leader",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Completed 7 projects ranging from 1.2 MW to 8.4 MW",
+            "Worked with inverter-converter systems and power devices",
+            "Handled SAP system for project management"
+          ],
+          "technical_environment": null
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E",
+            "field": "Electronics",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "1996-08",
+            "expected_graduation": "2000-08",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": null,
+          "frameworks": null,
+          "databases": null,
+          "cloud": null,
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": [
+            {
+              "name": "Project Execution",
+              "level": "expert"
+            },
+            {
+              "name": "Quality Management",
+              "level": "advanced"
+            },
+            {
+              "name": "Budget Monitoring",
+              "level": "advanced"
+            }
+          ],
+          "automation": [
+            {
+              "name": "PLC Programming",
+              "level": "advanced"
+            },
+            {
+              "name": "SCADA Systems",
+              "level": "advanced"
+            }
+          ],
+          "software_tools": [
+            {
+              "name": "SAP",
+              "level": "intermediate"
+            },
+            {
+              "name": "Microsoft Visio",
+              "level": "intermediate"
+            }
+          ],
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "English",
+            "level": "fluent"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "FGP/WPMP",
+          "description": "Led system configuration and application development for EPKS DCS + SIS + FGS.",
+          "technologies": [
+            "EPKS DCS",
+            "C-300 Application Development"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Ensured timely delivery and quality control."
+        },
+        {
+          "name": "Grain LNG RTLF",
+          "description": "Managed LNG Tanker Loading system development.",
+          "technologies": [
+            "EPKS DCS",
+            "C-300 Controller"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Successfully completed a fast-track project with client appreciation."
+        },
+        {
+          "name": "AMC TO HPM Migration-MX8800",
+          "description": "Led migration of HPM controllers for Thai Oil Public Co. Ltd.",
+          "technologies": [
+            "TPS",
+            "HPM Controller"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Ensured smooth transition and quality assurance."
+        },
+        {
+          "name": "Utilities and Offsites",
+          "description": "Managed utilities for ETHYLENE plant in Egypt.",
+          "technologies": [
+            "Experion R410.2",
+            "Redundant Controllers"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Successfully completed FAT in Abu Dhabi."
+        },
+        {
+          "name": "Control Plant-3/ Control Plant-6",
+          "description": "Led HVAC system development for Qatar Foundation.",
+          "technologies": [
+            "ML200 R (PLC)",
+            "Experion R410.2"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Delivered all project deliverables on time."
+        },
+        {
+          "name": "Graphics Development",
+          "description": "Developed HMI graphics for Chevron Oronite, Singapore.",
+          "technologies": [
+            "EPKS HMIWEB Display Builder"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Completed development with minimal client comments."
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "category": "Experienced Operations Manager with expertise in project execution, engineering, and team coordinati",
+    "fetch_timestamp": 1760513348.3586826,
+    "status": "success"
+  },
+  {
+    "id": "CAND_003",
+    "raw_data": {
+      "personal_info": {
+        "name": "Not Provided",
+        "email": "Not Provided",
+        "phone": "Not Provided",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Not Provided"
+        },
+        "summary": "Software Proficiency in various languages and tools. Worked on several projects including FPGA Implementation, Sorting Robot, and RFID Based Student Attendance System.",
+        "linkedin": "Not Provided",
+        "github": "Not Provided"
+      },
+      "experience": [
+        {
+          "company": "Parkar Consulting and Labs",
+          "company_info": {
+            "industry": "Not Provided",
+            "size": "Not Provided"
+          },
+          "title": "DevOps Engineer",
+          "level": "Not Provided",
+          "employment_type": "Not Provided",
+          "dates": {
+            "start": "Not Provided",
+            "end": "Present",
+            "duration": "Not Provided",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Working on the DevOps team in Parkar Consulting and Labs. Hands on the AWS as well as Python"
+          ],
+          "technical_environment": {
+            "technologies": [
+              "C",
+              "SQL",
+              "PL/SQL",
+              "JAVA",
+              "JAVAEE",
+              "Javascript",
+              "HTML",
+              "CSS",
+              "jquery",
+              "mysql",
+              "Spring",
+              "Hibernate",
+              "Python"
+            ],
+            "methodologies": [
+              "Not Provided"
+            ],
+            "tools": [
+              "Xillinx",
+              "Modelsim",
+              "Matlab",
+              "Multisim"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E.",
+            "field": "Not Provided",
+            "major": "Not Provided"
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": "Not Provided"
+          },
+          "dates": {
+            "start": "Not Provided",
+            "expected_graduation": "May 2016",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Not Provided",
+            "relevant_coursework": [
+              "Not Provided"
+            ]
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "C",
+              "level": "Basic"
+            },
+            {
+              "name": "SQL",
+              "level": "Basic"
+            },
+            {
+              "name": "PL/SQL",
+              "level": "Basic"
+            },
+            {
+              "name": "JAVA",
+              "level": "Basic"
+            },
+            {
+              "name": "JAVAEE",
+              "level": "Basic"
+            },
+            {
+              "name": "Javascript",
+              "level": "Basic"
+            },
+            {
+              "name": "HTML",
+              "level": "Basic"
+            },
+            {
+              "name": "CSS",
+              "level": "Basic"
+            },
+            {
+              "name": "jquery",
+              "level": "Basic"
+            },
+            {
+              "name": "mysql",
+              "level": "Basic"
+            },
+            {
+              "name": "Spring",
+              "level": "Basic"
+            },
+            {
+              "name": "Hibernate",
+              "level": "Basic"
+            },
+            {
+              "name": "Python",
+              "level": "Basic"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Not Provided",
+              "level": "Not Provided"
+            }
+          ],
+          "databases": [
+            {
+              "name": "Not Provided",
+              "level": "Not Provided"
+            }
+          ],
+          "cloud": [
+            {
+              "name": "AWS",
+              "level": "Not Provided"
+            }
+          ],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "English",
+            "level": "Not Provided"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "FPGA Implementation",
+          "description": "AES is Advanced Encryption Standard which is used in cryptography by which we can protect our data. It encrypted by a Secret Key.",
+          "technologies": [
+            "Not Provided"
+          ],
+          "role": "Programmer",
+          "url": "Not Provided",
+          "impact": "Not Provided"
+        },
+        {
+          "name": "Sorting Robot",
+          "description": "The TCS 230 sensor sorts the RGB color balls according to their color.",
+          "technologies": [
+            "Not Provided"
+          ],
+          "role": "Mechanism designer",
+          "url": "Not Provided",
+          "impact": "Not Provided"
+        },
+        {
+          "name": "RFID Based Student Attendance System",
+          "description": "In this student show RFID card of his own and then message send via GSM to their parent that his ward is present.",
+          "technologies": [
+            "Not Provided"
+          ],
+          "role": "Interface",
+          "url": "Not Provided",
+          "impact": "Not Provided"
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Software Proficiency in various languages and tools. Worked on several projects including FPGA Implementation, Sorting Robot, and RFID Based Student Attendance System.\nDevOps Engineer at Parkar Consulting and Labs\nSkills: programming_languages: C, SQL, PL/SQL, JAVA, JAVAEE, Javascript, HTML, CSS, jquery, mysql, Spring, Hibernate, Python; frameworks: Not Provided; databases: Not Provided; cloud: AWS",
+    "category": "Software Proficiency in various languages and tools. Worked on several projects including FPGA Imple",
+    "fetch_timestamp": 1760513348.35968,
+    "status": "success"
+  },
+  {
+    "id": "CAND_004",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.",
+        "linkedin": null,
+        "github": null
+      },
+      "experience": [
+        {
+          "company": "Delta Controls, Dubai FZCO",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Unknown"
+          },
+          "title": "Operations Manager",
+          "level": "senior",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2017-08",
+            "end": "Present",
+            "duration": "7 years",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Reporting to the GM-Operations",
+            "Reviewing SOW, RFQ, and assisting the proposal team",
+            "Managing project execution plans and client meetings",
+            "Ensuring project profitability and budget monitoring",
+            "Applying quality management systems and processes",
+            "Coordinating site activities and project closeout",
+            "Providing feedback for future proposals",
+            "Preparing project management reports and variance analysis"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Honeywell Automation India Ltd",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Large"
+          },
+          "title": "Project Lead",
+          "level": "mid-senior",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2015-05",
+            "end": "2016-06",
+            "duration": "1 year 1 month",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Coordinating between Honeywell Korea and GES teams",
+            "Managing project scope, estimation, and execution",
+            "Ensuring quality of deliverables and compliance with standards",
+            "Attending project review meetings and technical discussions",
+            "Supporting sales and proposal teams in project estimations"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Fox Controls",
+          "company_info": {
+            "industry": "Automation & Controls",
+            "size": "Unknown"
+          },
+          "title": "Project Engineer",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Developing PLC and SCADA-based applications",
+            "Managing engineering and commissioning of process plants",
+            "Ensuring project documentation and compliance",
+            "Interacting with clients for technical discussions",
+            "Tracking project schedules and ensuring timely delivery"
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Enercon (India) Limited",
+          "company_info": {
+            "industry": "Renewable Energy",
+            "size": "Unknown"
+          },
+          "title": "Commissioning Leader",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Completed 7 projects ranging from 1.2 MW to 8.4 MW",
+            "Worked with inverter-converter systems and power devices",
+            "Handled SAP system for project management"
+          ],
+          "technical_environment": null
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E",
+            "field": "Electronics",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "1996-08",
+            "expected_graduation": "2000-08",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": null,
+          "frameworks": null,
+          "databases": null,
+          "cloud": null,
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": [
+            {
+              "name": "Project Execution",
+              "level": "expert"
+            },
+            {
+              "name": "Quality Management",
+              "level": "advanced"
+            },
+            {
+              "name": "Budget Monitoring",
+              "level": "advanced"
+            }
+          ],
+          "automation": [
+            {
+              "name": "PLC Programming",
+              "level": "advanced"
+            },
+            {
+              "name": "SCADA Systems",
+              "level": "advanced"
+            }
+          ],
+          "software_tools": [
+            {
+              "name": "SAP",
+              "level": "intermediate"
+            },
+            {
+              "name": "Microsoft Visio",
+              "level": "intermediate"
+            }
+          ],
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "English",
+            "level": "fluent"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "FGP/WPMP",
+          "description": "Led system configuration and application development for EPKS DCS + SIS + FGS.",
+          "technologies": [
+            "EPKS DCS",
+            "C-300 Application Development"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Ensured timely delivery and quality control."
+        },
+        {
+          "name": "Grain LNG RTLF",
+          "description": "Managed LNG Tanker Loading system development.",
+          "technologies": [
+            "EPKS DCS",
+            "C-300 Controller"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Successfully completed a fast-track project with client appreciation."
+        },
+        {
+          "name": "AMC TO HPM Migration-MX8800",
+          "description": "Led migration of HPM controllers for Thai Oil Public Co. Ltd.",
+          "technologies": [
+            "TPS",
+            "HPM Controller"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Ensured smooth transition and quality assurance."
+        },
+        {
+          "name": "Utilities and Offsites",
+          "description": "Managed utilities for ETHYLENE plant in Egypt.",
+          "technologies": [
+            "Experion R410.2",
+            "Redundant Controllers"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Successfully completed FAT in Abu Dhabi."
+        },
+        {
+          "name": "Control Plant-3/ Control Plant-6",
+          "description": "Led HVAC system development for Qatar Foundation.",
+          "technologies": [
+            "ML200 R (PLC)",
+            "Experion R410.2"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Delivered all project deliverables on time."
+        },
+        {
+          "name": "Graphics Development",
+          "description": "Developed HMI graphics for Chevron Oronite, Singapore.",
+          "technologies": [
+            "EPKS HMIWEB Display Builder"
+          ],
+          "role": "Team Lead",
+          "url": null,
+          "impact": "Completed development with minimal client comments."
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "category": "Experienced Operations Manager with expertise in project execution, engineering, and team coordinati",
+    "fetch_timestamp": 1760513348.3606818,
+    "status": "success"
+  },
+  {
+    "id": "CAND_005",
+    "raw_data": {
+      "personal_info": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": ""
+        },
+        "summary": "",
+        "linkedin": "",
+        "github": ""
+      },
+      "experience": [
+        {
+          "company": "Atos Syntel",
+          "company_info": {
+            "industry": "IT Services",
+            "size": ""
+          },
+          "title": "Python Developer",
+          "level": "",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "",
+            "end": "",
+            "duration": "15 months",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Working as a developer in the field of computer vision for a US-based client in the banking domain.",
+            "Design and development of computer vision-based algorithms for image preprocessing using OpenCV, PIL, and Numpy.",
+            "Unit testing and debugging the code and maintaining the versions using Git."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Python",
+              "OpenCV",
+              "PIL",
+              "Numpy",
+              "Django",
+              "REST API",
+              "HTML5",
+              "MySQL"
+            ],
+            "methodologies": [],
+            "tools": [
+              "Git"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "Bachelor of Engineering",
+            "field": "Computer",
+            "major": ""
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2018-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": null,
+            "relevant_coursework": null
+          }
+        },
+        {
+          "degree": {
+            "level": "HSC",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "Maharashtra State Board",
+            "location": "India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2014-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": null,
+            "relevant_coursework": null
+          }
+        },
+        {
+          "degree": {
+            "level": "SSC",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "Maharashtra State Board",
+            "location": "India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2012-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": null,
+            "relevant_coursework": null
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": "intermediate"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Django",
+              "level": "beginner"
+            }
+          ],
+          "databases": [
+            {
+              "name": "MySQL",
+              "level": "beginner"
+            }
+          ],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "{\"name\": \"ESD Program\", \"issuer\": \"Zensar Technologies\", \"date\": \"2017\", \"description\": \"Successfully completed ESD program conducted by Zensar Technologies, Pune.\"}, {\"name\": \"Employability Training\", \"issuer\": \"Barclays, Global Talent Track, and NASSCOM Foundation\", \"date\": \"2015\", \"description\": \"Successfully completed Employability training.\"}",
+      "publications": null,
+      "internships": null,
+      "achievements": [
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        },
+        {
+          "title": null,
+          "year": null,
+          "details": null
+        }
+      ],
+      "workshops": [
+        {
+          "name": "Medical IoT",
+          "issuer": "IEEE Standards Association",
+          "date": "2017",
+          "details": null,
+          "description": "Successfully completed 4-day workshop on ‘Medical IoT’ at VIP, Pune.",
+          "duration": null,
+          "location": null
+        },
+        {
+          "name": "Introduction to Arduino",
+          "issuer": "SCOE",
+          "date": "2016",
+          "details": null,
+          "description": "Successfully completed 2-day workshop on ‘Introduction to Arduino’ at SCOE, Pune.",
+          "duration": null,
+          "location": null
+        },
+        {
+          "name": "Robotics for Juniors",
+          "issuer": "Computer Society of India",
+          "date": "2016",
+          "details": null,
+          "description": "Successfully completed 3-day workshop on ‘Robotics for Juniors’ at SKNCOE, Pune.",
+          "duration": null,
+          "location": null
+        },
+        {
+          "name": "Inter-college technical competitions",
+          "issuer": "SCOE, PICT, and AISSMS",
+          "date": "",
+          "details": null,
+          "description": "Participated in various inter-college technical competitions at SCOE, PICT, and AISSMS, Pune.",
+          "duration": null,
+          "location": null
+        }
+      ],
+      "teaching_experience": null
+    },
+    "resume_text": "Python Developer at Atos Syntel\nSkills: programming_languages: Python; frameworks: Django; databases: MySQL",
+    "category": "",
+    "fetch_timestamp": 1760513348.361689,
+    "status": "success"
+  },
+  {
+    "id": "CAND_006",
+    "raw_data": {
+      "personal_info": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "location": {
+          "city": "Pune",
+          "country": "Maharashtra",
+          "remote_preference": ""
+        },
+        "summary": "",
+        "linkedin": "",
+        "github": ""
+      },
+      "experience": [
+        {
+          "company": "Cybage Software Pvt. Ltd",
+          "company_info": {
+            "industry": "",
+            "size": ""
+          },
+          "title": "Python Developer",
+          "level": "",
+          "employment_type": "",
+          "dates": {
+            "start": "",
+            "end": "",
+            "duration": "",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Work in organisation as a python developer to utilize my knowledge & To gain more knowledge with our organisation."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Python"
+            ],
+            "methodologies": [],
+            "tools": [],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "Diploma",
+            "field": "Computer Science",
+            "major": ""
+          },
+          "institution": {
+            "name": "Aissms",
+            "location": "Pune, Maharashtra",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "2013-06",
+            "expected_graduation": "2016-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        },
+        {
+          "degree": {
+            "level": "BE",
+            "field": "Computer Science",
+            "major": ""
+          },
+          "institution": {
+            "name": "Anantrao pawar college of Engineering & Research centre",
+            "location": "Pune, Maharashtra",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "2016-06",
+            "expected_graduation": "",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": ""
+            }
+          ],
+          "frameworks": [],
+          "databases": [],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Python Developer at Cybage Software Pvt. Ltd\nSkills: programming_languages: Python",
+    "category": "",
+    "fetch_timestamp": 1760513348.3626804,
+    "status": "success"
+  },
+  {
+    "id": "CAND_007",
+    "raw_data": {
+      "personal_info": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "location": {
+          "city": "Nagpur",
+          "country": "India",
+          "remote_preference": ""
+        },
+        "summary": "",
+        "linkedin": "",
+        "github": ""
+      },
+      "experience": [
+        {
+          "company": "Inouvelle Ventures Private Limited",
+          "company_info": {
+            "industry": "",
+            "size": ""
+          },
+          "title": "Java Developer",
+          "level": "",
+          "employment_type": "",
+          "dates": {
+            "start": "2017-12",
+            "end": "",
+            "duration": "",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Developed Stock Management System for the Medicinal Market",
+            "Implemented functionalities for tracking medicines, ailments, surgical Equipments, wholesalers, retailers, employees, and customers",
+            "Developed debtor invoicing software for small businesses and freelancers"
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Angular",
+              "JAVA - J2EE",
+              "Spring",
+              "Hibernate"
+            ],
+            "methodologies": [
+              "Functional Testing",
+              "Manual Testing"
+            ],
+            "tools": [
+              "Windows XP/07/08",
+              "PostgresSql Database"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E",
+            "field": "Computer Science and Engineering",
+            "major": ""
+          },
+          "institution": {
+            "name": "RTMNU University - Jhulelal Institute of Technology",
+            "location": "Nagpur, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "2013-01",
+            "expected_graduation": "2017-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        },
+        {
+          "degree": {
+            "level": "HSC",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "Maharashtra State Board - Dayanand Arya Kanya Junior College",
+            "location": "Nagpur, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "2011-01",
+            "expected_graduation": "2013-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        },
+        {
+          "degree": {
+            "level": "SSC",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "Maharashtra State Board",
+            "location": "Nagpur, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "2010-01",
+            "expected_graduation": "2011-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "C",
+              "level": ""
+            },
+            {
+              "name": "C++",
+              "level": ""
+            },
+            {
+              "name": "J2EE",
+              "level": ""
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Spring",
+              "level": ""
+            },
+            {
+              "name": "Hibernate",
+              "level": ""
+            }
+          ],
+          "databases": [
+            {
+              "name": "My SQL",
+              "level": ""
+            },
+            {
+              "name": "PostgreSQL",
+              "level": ""
+            }
+          ],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "Stock Management System",
+          "description": "Stock management System is Specially Developing for the Medicinal Market. This software is developing to keep the track of medicines, ailments, surgical Equipments, & also to keep the track of Wholesalers, Retailers, Employees, & Customers of the Company. Stock management system is the practice of ordering, storing, tracking, and controlling inventory. Debtor invoicing software helps small businesses and freelancers keep track of company assets. Stock management may also be called stock control, inventory management or inventory control.",
+          "technologies": [
+            "Angular",
+            "JAVA - J2EE",
+            "Spring",
+            "Hibernate",
+            "PostgresSql Database"
+          ],
+          "role": "Java Developer",
+          "url": "",
+          "impact": ""
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Java Developer at Inouvelle Ventures Private Limited\nSkills: programming_languages: C, C++, J2EE; frameworks: Spring, Hibernate; databases: My SQL, PostgreSQL",
+    "category": "",
+    "fetch_timestamp": 1760513348.3636806,
+    "status": "success"
+  },
+  {
+    "id": "CAND_008",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Amravati",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Experienced Java Developer with expertise in JSP, Servlets, Spring, Hibernate, and front-end technologies like HTML, CSS, JavaScript, and jQuery. Proficient in MySQL and development tools such as Eclipse and NetBeans.",
+        "linkedin": "Unknown",
+        "github": "Unknown"
+      },
+      "experience": [
+        {
+          "company": "Kunal IT Services Pvt Ltd",
+          "company_info": {
+            "industry": "IT Services",
+            "size": "Unknown"
+          },
+          "title": "Java Developer",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2015-07-01",
+            "end": "2017-06-30",
+            "duration": "2 years",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Developed and maintained Java-based web applications using JSP, Servlets, Spring, and Hibernate.",
+            "Implemented front-end features using HTML, CSS, JavaScript, and jQuery.",
+            "Worked with MySQL databases for data storage and retrieval.",
+            "Utilized Eclipse and NetBeans IDE for software development."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Java",
+              "JSP",
+              "Servlets",
+              "Spring",
+              "Hibernate",
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "jQuery",
+              "Ajax"
+            ],
+            "methodologies": [
+              "OOP",
+              "Agile"
+            ],
+            "tools": [
+              "Eclipse",
+              "NetBeans",
+              "Apache Tomcat"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        },
+        {
+          "company": "Winsol Solution Pvt Ltd",
+          "company_info": {
+            "industry": "IT Services",
+            "size": "Unknown"
+          },
+          "title": "Java Developer",
+          "level": "mid",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2017-07-01",
+            "end": "Present",
+            "duration": "Ongoing",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Currently working as a Java Developer, contributing to software development projects.",
+            "Developing and maintaining Java-based applications."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Java",
+              "Spring",
+              "Hibernate",
+              "JSP",
+              "Servlets"
+            ],
+            "methodologies": [
+              "OOP",
+              "Agile"
+            ],
+            "tools": [
+              "Eclipse",
+              "NetBeans",
+              "Apache Tomcat"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "High School",
+            "field": "Science",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "VidyaBharati College",
+            "location": "Amravati, Maharashtra, India",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "2005-06",
+            "expected_graduation": "2007-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": []
+          }
+        },
+        {
+          "degree": {
+            "level": "Secondary School",
+            "field": "General",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Holy Cross English School",
+            "location": "Amravati, Maharashtra, India",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "2003-06",
+            "expected_graduation": "2005-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Java",
+              "level": "intermediate"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Spring",
+              "level": "beginner"
+            },
+            {
+              "name": "Hibernate",
+              "level": "beginner"
+            }
+          ],
+          "databases": [
+            {
+              "name": "MySQL",
+              "level": "intermediate"
+            }
+          ],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Experienced Java Developer with expertise in JSP, Servlets, Spring, Hibernate, and front-end technologies like HTML, CSS, JavaScript, and jQuery. Proficient in MySQL and development tools such as Eclipse and NetBeans.\nJava Developer at Kunal IT Services Pvt Ltd\nJava Developer at Winsol Solution Pvt Ltd\nSkills: programming_languages: Java; frameworks: Spring, Hibernate; databases: MySQL",
+    "category": "Experienced Java Developer with expertise in JSP, Servlets, Spring, Hibernate, and front-end technol",
+    "fetch_timestamp": 1760513348.3636806,
+    "status": "success"
+  },
+  {
+    "id": "CAND_009",
+    "raw_data": {
+      "personal_info": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "location": {
+          "city": "Gondia",
+          "country": "India",
+          "remote_preference": ""
+        },
+        "summary": "",
+        "linkedin": "",
+        "github": ""
+      },
+      "experience": [
+        {
+          "company": "Xoriant Solutions Pvt Ltd",
+          "company_info": {
+            "industry": "",
+            "size": ""
+          },
+          "title": "Java Developer",
+          "level": "",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2017-09",
+            "end": "present",
+            "duration": "",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Develop module from Backend to Middleware to Frontend.",
+            "Bugs fixing and proactive developing of enhancements.",
+            "Resolve Application incidents within defined UCs & creating different Task tickets.",
+            "Debug and provide solutions for workflow.",
+            "Resolving DB issues and providing technical support to BAs.",
+            "Keeping track of deployments and their effect on ongoing jobs.",
+            "Contribution towards automation of daily activities and process-based organization.",
+            "On-time, within-budget delivery meeting customers' quality expectations.",
+            "Maintain knowledge base of domain, known defects and issues, processes, and development techniques."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Java",
+              "SQL",
+              "PL/SQL",
+              "C",
+              "C++",
+              "JSP",
+              "Ext JS",
+              "XML",
+              "Web Services"
+            ],
+            "methodologies": [],
+            "tools": [
+              "Eclipse",
+              "TOAD",
+              "SoapBox",
+              "Postman"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E.",
+            "field": "Computer Technology",
+            "major": ""
+          },
+          "institution": {
+            "name": "Manoharbhai Patel Institute of Engineering and Technology",
+            "location": "Gondia, Maharashtra, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2017-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        },
+        {
+          "degree": {
+            "level": "HSC",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "S.M.P. Science College",
+            "location": "Gondia, Maharashtra, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Java",
+              "level": ""
+            },
+            {
+              "name": "SQL",
+              "level": ""
+            },
+            {
+              "name": "PL/SQL",
+              "level": ""
+            },
+            {
+              "name": "C",
+              "level": ""
+            },
+            {
+              "name": "C++",
+              "level": ""
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "JSP",
+              "level": ""
+            },
+            {
+              "name": "Ext JS",
+              "level": ""
+            }
+          ],
+          "databases": [
+            {
+              "name": "Oracle",
+              "level": ""
+            },
+            {
+              "name": "MS-SQL",
+              "level": ""
+            },
+            {
+              "name": "MS-Access",
+              "level": ""
+            },
+            {
+              "name": "MS-Excel",
+              "level": ""
+            }
+          ],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Java Developer at Xoriant Solutions Pvt Ltd\nSkills: programming_languages: Java, SQL, PL/SQL, C, C++; frameworks: JSP, Ext JS; databases: Oracle, MS-SQL, MS-Access, MS-Excel",
+    "category": "",
+    "fetch_timestamp": 1760513348.3646617,
+    "status": "success"
+  },
+  {
+    "id": "CAND_010",
+    "raw_data": {
+      "personal_info": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "location": {
+          "city": "Jabalpur",
+          "country": "India",
+          "remote_preference": ""
+        },
+        "summary": "",
+        "linkedin": "",
+        "github": ""
+      },
+      "experience": [
+        {
+          "company": "Wab It Software Pvt. Ltd.",
+          "company_info": {
+            "industry": "",
+            "size": ""
+          },
+          "title": "Jr. Java Developer",
+          "level": "junior",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "",
+            "end": "",
+            "duration": "6 months",
+            "notice_period": null
+          },
+          "responsibilities": [],
+          "technical_environment": {
+            "technologies": [
+              "Java",
+              "JavaScript"
+            ],
+            "methodologies": [],
+            "tools": [],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "BE",
+            "field": "Electronics & Communication",
+            "major": ""
+          },
+          "institution": {
+            "name": "Takshshila Institute of Technology",
+            "location": "Jabalpur, Madhya Pradesh, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "2010-08",
+            "expected_graduation": "2017-05",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Java",
+              "level": "intermediate"
+            },
+            {
+              "name": "JavaScript",
+              "level": "beginner"
+            }
+          ],
+          "frameworks": [],
+          "databases": [],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Jr. Java Developer at Wab It Software Pvt. Ltd.\nSkills: programming_languages: Java, JavaScript",
+    "category": "",
+    "fetch_timestamp": 1760513348.3646617,
+    "status": "success"
+  },
+  {
+    "id": "CAND_011",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Hyderabad",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Devops Engineer with experience in various DevOps methodologies and tools.",
+        "linkedin": "Unknown",
+        "github": "Unknown"
+      },
+      "experience": [
+        {
+          "company": "Nendrasys Technologies Pvt Ltd",
+          "company_info": {
+            "industry": "Unknown",
+            "size": "Unknown"
+          },
+          "title": "Devops Engineer",
+          "level": "Unknown",
+          "employment_type": "Unknown",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Detailed technical Knowledge and hands-on experience on DevOps, Automation, Build Engineering and Configuration Management.",
+            "Creating fully automated CI build and deployment infrastructure and processes for multiple projects.",
+            "Developing scripts for build, deployment, maintenance and related tasks using Jenkins.",
+            "Installing, configuring and maintaining Continuous Integration, Automation and Configuration Management tools.",
+            "Developing Ant, Maven and Shell scripts to automatically compile, package, deploy WAR, EAR and JAR files of multiple applications to various platforms.",
+            "Creating Repositories, branches, managing the permissions of users and maintaining GIT, Bitbucket",
+            "Deploying and maintaining the code and application respectively and configuring the components which increase the re-usability.",
+            "Working closely with Architecture, Development, Test, Security and IT Services teams.",
+            "Supporting Business Analysts in getting used to the newly created jobs and Release activities.",
+            "Communicating daily with On-Site Team",
+            "Analyzing the requirements and identifying gaps & tracking logs, issues."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Ant",
+              "Maven",
+              "GIT",
+              "Bitbucket",
+              "Jenkins",
+              "Linux",
+              "Ansible",
+              "Shell Scripting"
+            ],
+            "methodologies": [
+              "Dev-ops"
+            ],
+            "tools": [
+              "GIT",
+              "Bitbucket",
+              "ANT",
+              "Maven",
+              "Jenkins",
+              "Ansible",
+              "Shell Script"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "Masters",
+            "field": "science information technology",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "JNTU",
+            "location": "Hyderabad, Telangana",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "2015-06",
+            "expected_graduation": "2017-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": [
+              "Unknown"
+            ]
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "C",
+              "level": "Unknown"
+            },
+            {
+              "name": "Core Java",
+              "level": "Unknown"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Unknown",
+              "level": "Unknown"
+            }
+          ],
+          "databases": [
+            {
+              "name": "Unknown",
+              "level": "Unknown"
+            }
+          ],
+          "cloud": [
+            {
+              "name": "Unknown",
+              "level": "Unknown"
+            }
+          ],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "Unknown",
+            "level": "Unknown"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "Unknown",
+          "description": "Unknown",
+          "technologies": [
+            "Unknown"
+          ],
+          "role": "Unknown",
+          "url": "Unknown",
+          "impact": "Unknown"
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Devops Engineer with experience in various DevOps methodologies and tools.\nDevops Engineer at Nendrasys Technologies Pvt Ltd\nSkills: programming_languages: C, Core Java; frameworks: Unknown; databases: Unknown; cloud: Unknown",
+    "category": "Devops Engineer with experience in various DevOps methodologies and tools.",
+    "fetch_timestamp": 1760513348.3656788,
+    "status": "success"
+  },
+  {
+    "id": "CAND_012",
+    "raw_data": {
+      "personal_info": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "location": {
+          "city": "Mumbai",
+          "country": "India",
+          "remote_preference": ""
+        },
+        "summary": "",
+        "linkedin": "",
+        "github": ""
+      },
+      "experience": [
+        {
+          "company": "Tech Mahindra",
+          "company_info": {
+            "industry": "",
+            "size": ""
+          },
+          "title": "Java Developer",
+          "level": "",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "",
+            "end": "",
+            "duration": "21 months",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Played the role of Java developer involved in applying change requests to current modules.",
+            "Worked on requirement analysis and development for the user stories and also performed dev unit testing for the user stories.",
+            "Handled E2E issues and fixed bugs.",
+            "Prepared required program-level and user-level documentation."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Java",
+              "J2EE",
+              "MySQL",
+              "Shell Script"
+            ],
+            "methodologies": [],
+            "tools": [
+              "Jenkins",
+              "SVN",
+              "Hudson",
+              "Weblogic12c"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        },
+        {
+          "company": "Tech Mahindra",
+          "company_info": {
+            "industry": "",
+            "size": ""
+          },
+          "title": "Java Developer",
+          "level": "",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "",
+            "end": "",
+            "duration": "",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Played the role of Java developer involved in creating services using Java/J2EE.",
+            "Worked on requirement analysis and development for the user stories and also performed dev unit testing for the user stories.",
+            "Handled E2E issues and fixed bugs.",
+            "Worked in migration from Java 1.6 to Java 1.8."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Java",
+              "EJB",
+              "MySQL",
+              "Shell Script"
+            ],
+            "methodologies": [],
+            "tools": [
+              "Weblogic12c Server",
+              "Jenkins"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E.",
+            "field": "Information Technology",
+            "major": ""
+          },
+          "institution": {
+            "name": "Vidyalankar Institute of Technology",
+            "location": "Goregaon, Maharashtra, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2016-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        },
+        {
+          "degree": {
+            "level": "Diploma",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "Thakur Polytechnic",
+            "location": "Mumbai, Maharashtra, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2013-05",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        },
+        {
+          "degree": {
+            "level": "High School",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "St. John's Universal School",
+            "location": "Mumbai, Maharashtra, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "2010-05",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Java",
+              "level": "intermediate"
+            },
+            {
+              "name": "J2EE",
+              "level": "intermediate"
+            },
+            {
+              "name": "Swift",
+              "level": ""
+            },
+            {
+              "name": "HTML",
+              "level": ""
+            },
+            {
+              "name": "Shell Script",
+              "level": ""
+            }
+          ],
+          "frameworks": [],
+          "databases": [
+            {
+              "name": "MySQL",
+              "level": "intermediate"
+            }
+          ],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Java Developer at Tech Mahindra\nJava Developer at Tech Mahindra\nSkills: programming_languages: Java, J2EE, Swift, HTML, Shell Script; databases: MySQL",
+    "category": "",
+    "fetch_timestamp": 1760513348.3656788,
+    "status": "success"
+  },
+  {
+    "id": "CAND_013",
+    "raw_data": {
+      "personal_info": {
+        "name": "Fahed",
+        "email": null,
+        "phone": null,
+        "location": null,
+        "summary": "IABAC Certified Data Scientist with versatile experience over 1+ years in managing business, data science consulting and leading innovation projects, bringing business ideas to working real world solutions. Being a strong advocator of augmented era, where human capabilities are enhanced by machines, Fahed is passionate about bringing business concepts in area of machine learning, AI, robotics etc., to real life solutions.",
+        "linkedin": null,
+        "github": null
+      },
+      "experience": [
+        {
+          "company": "Datamites",
+          "company_info": null,
+          "title": "Data Science Consultant",
+          "level": null,
+          "employment_type": null,
+          "dates": null,
+          "responsibilities": [
+            "Analyzed and processed complex data sets using advanced querying, visualization and analytics tools.",
+            "Responsible for loading, extracting and validation of client data.",
+            "Worked on manipulating, cleaning & processing data using python.",
+            "Used Tableau for data visualization."
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Heretic Solutions Pvt Ltd",
+          "company_info": null,
+          "title": null,
+          "level": null,
+          "employment_type": null,
+          "dates": null,
+          "responsibilities": [
+            "Worked closely with business to identify issues and used data to propose solutions for effective decision making.",
+            "Manipulating, cleansing & processing data using Python, Excel and R.",
+            "Analyzed raw data, drawing conclusions & developing recommendations.",
+            "Used machine learning tools and statistical techniques to produce solutions to problems."
+          ],
+          "technical_environment": null
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B. Tech",
+            "field": "Computer Science & Engineering",
+            "major": null
+          },
+          "institution": {
+            "name": "Indo Global College of Engineering",
+            "location": "Mohali, Punjab",
+            "accreditation": null
+          },
+          "dates": {
+            "start": "2017-01",
+            "expected_graduation": null,
+            "end": null
+          },
+          "achievements": null
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": "expert"
+            },
+            {
+              "name": "R Studio",
+              "level": "intermediate"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Machine Learning",
+              "level": "advanced"
+            },
+            {
+              "name": "Data Visualization",
+              "level": "advanced"
+            },
+            {
+              "name": "Tableau",
+              "level": "advanced"
+            }
+          ],
+          "databases": [],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "IABAC Certified Data Scientist with versatile experience over 1+ years in managing business, data science consulting and leading innovation projects, bringing business ideas to working real world solutions. Being a strong advocator of augmented era, where human capabilities are enhanced by machines, Fahed is passionate about bringing business concepts in area of machine learning, AI, robotics etc., to real life solutions.\nData Science Consultant at Datamites\nNone at Heretic Solutions Pvt Ltd\nSkills: programming_languages: Python, R Studio; frameworks: Machine Learning, Data Visualization, Tableau",
+    "category": "IABAC Certified Data Scientist with versatile experience over 1+ years in managing business, data sc",
+    "fetch_timestamp": 1760513348.3667202,
+    "status": "success"
+  },
+  {
+    "id": "CAND_014",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Mumbai",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Python Developer/analyst",
+        "linkedin": "Unknown",
+        "github": "Unknown"
+      },
+      "experience": [
+        {
+          "company": "Ace The Power of 5",
+          "company_info": {
+            "industry": "Unknown",
+            "size": "Unknown"
+          },
+          "title": "Python Developer/analyst",
+          "level": "Unknown",
+          "employment_type": "Unknown",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "12 months",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Understanding the functional requirements of the application given by the client",
+            "Participated in walkthroughs of business requirements, functional requirements and technical design to ensure their testability",
+            "Responsible for Software Configuration Management of project deliverables"
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Python",
+              "C",
+              "C++",
+              "Java",
+              "MySQL",
+              "Django",
+              "HTML"
+            ],
+            "methodologies": [
+              "Unknown"
+            ],
+            "tools": [
+              "Unknown"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        },
+        {
+          "company": "Kranti Dynamics",
+          "company_info": {
+            "industry": "Unknown",
+            "size": "Unknown"
+          },
+          "title": "Python Developer/analyst",
+          "level": "Unknown",
+          "employment_type": "Unknown",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "12 months",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Programming",
+            "Scripting",
+            "Developer",
+            "Web Scrapping"
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Python",
+              "C",
+              "C++",
+              "Java",
+              "MySQL",
+              "Django",
+              "HTML"
+            ],
+            "methodologies": [
+              "Unknown"
+            ],
+            "tools": [
+              "Unknown"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E.",
+            "field": "Electronics",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "University of Mumbai",
+            "location": "Mumbai, India",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "Unknown",
+            "expected_graduation": "2014-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": [
+              "Unknown"
+            ]
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": "Unknown"
+            },
+            {
+              "name": "C",
+              "level": "Unknown"
+            },
+            {
+              "name": "C++",
+              "level": "Unknown"
+            },
+            {
+              "name": "Java",
+              "level": "Unknown"
+            },
+            {
+              "name": "HTML",
+              "level": "Unknown"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Django",
+              "level": "Unknown"
+            }
+          ],
+          "databases": [
+            {
+              "name": "MySQL",
+              "level": "Unknown"
+            }
+          ],
+          "cloud": [
+            {
+              "name": "Unknown",
+              "level": "Unknown"
+            }
+          ],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "English",
+            "level": "Unknown"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "Fruit Sorting and Disease Detection",
+          "description": "Unknown",
+          "technologies": [
+            "Unknown"
+          ],
+          "role": "Unknown",
+          "url": "Unknown",
+          "impact": "Unknown"
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Python Developer/analyst\nPython Developer/analyst at Ace The Power of 5\nPython Developer/analyst at Kranti Dynamics\nSkills: programming_languages: Python, C, C++, Java, HTML; frameworks: Django; databases: MySQL; cloud: Unknown",
+    "category": "Python Developer/analyst",
+    "fetch_timestamp": 1760513348.3667202,
+    "status": "success"
+  },
+  {
+    "id": "CAND_015",
+    "raw_data": {
+      "personal_info": {
+        "name": "Unknown",
+        "email": "Unknown",
+        "phone": "Unknown",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Unknown"
+        },
+        "summary": "Java Developer with experience in Hibernate, JSP, and Servlets. Passionate about software development and programming.",
+        "linkedin": "Unknown",
+        "github": "Unknown"
+      },
+      "experience": [
+        {
+          "company": "Maxgen Technologies Pvt. Ltd.",
+          "company_info": {
+            "industry": "IT Services",
+            "size": "Unknown"
+          },
+          "title": "Java Developer",
+          "level": "entry-level",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Worked as a Java developer using Hibernate technology.",
+            "Developed web applications using JSP, Servlets, and Hibernate."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Java",
+              "Hibernate",
+              "JSP",
+              "Servlets"
+            ],
+            "methodologies": [],
+            "tools": [],
+            "databases": null,
+            "operating_systems": null
+          }
+        },
+        {
+          "company": "Prakshal IT Academy",
+          "company_info": {
+            "industry": "Education & Training",
+            "size": "Unknown"
+          },
+          "title": "Trainer",
+          "level": "mid-level",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "Unknown",
+            "end": "Unknown",
+            "duration": "Unknown",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Taught A+, N+, and CCNA (Routing and Switching)."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Networking",
+              "CCNA"
+            ],
+            "methodologies": [],
+            "tools": [],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "ME",
+            "field": "Computer Science",
+            "major": "Computers"
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "2015-06",
+            "expected_graduation": "2018-02",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": []
+          }
+        },
+        {
+          "degree": {
+            "level": "SSC",
+            "field": "General Education",
+            "major": "Unknown"
+          },
+          "institution": {
+            "name": "Maharashtra Secondary Board",
+            "location": "Solapur, Maharashtra, India",
+            "accreditation": "Unknown"
+          },
+          "dates": {
+            "start": "Unknown",
+            "expected_graduation": "2007-06",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Unknown",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Java",
+              "level": "intermediate"
+            },
+            {
+              "name": "C",
+              "level": "beginner"
+            },
+            {
+              "name": "C++",
+              "level": "beginner"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Hibernate",
+              "level": "beginner"
+            },
+            {
+              "name": "JSP",
+              "level": "beginner"
+            },
+            {
+              "name": "Servlets",
+              "level": "beginner"
+            }
+          ],
+          "databases": [
+            {
+              "name": "SQL",
+              "level": "beginner"
+            },
+            {
+              "name": "MySQL",
+              "level": "beginner"
+            },
+            {
+              "name": "Oracle 9i",
+              "level": "beginner"
+            },
+            {
+              "name": "Oracle 10g",
+              "level": "beginner"
+            }
+          ],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "Banking Software",
+          "description": "Used GSM technology for transaction messages for security purposes.",
+          "technologies": [
+            "Visual Basic 6.0",
+            "Oracle 9i"
+          ],
+          "role": "Developer",
+          "url": "Unknown",
+          "impact": "Enhanced security in banking transactions."
+        },
+        {
+          "name": "Single Sign-On",
+          "description": "Created a 'Single Sign-On' mechanism for network security.",
+          "technologies": [
+            "Java",
+            "Oracle 10g"
+          ],
+          "role": "Developer",
+          "url": "Unknown",
+          "impact": "Improved network security through centralized authentication."
+        },
+        {
+          "name": "Text-Based Graphical Password",
+          "description": "Developed a secure password system using Random Printing Algorithm to prevent shoulder surfing attacks.",
+          "technologies": [
+            "Java",
+            "MySQL"
+          ],
+          "role": "Developer",
+          "url": "Unknown",
+          "impact": "Increased security against shoulder surfing attacks."
+        },
+        {
+          "name": "Agriculture Management System",
+          "description": "Created a web application for agriculture system and farming.",
+          "technologies": [
+            "Hibernate",
+            "MySQL"
+          ],
+          "role": "Developer",
+          "url": "Unknown",
+          "impact": "Streamlined agricultural management through digital solutions."
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Java Developer with experience in Hibernate, JSP, and Servlets. Passionate about software development and programming.\nJava Developer at Maxgen Technologies Pvt. Ltd.\nTrainer at Prakshal IT Academy\nSkills: programming_languages: Java, C, C++; frameworks: Hibernate, JSP, Servlets; databases: SQL, MySQL, Oracle 9i, Oracle 10g",
+    "category": "Java Developer with experience in Hibernate, JSP, and Servlets. Passionate about software developmen",
+    "fetch_timestamp": 1760513348.3667202,
+    "status": "success"
+  },
+  {
+    "id": "CAND_016",
+    "raw_data": {
+      "personal_info": {
+        "name": "Fahed",
+        "email": null,
+        "phone": null,
+        "location": null,
+        "summary": "IABAC Certified Data Scientist with versatile experience over 1+ years in managing business, data science consulting and leading innovation projects, bringing business ideas to working real world solutions. Being a strong advocator of augmented era, where human capabilities are enhanced by machines, Fahed is passionate about bringing business concepts in area of machine learning, AI, robotics etc., to real life solutions.",
+        "linkedin": null,
+        "github": null
+      },
+      "experience": [
+        {
+          "company": "Datamites",
+          "company_info": null,
+          "title": "Data Science Consultant",
+          "level": null,
+          "employment_type": null,
+          "dates": null,
+          "responsibilities": [
+            "Analyzed and processed complex data sets using advanced querying, visualization and analytics tools.",
+            "Responsible for loading, extracting and validation of client data.",
+            "Worked on manipulating, cleaning & processing data using python.",
+            "Used Tableau for data visualization."
+          ],
+          "technical_environment": null
+        },
+        {
+          "company": "Heretic Solutions Pvt Ltd",
+          "company_info": null,
+          "title": null,
+          "level": null,
+          "employment_type": null,
+          "dates": null,
+          "responsibilities": [
+            "Worked closely with business to identify issues and used data to propose solutions for effective decision making.",
+            "Manipulating, cleansing & processing data using Python, Excel and R.",
+            "Analyzed raw data, drawing conclusions & developing recommendations.",
+            "Used machine learning tools and statistical techniques to produce solutions to problems."
+          ],
+          "technical_environment": null
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B. Tech",
+            "field": "Computer Science & Engineering",
+            "major": null
+          },
+          "institution": {
+            "name": "Indo Global College of Engineering",
+            "location": "Mohali, Punjab",
+            "accreditation": null
+          },
+          "dates": {
+            "start": "2017-01",
+            "expected_graduation": null,
+            "end": null
+          },
+          "achievements": null
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": "expert"
+            },
+            {
+              "name": "R Studio",
+              "level": "intermediate"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Machine Learning",
+              "level": "advanced"
+            },
+            {
+              "name": "Data Visualization",
+              "level": "advanced"
+            },
+            {
+              "name": "Tableau",
+              "level": "advanced"
+            }
+          ],
+          "databases": [],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "IABAC Certified Data Scientist with versatile experience over 1+ years in managing business, data science consulting and leading innovation projects, bringing business ideas to working real world solutions. Being a strong advocator of augmented era, where human capabilities are enhanced by machines, Fahed is passionate about bringing business concepts in area of machine learning, AI, robotics etc., to real life solutions.\nData Science Consultant at Datamites\nNone at Heretic Solutions Pvt Ltd\nSkills: programming_languages: Python, R Studio; frameworks: Machine Learning, Data Visualization, Tableau",
+    "category": "IABAC Certified Data Scientist with versatile experience over 1+ years in managing business, data sc",
+    "fetch_timestamp": 1760513348.3677034,
+    "status": "success"
+  },
+  {
+    "id": "CAND_017",
+    "raw_data": {
+      "personal_info": {
+        "name": "Artem Sliusarenko",
+        "email": "artem.sliusarenko@city.ac.uk",
+        "phone": "+44 7123456789",
+        "location": {
+          "city": "London",
+          "country": "United Kingdom",
+          "remote_preference": "hybrid"
+        },
+        "summary": "Final year Computer Science student at City, University of London with strong focus on machine learning and software engineering. Experienced in developing ML-powered applications and passionate about solving complex technical challenges.",
+        "linkedin": "linkedin.com/in/artem-sliusarenko",
+        "github": "github.com/artemslius"
+      },
+      "experience": [
+        {
+          "company": "AT&T",
+          "company_info": {
+            "industry": "Telecommunications",
+            "size": "80+ employees"
+          },
+          "title": "Project Manager",
+          "level": "manager",
+          "employment_type": "full-time",
+          "dates": {
+            "start": "2013-01-01",
+            "end": "2024-03-20",
+            "duration": "11 years 2 months",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Manage and lead all aspects of Transition / Pre-Transition comprising multiple vendors",
+            "Transition Drill down sessions, Forward/Reverse Shadow phases and Reverse Presentation",
+            "Transition Documentation & signoff of SMP & System Appreciation Document etc",
+            "Measure & track testing metrics scorecard as part of Vendor Quality Index (VQI) initiative of AT&T",
+            "Measure and track operating metrics like Onsite Subcon Index, Offshoring Index, Leakage Index, Utilization Index and Tail Index",
+            "Manage, Track and Submit Project Monthly Financials & Invoicing",
+            "Ensure 100% compliance to client / organization's quality and security processes, policies and SLAs",
+            "Plan, manage and mitigate Risks",
+            "Achieve Automation targets and SLAs using ConformiQ, Selenium & Oscar Tools",
+            "Participate in proposal preparations to expand revenue and new business developments",
+            "Manage & Track Work Allocation, Resourcing, Issue Resolution and Testing activities for the project",
+            "Ensure Monthly Delivery / TL9K Metrics and CSL-KMs are submitted on time",
+            "PMR, Internal Quality / Security Group, SQA, Quality Gates and external Ernst & Young / TL9K Audit",
+            "Share weekly highlight reports, Project Health Report and regular Dashboard Reporting activities",
+            "Prepare CSAT action plan for the team",
+            "Prepare and implement Business Continuity Plan for the project",
+            "Timely conduct of Business Continuity drills like Call Tree, Table Top and Project Rehearsal",
+            "Comparative analysis, Root Cause Analysis and Defect Prevention exercises for ST, E2E and UAT",
+            "Coordinate with Resource Management, Quality, Learning, Security, PMO and Business Unit",
+            "Sub-Contractors and Rebadged (Ex-AT&T) staff management",
+            "Participate in external technical interview / hiring drives for new engagements"
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Python",
+              "Selenium",
+              "RALLY / IBM TD Platform",
+              "DevOps / DevSecOps",
+              "SAFe - Agile Craft",
+              "Visual Basic 6.0",
+              "MS-SQL Server / Oracle 8/8i",
+              "Conformiq",
+              "HP QC / QTP",
+              "Crystal Report 8.5"
+            ],
+            "methodologies": [
+              "Agile / Scrum Management",
+              "Risk /Client Management",
+              "Process Improvements",
+              "Proposals/RFE",
+              "Project / Program Finance",
+              "Profit Maximization",
+              "Internal / External Audits",
+              "Software Testing / Quality Assurance"
+            ],
+            "tools": [
+              "Git",
+              "Jenkins",
+              "AWS"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "Bachelor",
+            "field": "Commerce",
+            "major": "Commerce"
+          },
+          "institution": {
+            "name": "Mumbai University",
+            "location": "Mumbai, Maharashtra",
+            "accreditation": "UGC"
+          },
+          "dates": {
+            "start": "2001-01",
+            "expected_graduation": "2004-01",
+            "end": null
+          },
+          "achievements": {
+            "gpa": 3.8,
+            "honors": "Dean's List 2022-2023",
+            "relevant_coursework": [
+              "Accounting",
+              "Finance",
+              "Economics"
+            ]
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": "expert"
+            },
+            {
+              "name": "Visual Basic 6.0",
+              "level": "intermediate"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Selenium",
+              "level": "advanced"
+            },
+            {
+              "name": "RALLY / IBM TD Platform",
+              "level": "intermediate"
+            },
+            {
+              "name": "SAFe - Agile Craft",
+              "level": "intermediate"
+            }
+          ],
+          "databases": [
+            {
+              "name": "MS-SQL Server / Oracle 8/8i",
+              "level": "intermediate"
+            }
+          ],
+          "cloud": [
+            {
+              "name": "AWS",
+              "level": "intermediate"
+            },
+            {
+              "name": "Docker",
+              "level": "intermediate"
+            }
+          ],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "English",
+            "level": "fluent"
+          },
+          {
+            "name": "Hindi",
+            "level": "native"
+          },
+          {
+            "name": "Marathi",
+            "level": "native"
+          },
+          {
+            "name": "Tulu",
+            "level": "native"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "Thunderbird program",
+          "description": "One-Stop-Test-Shop catering to AT&T's Enterprise-wide business critical applications. As part of this Fixed Price engagement various types of testing like System, Regression, Sanity and UAT support gets executed through Agile Methodologies on applications under Billing and Sales domain.",
+          "technologies": [
+            "Python",
+            "Selenium",
+            "RALLY / IBM TD Platform",
+            "DevOps / DevSecOps",
+            "SAFe - Agile Craft",
+            "Visual Basic 6.0",
+            "MS-SQL Server / Oracle 8/8i",
+            "Conformiq",
+            "HP QC / QTP",
+            "Crystal Report 8.5"
+          ],
+          "role": "Project Manager",
+          "url": "github.com/artemslius/resume-parser-matcher",
+          "impact": "Achieved 85% accuracy in job-candidate matching"
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Final year Computer Science student at City, University of London with strong focus on machine learning and software engineering. Experienced in developing ML-powered applications and passionate about solving complex technical challenges.\nProject Manager at AT&T\nSkills: programming_languages: Python, Visual Basic 6.0; frameworks: Selenium, RALLY / IBM TD Platform, SAFe - Agile Craft; databases: MS-SQL Server / Oracle 8/8i; cloud: AWS, Docker",
+    "category": "Final year Computer Science student at City, University of London with strong focus on machine learn",
+    "fetch_timestamp": 1760513348.3677034,
+    "status": "success"
+  },
+  {
+    "id": "CAND_018",
+    "raw_data": {
+      "personal_info": {
+        "name": "Not Provided",
+        "email": "Not Provided",
+        "phone": "Not Provided",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": "Not Provided"
+        },
+        "summary": "Cloud Operations Architect (DevOps) with experience in various technologies and platforms.",
+        "linkedin": "Not Provided",
+        "github": "Not Provided"
+      },
+      "experience": [
+        {
+          "company": "DevOps",
+          "company_info": {
+            "industry": "Not Provided",
+            "size": "Not Provided"
+          },
+          "title": "Cloud Operations Architect (DevOps)",
+          "level": "Not Provided",
+          "employment_type": "Not Provided",
+          "dates": {
+            "start": "Not Provided",
+            "end": "Not Provided",
+            "duration": "Not Provided",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Managing Tibco Spotfire Enterprise & Cloud environment.",
+            "Helping India QA team with the pre-production environment for testing.",
+            "Coordinating production deployment & hot-fixes.",
+            "Leading the team and handling 4-projects.",
+            "Arranging workshops over new AWS services for entire Team."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "AWS EC2",
+              "RDS",
+              "CloudFormation Template",
+              "Lambda",
+              "Dynamo DB",
+              "Cloud Watch",
+              "Auto-scaling",
+              "Elastic Bean stalk",
+              "Appdynamics"
+            ],
+            "methodologies": [
+              "Not Provided"
+            ],
+            "tools": [
+              "Not Provided"
+            ],
+            "databases": null,
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "Post Graduate Diploma",
+            "field": "Information Technology",
+            "major": "Not Provided"
+          },
+          "institution": {
+            "name": "Symbiosis Institute",
+            "location": "Pune, Maharashtra",
+            "accreditation": "Not Provided"
+          },
+          "dates": {
+            "start": "2013-01",
+            "expected_graduation": "Not Provided",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Not Provided",
+            "relevant_coursework": [
+              "Not Provided"
+            ]
+          }
+        },
+        {
+          "degree": {
+            "level": "Bachelor of Engineering",
+            "field": "Electronics and Telecommunications",
+            "major": "Not Provided"
+          },
+          "institution": {
+            "name": "Pune University",
+            "location": "Pune, Maharashtra",
+            "accreditation": "Not Provided"
+          },
+          "dates": {
+            "start": "2007-01",
+            "expected_graduation": "Not Provided",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "Not Provided",
+            "relevant_coursework": [
+              "Not Provided"
+            ]
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Python",
+              "level": "beginner"
+            },
+            {
+              "name": "Shell Scripting",
+              "level": "expert"
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Not Provided",
+              "level": "Not Provided"
+            }
+          ],
+          "databases": [
+            {
+              "name": "Not Provided",
+              "level": "Not Provided"
+            }
+          ],
+          "cloud": [
+            {
+              "name": "AWS",
+              "level": "beginner"
+            },
+            {
+              "name": "Azure",
+              "level": "beginner"
+            }
+          ],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "Not Provided",
+            "level": "Not Provided"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "Not Provided",
+          "description": "Not Provided",
+          "technologies": [
+            "Not Provided"
+          ],
+          "role": "Not Provided",
+          "url": "Not Provided",
+          "impact": "Not Provided"
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Cloud Operations Architect (DevOps) with experience in various technologies and platforms.\nCloud Operations Architect (DevOps) at DevOps\nSkills: programming_languages: Python, Shell Scripting; frameworks: Not Provided; databases: Not Provided; cloud: AWS, Azure",
+    "category": "Cloud Operations Architect (DevOps) with experience in various technologies and platforms.",
+    "fetch_timestamp": 1760513348.3697283,
+    "status": "success"
+  },
+  {
+    "id": "CAND_019",
+    "raw_data": {
+      "personal_info": {
+        "name": "",
+        "email": "",
+        "phone": "",
+        "location": {
+          "city": "Pune",
+          "country": "India",
+          "remote_preference": ""
+        },
+        "summary": "",
+        "linkedin": "",
+        "github": ""
+      },
+      "experience": [
+        {
+          "company": "Vertical Software",
+          "company_info": {
+            "industry": "",
+            "size": ""
+          },
+          "title": "Java Developer",
+          "level": "",
+          "employment_type": "",
+          "dates": {
+            "start": "",
+            "end": "",
+            "duration": "",
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Expertise in design and development of web applications using J2EE, Servlets, JSP, JavaScript, HTML, CSS, jQuery, AJAX, JSON.",
+            "Experienced in developing applications using MVC architecture.",
+            "Good understanding of Software Development Life Cycle Phases such as Requirement gathering, analysis, design, development, and unit testing."
+          ],
+          "technical_environment": {
+            "technologies": [
+              "Java",
+              "J2EE",
+              "Spring",
+              "Hibernate"
+            ],
+            "methodologies": [],
+            "tools": [
+              "Eclipse",
+              "Tomcat"
+            ],
+            "databases": [
+              "MongoDB",
+              "MySQL"
+            ],
+            "operating_systems": null
+          }
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "B.E",
+            "field": "Information Technology",
+            "major": ""
+          },
+          "institution": {
+            "name": "Savitribai Phule Pune University",
+            "location": "Pune, Maharashtra, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "2016-01",
+            "expected_graduation": "",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        },
+        {
+          "degree": {
+            "level": "Higher Secondary",
+            "field": "",
+            "major": ""
+          },
+          "institution": {
+            "name": "Higher Secondary School",
+            "location": "Pune, India",
+            "accreditation": ""
+          },
+          "dates": {
+            "start": "",
+            "expected_graduation": "",
+            "end": null
+          },
+          "achievements": {
+            "gpa": null,
+            "honors": "",
+            "relevant_coursework": []
+          }
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [
+            {
+              "name": "Java",
+              "level": ""
+            }
+          ],
+          "frameworks": [
+            {
+              "name": "Spring",
+              "level": ""
+            },
+            {
+              "name": "Hibernate",
+              "level": ""
+            }
+          ],
+          "databases": [
+            {
+              "name": "MongoDB",
+              "level": ""
+            },
+            {
+              "name": "MySQL",
+              "level": ""
+            }
+          ],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [],
+        "tools": null,
+        "methodologies": null,
+        "other": null,
+        "testing": null
+      },
+      "projects": [
+        {
+          "name": "Expense Ledger",
+          "description": "",
+          "technologies": [
+            "Java",
+            "JSP",
+            "Servlet",
+            "MySQL",
+            "JavaScript",
+            "JSON",
+            "jQuery",
+            "AJAX"
+          ],
+          "role": "Java Developer",
+          "url": "",
+          "impact": ""
+        },
+        {
+          "name": "Trimurti Developer (Real Estate)",
+          "description": "",
+          "technologies": [
+            "Java",
+            "JSP",
+            "Servlet",
+            "MySQL",
+            "JavaScript",
+            "JSON",
+            "jQuery",
+            "AJAX"
+          ],
+          "role": "Java Developer",
+          "url": "",
+          "impact": ""
+        },
+        {
+          "name": "Vimay Enterprise",
+          "description": "",
+          "technologies": [
+            "Java",
+            "JSP",
+            "Spring",
+            "Hibernate",
+            "Maven",
+            "jQuery",
+            "AJAX"
+          ],
+          "role": "Java Developer",
+          "url": "",
+          "impact": ""
+        }
+      ],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "Java Developer at Vertical Software\nSkills: programming_languages: Java; frameworks: Spring, Hibernate; databases: MongoDB, MySQL",
+    "category": "",
+    "fetch_timestamp": 1760513348.3697283,
+    "status": "success"
+  },
+  {
+    "id": "CAND_020",
+    "raw_data": {
+      "personal_info": {
+        "name": "Newcomer Indian Advocate",
+        "email": null,
+        "phone": null,
+        "location": {
+          "city": "Mansa",
+          "country": "India",
+          "remote_preference": null
+        },
+        "summary": "A Microsoft Certified Systems Engineer and Advocate with exceptional knowledge of administrative procedures, evidence rules and trials. Able to communicate clearly and concisely with people of diverse backgrounds and levels of authority. Focused and driven to always meet deadlines for pretrial procedures, trials and appellate briefings by effectively utilizing resources.",
+        "linkedin": null,
+        "github": null
+      },
+      "experience": [
+        {
+          "company": "District Courts",
+          "company_info": null,
+          "title": "Advocate",
+          "level": null,
+          "employment_type": null,
+          "dates": {
+            "start": "2012-08-16",
+            "end": "Present",
+            "duration": null,
+            "notice_period": null
+          },
+          "responsibilities": [
+            "Advice clients of their legal rights and all matters related to law.",
+            "Plead clients' cases which include various International companies, before courts of law, forums, tribunals and boards.",
+            "Researching legal precedents, gathering evidence and trials of criminal, Injury and death compensation claims and others.",
+            "Draw up legal documents such as bail petitions, appeals, divorces and contracts etc.",
+            "Negotiates settlements of civil disputes.",
+            "Act as mediator, conciliator, local commissioner or arbitrator as per Court orders",
+            "Managing a private practice for more than 6 years, including all aspects of administration and management functions, controlling costs and achieving objectives related to the practice of law."
+          ],
+          "technical_environment": null
+        }
+      ],
+      "education": [
+        {
+          "degree": {
+            "level": "Bachelor's",
+            "field": "Laws",
+            "major": null
+          },
+          "institution": {
+            "name": "Maharaja Ganga Singh University",
+            "location": "Bikaner, Rajasthan",
+            "accreditation": null
+          },
+          "dates": {
+            "start": "2009-07",
+            "expected_graduation": null,
+            "end": "2012-05"
+          },
+          "achievements": null
+        },
+        {
+          "degree": {
+            "level": "Microsoft Certified Systems Engineer",
+            "field": "Networking",
+            "major": null
+          },
+          "institution": {
+            "name": "Microsoft",
+            "location": "Chandigarh",
+            "accreditation": null
+          },
+          "dates": {
+            "start": "2008-08",
+            "expected_graduation": null,
+            "end": "2008-11"
+          },
+          "achievements": null
+        },
+        {
+          "degree": {
+            "level": "Bachelor's",
+            "field": "Bio-Informatics",
+            "major": null
+          },
+          "institution": {
+            "name": "Panjab University",
+            "location": "Chandigarh, Chandigarh",
+            "accreditation": null
+          },
+          "dates": {
+            "start": "2005-07",
+            "expected_graduation": null,
+            "end": "2008-04"
+          },
+          "achievements": null
+        }
+      ],
+      "skills": {
+        "technical": {
+          "programming_languages": [],
+          "frameworks": [],
+          "databases": [],
+          "cloud": [],
+          "operating_systems": null,
+          "tools": null,
+          "networking_skills": null,
+          "project_management": null,
+          "automation": null,
+          "software_tools": null,
+          "testing": null,
+          "other": null,
+          "web_technologies": null,
+          "software": null
+        },
+        "languages": [
+          {
+            "name": "English",
+            "level": "native"
+          },
+          {
+            "name": "Hindi",
+            "level": "bilingual"
+          },
+          {
+            "name": "Punjabi",
+            "level": "native"
+          }
+        ],
+        "tools": null,
+        "methodologies": null,
+        "other": [
+          {
+            "name": "Administration",
+            "level": "expert"
+          },
+          {
+            "name": "Legal Research",
+            "level": "expert"
+          },
+          {
+            "name": "Microsoft Office",
+            "level": "expert"
+          },
+          {
+            "name": "Drafting",
+            "level": "expert"
+          }
+        ],
+        "testing": null
+      },
+      "projects": [],
+      "certifications": "",
+      "publications": null,
+      "internships": null,
+      "achievements": null,
+      "workshops": null,
+      "teaching_experience": null
+    },
+    "resume_text": "A Microsoft Certified Systems Engineer and Advocate with exceptional knowledge of administrative procedures, evidence rules and trials. Able to communicate clearly and concisely with people of diverse backgrounds and levels of authority. Focused and driven to always meet deadlines for pretrial procedures, trials and appellate briefings by effectively utilizing resources.\nAdvocate at District Courts",
+    "category": "A Microsoft Certified Systems Engineer and Advocate with exceptional knowledge of administrative pro",
+    "fetch_timestamp": 1760513348.3697283,
+    "status": "success"
+  }
+]

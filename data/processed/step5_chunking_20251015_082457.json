@@ -1,0 +1,82 @@
+[
+  {
+    "chunk_id": "CAND_002_000",
+    "candidate_id": "CAND_002",
+    "section_type": "Full Resume",
+    "chunk_text": "experienced operations manager expertise project execution, engineering, team coordination. skilled managing contractual commercial issues, ensuring project profitability, maintaining high client satisfaction. operations manager delta controls, dubai fzco project lead honeywell automation india ltd project engineer fox controls commissioning leader enercon india limited skills project management project execution, quality management, budget monitoring automation plc programming, scada systems software tools sap, microsoft visio",
+    "position": 0,
+    "token_count": 61,
+    "pii_mapping": {
+      "candidate_id": "CAND_002",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo70xJjBZZggHtSjIf-9Aw_5j-xpH1iGfsaZlOIhsEkeDGGSr-ZIXTzIgAxYWHOJCqEvDbOkaPLrF33dLdQfe-xza_KDSbSPFMZzC1t6Cpcd-Vnr68Usbh5ZDBkvIropykUS_kZZ4CP_dWhOVmUMMWn-DfkaPslsm1VA3PcS40XHcJLsN7KgyVZ17uxQLbwsnYgyl0umD_3EEtg4U4relph4YmcxatkLcRuMKP2MiA3m4wuZ6n8RyDjCgccHDy1vlwuKkD4jpAZQsrtplE71YkT7i-LSX3mwf3P25tDh10F9NIk3X-i7-f_8BuFF1X7fizAhV6-g31QbvSUKpOzVUvpNXkrg==",
+    "status": "success"
+  },
+  {
+    "chunk_id": "CAND_004_000",
+    "candidate_id": "CAND_004",
+    "section_type": "Full Resume",
+    "chunk_text": "experienced operations manager expertise project execution, engineering, team coordination. skilled managing contractual commercial issues, ensuring project profitability, maintaining high client satisfaction. operations manager delta controls, dubai fzco project lead honeywell automation india ltd project engineer fox controls commissioning leader enercon india limited skills project management project execution, quality management, budget monitoring automation plc programming, scada systems software tools sap, microsoft visio",
+    "position": 0,
+    "token_count": 61,
+    "pii_mapping": {
+      "candidate_id": "CAND_004",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo70xJYC4ZoJWisaVydcwVy7PGFuDZl0sF1EtrXuhGsDDQsqNOSF71rLu23jbE0KDQWlpHnTVmrfSpnDuE6ZUazLAhd5hoQ4LOMBvJOpkbRNO94Ag3xpqVmAPrC_w6MfWKjWT5_d8o7TO7XD1JvLUpqLo5wUA290KfMeD-bVD5BlW30FEk7bu-VnDG6-nCyTJqJChhPHvJqNcGrVok0WHJzRQzAL-yh6kPbo7fxPymZp_DFpZcq0gRaqL-2QqK3ogR2oBxQUUNfUMGVDNM5IrUiS6JJIX7-MA5P-UhC-40hmnlc7xhrtlMFd1CvnXNZOsxXmMSREmIafo1ti_3iYeUv2O43w==",
+    "status": "success"
+  },
+  {
+    "chunk_id": "CAND_013_000",
+    "candidate_id": "CAND_013",
+    "section_type": "Full Resume",
+    "chunk_text": "iabac certified data scientist versatile experience over years managing business, data science consulting leading innovation projects, bringing business ideas working real world solutions. being strong advocator augmented era, where human capabilities are enhanced machines, fahed passionate about bringing business concepts area machine learning, ai, robotics etc., real life solutions. data science consultant datamites none heretic solutions pvt ltd skills programming languages python, studio frameworks machine learning, data visualization, tableau",
+    "position": 0,
+    "token_count": 69,
+    "pii_mapping": {
+      "candidate_id": "CAND_013",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo70xJl7RaGy6mLgSHQzGY6AV2166Bp-mIfe7iCq6_bzpwkMTF11jA3ZDhuIoIzOp2ymKR58s5YUMXyWww3pWrGalhQ4AV3yxNEdYPuM_9XWZlqwOVUBmyYIacG1dPsEEmg0AHaW22x0A75boQIfRMNoaZtrS0InVLztkQ1zdvEJ1a3CGMCuvgHnY27e7Y6bOKSXsfmOsj5J-4myeVDrk_WBiOTUZa_EKeuwvji9LMek_uRRwK25DCKsO2a_-OOoV1rxHUGqhDnXar3SGCKO1Fbr8mSUBYKOgoBJATKNU-GxFmcIdT8Ice6GFIjg6BH70N29ZuUzeEKYVL_eKPYpT7QY08vg==",
+    "status": "success"
+  },
+  {
+    "chunk_id": "CAND_016_000",
+    "candidate_id": "CAND_016",
+    "section_type": "Full Resume",
+    "chunk_text": "iabac certified data scientist versatile experience over years managing business, data science consulting leading innovation projects, bringing business ideas working real world solutions. being strong advocator augmented era, where human capabilities are enhanced machines, fahed passionate about bringing business concepts area machine learning, ai, robotics etc., real life solutions. data science consultant datamites none heretic solutions pvt ltd skills programming languages python, studio frameworks machine learning, data visualization, tableau",
+    "position": 0,
+    "token_count": 69,
+    "pii_mapping": {
+      "candidate_id": "CAND_016",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo70xJ3sH1xv1Y_iFzbGUl436BNwwOGQasqT0LAxINg3Yn6ZMCGKmpoeEKaNG-NRvPLxyoikcWwTd1KXLi8AbNh5D2SJ0Q3cFU7Hp3dfn31Qd6MyFZ3lwKX4dOw8FSJ7RPGpu7XhMrT5qdyjHNMX-ACeJqMfEa6qrOStF7J8zQ6XL18sgyBnIr6oZz5DhDjOBvNPIxShMJ0SYAVdKW2-fYT7EZk5pSC4G7mcr1963caPmKAV-HV8iLG0EZ01O_whXD48piiUHmuE9e5MKYtadkppx6ecUtGgwvBv_fIV8roBmMmH61zL2TzplDuhifnVblE1-28LHBRGkrGddTX_rBMLdhsg==",
+    "status": "success"
+  }
+]

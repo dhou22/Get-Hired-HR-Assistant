@@ -1,0 +1,59 @@
+[
+  {
+    "candidate_id": "CAND_001",
+    "anonymized_text": "python developer experience python, tensorflow, numpy, c++, mysql, various platforms. python developer fresher skills programming languages python, c++, frameworks tensorflow, numpy databases mysql cloud unknown",
+    "pii_mapping": {
+      "candidate_id": "CAND_001",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo7tUyz7KtSeD9YDZE31an1I5WGbFtBAGmROG4ViT9qS38-bufrNfYIf26xVIZYBn1s0NccMhruEg1O0KBZpY5N58kvE76qNMQ-GljfbJvtFgcDP_hDaq2sxi-43Pnus1d0G9QQovzRHkrq3-hoQSF5SdUOmmJYfqznNu1CLO0NuzVW2HLgUlG2uwEYo-3W3ce1kloZB2QBUiq8L_COE_wEv0uJIZCojW_JiC5hO8_As1R72n4eBUgzRA6Y1CKszykAVdgElruZVohR8JVLRr5I6NUF-s7uOsi6M-Xo_0IcNqmohpDkVRGAcea_X7RkBqHm7jnmCHWePIljJMLfyXSqaQtAg==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_002",
+    "anonymized_text": "experienced operations manager expertise project execution, engineering, team coordination. skilled managing contractual commercial issues, ensuring project profitability, maintaining high client satisfaction. operations manager delta controls, dubai fzco project lead honeywell automation india ltd project engineer fox controls commissioning leader enercon india limited skills project management project execution, quality management, budget monitoring automation plc programming, scada systems software tools sap, microsoft visio",
+    "pii_mapping": {
+      "candidate_id": "CAND_002",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo7tUy3SKWqmPiloSXWsMjigaQoUlM5uCq8A1a8sYh_TU3UaT6sWn08BwIJPlkvuqxF6I3vZhOIWfrT02wayCVVhVzo4CraV3ZinkpvspcMChWdQK5w36P_UR5ooIOt2x_fkFPuvrOR1RSy5vxFnET_7fMp8N84YC1bbFG_2lk74-2vrg56ZetkkETS7-wBNeTNJvxs5PxrcO6jtdojFTXn_8XjLF1nxPnm3JZ5wQR8bqN20BshkSXp-exM2KKM8y2OHC106YKAjHNoEXPU_-r4b2h6ccWqcUmaWfwUoqrVVUp4VgMvjtIZeTKsegveftcFPnKmIOJcomyPCMDpFZM2yYRpQ==",
+    "anonymization_status": "success",
+    "category": "Operations Manager",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_003",
+    "anonymized_text": "software proficiency various languages tools. worked several projects including fpga implementation, sorting robot, rfid based student attendance system. devops engineer parkar consulting labs skills programming languages sql, pl/sql, java, javaee, javascript, html, css, jquery, mysql, spring, hibernate, python frameworks not provided databases not provided cloud aws",
+    "pii_mapping": {
+      "candidate_id": "CAND_003",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo7tUyOUdSBqiZOhNgjXzA8n3hpzckU_1X1f259QTca-JhLcmfw621jeWCHx0s1-5fLBFxaR60yc8sOB5JWj198HLz9_dLOudbFyN6HbvDYxnRuiTvUQh6lKzztrOeP0YbKxySxaeQTa1PyBdjpE90JYPIUac-qLDtT3veUCN5ywgTze3zImlzoerZ9Y6CnD_HlXTXnPZuQh1CTdHNN7l1UwurlkoGcLe4hMiawEg4EHTsUrtNzl_6pAJFE-oDn2hD-l39lyG0xXU4k9B4xwv6q0yPSobv_9Wp3h5ZZzS2ujv9xp5bdzYLUalVQwf5LfrsqRzSlEuGIqhPFD4Iia_BknTmrw==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  }
+]

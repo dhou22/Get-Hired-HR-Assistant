@@ -1,0 +1,13 @@
+[
+  {
+    "chunk_id": "TEST_001_000",
+    "candidate_id": "TEST_001",
+    "section_type": "Work Experience",
+    "chunk_text": "Tech Corp\nSenior Developer\nsenior\nLed development of microservices architecture using Python and Kubernetes\nManaged team of 5 developers across multiple projects\nImproved system performance by 40% through optimization and caching strategies\nImplemented CI/CD pipelines using Jenkins and Docker\nStartUp Inc\nJunior Developer\nentry\nBuilt customer-facing web applications using React and Django\nImplemented automated testing suite with pytest and Jest\nContributed to database schema design and optimization",
+    "position": 0,
+    "token_count": 67,
+    "pii_mapping": {},
+    "encrypted_pii": "",
+    "status": "success"
+  }
+]

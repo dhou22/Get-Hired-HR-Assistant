@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "CAND_001",
+    "raw_text": "Python Developer with experience in Python, Tensorflow, Numpy, C, C++, MySQL, and various platforms.\nPython Developer at Fresher\nSkills: programming_languages: Python, C++, C; frameworks: Tensorflow, Numpy; databases: MySQL; cloud: Unknown",
+    "text_length": 239,
+    "word_count": 30,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_002",
+    "raw_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "text_length": 576,
+    "word_count": 69,
+    "extraction_status": "success",
+    "category": "Operations Manager",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_003",
+    "raw_text": "Software Proficiency in various languages and tools. Worked on several projects including FPGA Implementation, Sorting Robot, and RFID Based Student Attendance System.\nDevOps Engineer at Parkar Consulting and Labs\nSkills: programming_languages: C, SQL, PL/SQL, JAVA, JAVAEE, Javascript, HTML, CSS, jquery, mysql, Spring, Hibernate, Python; frameworks: Not Provided; databases: Not Provided; cloud: AWS",
+    "text_length": 401,
+    "word_count": 52,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_004",
+    "raw_text": "Experienced Operations Manager with expertise in project execution, engineering, and team coordination. Skilled in managing contractual and commercial issues, ensuring project profitability, and maintaining high client satisfaction.\nOperations Manager at Delta Controls, Dubai FZCO\nProject Lead at Honeywell Automation India Ltd\nProject Engineer at Fox Controls\nCommissioning Leader at Enercon (India) Limited\nSkills: project_management: Project Execution, Quality Management, Budget Monitoring; automation: PLC Programming, SCADA Systems; software_tools: SAP, Microsoft Visio",
+    "text_length": 576,
+    "word_count": 69,
+    "extraction_status": "success",
+    "category": "Operations Manager",
+    "status": "extracted"
+  },
+  {
+    "candidate_id": "CAND_005",
+    "raw_text": "Python Developer at Atos Syntel\nSkills: programming_languages: Python; frameworks: Django; databases: MySQL",
+    "text_length": 107,
+    "word_count": 12,
+    "extraction_status": "success",
+    "category": "Software Developer",
+    "status": "extracted"
+  }
+]

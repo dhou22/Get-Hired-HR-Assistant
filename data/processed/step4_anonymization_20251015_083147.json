@@ -1,0 +1,382 @@
+[
+  {
+    "candidate_id": "CAND_001",
+    "anonymized_text": "python developer experience python, tensorflow, numpy, c++, mysql, various platforms. python developer fresher skills programming languages python, c++, frameworks tensorflow, numpy databases mysql cloud unknown",
+    "pii_mapping": {
+      "candidate_id": "CAND_001",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jSBb_AXG7K1LPODboSEGkNTOtHNRdbrJk4iXAnmxRPjmcNXqtwtuyrtl_VwhH8bwxFH-__59fMZx2lay7sGLGj-MRQYvVHRsdMYSpbCzxVYEdsH1bCs0Cztb0i5Br5QFBuhLr2xOWhx_SjfLTBYfe8JFTDSitaXn7LuuvOds-wDfnQZZ35LB9hW4ouJrdZskGeug6hauCeY2BMba5atsAWJBXIwaRHw1ipkPaQYPaL27rszx98riJDmNCV9CFTvzqQ734Wsh2bjOE-Px5-SrDHk9WCrlBAdsiISF2hy56yhtR1NhV9s3u410g6ucFJ1L0JluBGtWSYG1KseBi-O2qMA==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_002",
+    "anonymized_text": "experienced operations manager expertise project execution, engineering, team coordination. skilled managing contractual commercial issues, ensuring project profitability, maintaining high client satisfaction. operations manager delta controls, dubai fzco project lead honeywell automation india ltd project engineer fox controls commissioning leader enercon india limited skills project management project execution, quality management, budget monitoring automation plc programming, scada systems software tools sap, microsoft visio",
+    "pii_mapping": {
+      "candidate_id": "CAND_002",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703j-1ATyeC-Ij3fZwLx4lntiMV56j6ZYyiOykh0t75Gw5Xddr9iN_-w9tPybwGMscAQPLnwAlRW0F5vtfkp249j3bFGkX6I-M3-7UJ35gXkAWNcQcYXOGEq-F3BPHd6QcmCiXnnPdlmTSJU35VngaR46e4KLtjOxglv3bImithIiFR6Jvct_FewovLg6PkIUAnmQz0jkAPzNQPHoJ_foVseXxy_aoCY6YpLzcNGOo9Jtk1QstRpv-KjvYz0K-S_zlGcVh_b-otf2oMt4wKA-eiBaFszAintuAg7xCuwq2DUKQIGc9qtT2kpaWLWXGt41ZWoEX9OyRcp07sxrOvhcvN6Sw==",
+    "anonymization_status": "success",
+    "category": "Operations Manager",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_003",
+    "anonymized_text": "software proficiency various languages tools. worked several projects including fpga implementation, sorting robot, rfid based student attendance system. devops engineer parkar consulting labs skills programming languages sql, pl/sql, java, javaee, javascript, html, css, jquery, mysql, spring, hibernate, python frameworks not provided databases not provided cloud aws",
+    "pii_mapping": {
+      "candidate_id": "CAND_003",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jiImNpDZ2FngdTzTDsL4YmNUJ7N6qqr_25gNFlwAU1xhY0gg_3hcEPoX7I0xOlL7k5ciHhjNGASvNSji4BBPPO9tN_gaCRX3mqS2ZCoN8N3PwuAThFuBKUHaTlhowci0VOLuP9cBroW0iyHkfNtGxMVf9jSxVxO_Hm5gMnTbHyrW_P2oSjIYbhtmTyD_GM5-uuqN_8aw5E8LgqBUE8A8d0tvQZisUR39HL0xvmb1Q9RmAf8d93l9OrL_Fv1SgMLFr-qKhA7DV5ivz7bF9cdG9QxZ8bMyrm_Dk4D9SP5MHnyGss-uXXdr8xYikmUgRVnqb-GTuGU39zWKe-CLU6y_l4Q==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_004",
+    "anonymized_text": "experienced operations manager expertise project execution, engineering, team coordination. skilled managing contractual commercial issues, ensuring project profitability, maintaining high client satisfaction. operations manager delta controls, dubai fzco project lead honeywell automation india ltd project engineer fox controls commissioning leader enercon india limited skills project management project execution, quality management, budget monitoring automation plc programming, scada systems software tools sap, microsoft visio",
+    "pii_mapping": {
+      "candidate_id": "CAND_004",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jN3Ac55a-J0t6uz_S6a9lbNrCrXk5x3RGxk82mkxSqBuWHhZCohUdPD4nN04M1jtxRseQ5NBqsGtOEDjejTCiMmDnvzWZTQT-wVuS_hJIwUK01_s0HTm-rqd4_wDe_rbvtQXRB6YlMAuo1SegJkWzYhhOIA2i2pqX4u31CzwDFnHIxuwkFHAgIIVvq3Vz1_HMzBinrjpChXlDnkgZYMOKpMsyCabuRSKc1m_lG87rheIkPWKITsJPS9rD40c5KnPlJUNmN4o_acC7gi2x-ifxZzpKiOvML6F7Wq9AXIYWZ0j58aDWLsdVjvz-SkSRaTmml7Sv7RrvBpnfzkrR0FuCvQ==",
+    "anonymization_status": "success",
+    "category": "Operations Manager",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_005",
+    "anonymized_text": "python developer atos syntel skills programming languages python frameworks django databases mysql",
+    "pii_mapping": {
+      "candidate_id": "CAND_005",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jvtPSacGo4ILMAt4LF3Bh1vbGOy33I_07WuQD2zFcFHZ_Mg8vJ426JzYJkbxIPcpO4pL7sf_lpBIDUL3nR3oWST5A6GfprLB70RjStBiunFZh4-pLf1tzR_TYPcUdRCLaSKnqPw5Gy0Ds78MeWCKsj9LffTZRBoAeHtK9pJ78-_p0i_3A4ne7fnWscMYifz41QvTM2R9Q92L9dw5qS_siy3HPhLrm79DKbuOuhrmVMjqbQpnL3xp_MhG3oawumUj-6EotUnthSfGz7qHEMxX0vD_fG80WOD0_4_HHStyDJ51YasUaQd9jWajhQyjDuVOf1zuIc44EqV5TRI_cq2OA9A==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_006",
+    "anonymized_text": "python developer cybage software pvt. ltd skills programming languages python",
+    "pii_mapping": {
+      "candidate_id": "CAND_006",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703j-YsYx-dddWMz5GK7WgRuzIA4IPHh5j5_U2hYo3TZHOjNIgWS-UFvRRvoojvK3324AkhcownNFMQWrr9vO1E8EoISH3yTqms0gt75ZsUJ_iEbGyMfCXjcchoCz47WLsaRwDN0z-ZyimBut640JY86E2hoY0u8dpac8In4Z3Z9HKuJjAuJZlrhIZADSXuu9s-NgXwRQGx7v5mrwi5PZHY12okoibCIAYLmmNmIVrT533ULz8K_eYzsFMNfnlg8QHYtzvqLUCpQSa1dnqqO9gKFJWkR13LL3igsqDT9dJFQ5MZvEyzmfCYwfupNoiKWmZXik237uxHcopkVttx8Xm5rzQ==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_007",
+    "anonymized_text": "java developer inouvelle ventures private limited skills programming languages c++, j2ee frameworks spring, hibernate databases sql, postgresql",
+    "pii_mapping": {
+      "candidate_id": "CAND_007",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jaNw7T7cELccksE34hOI9RxTNSGMhhhturuDBffu-FtF-GlgU26J8FiF3hq792V3g-NQkdCHjkVOS0FVMS6ndZwxaTQPZNx1-rczhJcLVpR6uQPqbCJFSvqboAiMe3kPXZcxvXiSmI8H6nNuvnJtoQKi2A9h6LCGPzbrJ1j20V_eo2T9HkW2RC_TZqxxHD9nqNgHZEvkKAMde2wCmlSwgMWDI8hbCFSQ7YkjJGISPqmbXOZDX1lHamo9msK19HZKY2CuJ_CmjziLXylfLAQHdgSvsoj-qZrdR2jG2FQW0wXHKrblGyTCBlrKCqMyXWDJhZdunTgqH0riAA3ON0ns8zQ==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_008",
+    "anonymized_text": "experienced java developer expertise jsp, servlets, spring, hibernate, front-end technologies like html, css, javascript, jquery. proficient mysql development tools such eclipse netbeans. java developer kunal services pvt ltd java developer winsol solution pvt ltd skills programming languages java frameworks spring, hibernate databases mysql",
+    "pii_mapping": {
+      "candidate_id": "CAND_008",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703j2ju724_DE9foRBsmbKvJRbJsmk73SKy2xeGlfIPJakLpOCwqah2WEl1lB1dr3LXOzRfT78ZcGkwhJ0znIrOFklK1R5qJkNDnZLtOMZQQ4o6BhVps0KAOG2oDv8YhJadkmN-QTm2RNRQpNhKdGBsFTKj8WmVskx7FQs78LMG7bB-3UrTL6ckQzwt1EyXj9Z0jMUiOb-ez5TtNjCM_FX1FWCCeBxeNZvlapSjFavI6UZznP8cIIlHk1SYHtLlJ2XFP9sYj0oXSVaQSknRXH_ijbDg7BOc8r7L97YHySA-C8iWV9lifvgCmwteaEULbczkU6BnPXM95nC3l8Hb-mHWjtg==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_009",
+    "anonymized_text": "java developer xoriant solutions pvt ltd skills programming languages java, sql, pl/sql, c++ frameworks jsp, ext databases oracle, ms-sql, ms-access, ms-excel",
+    "pii_mapping": {
+      "candidate_id": "CAND_009",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703j1orrkk19aVUxHCQyyx9Ik1fzypWcuYIR27aWzO7Q1nQmrb49cPw2okZo-YawIfVdr5uPqAAJCQqwkuExxbSQPnCBhyVTxi_OnNh6mqn7O-LxsJ3qUeXjBhB5um4EUIFd0TM5_tn98nLn2tpuwdDsPFBCrmIz6CVao9DGO9W7YknOzu7MA3VxIT0DnlOMWD9w72X6T-BfRsn_vpRq5ut3_wwawYp3az8I2ADmY2IWdliorJVOmUJZDqyS0XBYBP1HDzRviMJfc8XHdX5VjdzeCmeD7fgeiSPHWYgEizbrTelwIKFHTn2VZtlKARvgpHtHv5vGRxlnRwOWtKRODTbuTA==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_010",
+    "anonymized_text": "jr. java developer wab software pvt. ltd. skills programming languages java, javascript",
+    "pii_mapping": {
+      "candidate_id": "CAND_010",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jvc85E4L5uf9PfYUY7EQJyBQ4fFBvf53-rRhf7vXiPzAPiNAUe_oHE4WhXAHwWV4tLc9RhzNLDKVNcrmxkaOkM7htVa1LLrOrWFuOzLugH8STyrzCvq9lcIX8QCPPoYt3tejvDLLpw9CW51oGDeubiIUf_9XRKoj5gSZEoDqXnhMBiVsgS2ALm22pKXPbw6ydfvwQfDynCHcJ_Rsj_ghDp-JiyYZ_eZMMCUjKgJh-0ta3KRVbhmGc2i33reDw28UaUFgTNNJJ2Vp5cvqu329iH94TzBTWJdFlutfAx26Wl9TdEln49UU_ch9TIRRg4pe__ojdiz2QsIllz6CWUcbqkw==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_011",
+    "anonymized_text": "devops engineer experience various devops methodologies tools. devops engineer nendrasys technologies pvt ltd skills programming languages core java frameworks unknown databases unknown cloud unknown",
+    "pii_mapping": {
+      "candidate_id": "CAND_011",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703j_AI4GCKQbq6s26rctjplWpdUzL_Must0ZXbUh-p_Cmj0aWKmmiqoqt-KWoOqUjI04xXedzylxPeQCX-hNII_nFtCiIEq5hUNDEgbrF_LA72UGNKkbWgHjGugu2CmcsygtIAlb5pNs5hpqaPQOY6sKSulH7EqXQLXc1H0pJyCG7ZnLw1ZgenYSIRxS_qIWueTS0l7EZINUK7R_xSxuH3Rq2TtP8GNYGKrX3uvrxES28vHGbwlV5rHtaJkXtQJhLK0bDS2Gmjz24LllvyA9H7U35e6p2k_GQTVeeA2MWJt4JB0Is3aMGuTnFXzgkSHXUZix06e8V3MiJNJe-xskgBtZg==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_012",
+    "anonymized_text": "java developer tech mahindra java developer tech mahindra skills programming languages java, j2ee, swift, html, shell script databases mysql",
+    "pii_mapping": {
+      "candidate_id": "CAND_012",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703j-wf9setYMNc15PdpqR1e9EIMEWoVeJUmVx1ksFjLD4FWvbXyCicnSn8qJ_6SJzU492nTULlXJSPQUGkdvWy_o5NHw_TDHcTDlaXDsiRNczEMDarZzFmhmOpezC1ULlhO36fxql61JlS31627hhqxsf7fCCU6rtwUbafGQeSf-DBXfbFhQgwI1EQujqhmRRsdQ4QS9DmsRqqQ7LTErFghvlwsNRjz713-Fsy8GHmTmcr91YBvRkhXgdO9frGx8VIE1ypf_nK2JwiWSC5dRTkRm3e9GoZhvvS7_xOA-tfRfCJFGB7oPi8YxLvrJDChSK-j7lXzV5eQTBdQGduwT4C89w==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_013",
+    "anonymized_text": "iabac certified data scientist versatile experience over years managing business, data science consulting leading innovation projects, bringing business ideas working real world solutions. being strong advocator augmented era, where human capabilities are enhanced machines, fahed passionate about bringing business concepts area machine learning, ai, robotics etc., real life solutions. data science consultant datamites none heretic solutions pvt ltd skills programming languages python, studio frameworks machine learning, data visualization, tableau",
+    "pii_mapping": {
+      "candidate_id": "CAND_013",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jOs5Q38i1gkyMmkALQ4tob-jQyEs1qnAksJ4I08kWEeq7dEhvbKytUMnGpt--n1JC7ICqOXdf3JI-cG63JmEQi2uIDWwVthQaPtMG7W70YDwWH_EEdbM2j4QcsBVOfhWm6Lf0o9Yivuj6fLQgzwmIxn_3Rrpv6ulALK9jinMbiTK7CnL8ACmMd1O47zCa9eZ9Y_SO5SfYiKvi_aEp4mW9JtVn1M8R_dL2DlsdO5cG693HO1y0WIU7kKAEJzUwVuM0Zj7gPuCL9kIRc58RXvX3ma0cgioatvIXgWKne_MxQM9rc13Um3IQx9Trzf-uobcnIb8aNl1zmrS7g7-hEeCLTQ==",
+    "anonymization_status": "success",
+    "category": "Data Science Consultant",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_014",
+    "anonymized_text": "python developer/analyst python developer/analyst ace power python developer/analyst kranti dynamics skills programming languages python, c++, java, html frameworks django databases mysql cloud unknown",
+    "pii_mapping": {
+      "candidate_id": "CAND_014",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jM0dMpDIPDCCHvZE_tT2GOKKe9S5VclZytYB_Nfn6GW7ikCIIA-hBqFElGaMfZ8jndDa1lZo45_A6e64BAlRcOV0LUnUlnlAeiSgnXhCs6cvK15c1I9yxB8bHXDyaE2Z85OjVyYZLtN_SJXs9Dg5TXSEOcQF3lCwr7URnpsVy33pGfMQMBKRFiAAGxGxqb-COTVlLKETxXa2iXW-ffcIqFLTfhN7NzDKzE8FF9NXRtJN1nrVOVfMHhGNPKWi8hAZS8ijkkLEmE_OdpTzaK-k4LnzrQ4pw_zpj2txlXFUjziELVUBntedD5Ug7EFhGGsE0hGQ9TRA0-ex3Yc4nAE0Wjw==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_015",
+    "anonymized_text": "java developer experience hibernate, jsp, servlets. passionate about software development programming. java developer maxgen technologies pvt. ltd. trainer prakshal academy skills programming languages java, c++ frameworks hibernate, jsp, servlets databases sql, mysql, oracle 9i, oracle 10g",
+    "pii_mapping": {
+      "candidate_id": "CAND_015",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jkbtQhmWE5ltyjW2UBEgOXf4chyOqdJnGXrbN24lg7WaGCfZnXYxvJ49_SSPB5fCjH9Ef4fNMVW-57huPvvemwD48fePISniZAd5E4WxWJZVe95jMPbO_ShlHd-u1RgVqJs45-pVUEZBf8xzL005n_crOft2yarcnuBFJtZdWgv2ZcHVkBKjDMRXOt1TDH7mTuoidUYiK6YMle5r1NH2Jx2E3Dq45m_gAM2YpIHGzLLySzCTIEYdJgqei4kxq71kuDphg5TjAQG0mMgDr7VO9mlN4y2YTvYhB8E3LeAljBT5Nhxx03UDQb9pA7rUt1KyqyWaIbIKVDmaW6xEG63V1Ig==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_016",
+    "anonymized_text": "iabac certified data scientist versatile experience over years managing business, data science consulting leading innovation projects, bringing business ideas working real world solutions. being strong advocator augmented era, where human capabilities are enhanced machines, fahed passionate about bringing business concepts area machine learning, ai, robotics etc., real life solutions. data science consultant datamites none heretic solutions pvt ltd skills programming languages python, studio frameworks machine learning, data visualization, tableau",
+    "pii_mapping": {
+      "candidate_id": "CAND_016",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jPQxYY1BA9n4FBS4HwfvjPy-WN4Qzvmvv-NskbZvOfMlOLJhW13cOTJl01i0XIFeqStXqmkSZ9wI_sVRd77iUpMSPWCqRzjDSjvw-4RIkfQhuTJv3NA9Sdz19fAiEyiBz-e6Hu_YZIEZxFXV_oP0pXTP0V_mFuZSLbqnPhn-Tkfx9CzP2AVs5qkSVvPwJeeF7XaLCGaQZSsUskpt2dwvwxkZp-3VKITM7qW2B-xDEc3zzRN__ZzUDb2BCl9YXRL5pnFmzO4Utv8U3mdwL16NTqN50beHQbQG8-UB1plO5x259ZlG4pE_ShgcmPe1Ril5Rw4fvmw-5kTCfj72GuQQzVg==",
+    "anonymization_status": "success",
+    "category": "Data Science Consultant",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_017",
+    "anonymized_text": "final year computer science student city, university london strong focus machine learning software engineering. experienced developing ml-powered applications passionate about solving complex technical challenges. project manager skills programming languages python, visual basic 6.0 frameworks selenium, rally ibm platform, safe agile craft databases ms-sql server oracle 8/8i cloud aws, docker",
+    "pii_mapping": {
+      "candidate_id": "CAND_017",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703j70LCCoENxowE6lHcFJvEmvJ-fDkungZCaVbV0v8RqSPet_bniZJAfj2clrM928u-A4rgoqXZ6FQlv4UEkGyL12oXJCNwgC_7oThLPRP1Qzz_SUY4ZqRqltac4ZwII8Iw9_IcjShbG3VVyqnPP0rs3ZBv7PZgOG_XKc85gJJvhDeiM54Maqkp22j_JI1eWCut-btlxch3h3xtd5TfDBhXwL3Ie00JOrs1ufvc0bCORgPdp0XbFnYKCKI8MY8SGFPk7_SYl6W4NBmdi6lJvSbrew_sHGOLXAp6L2RVMYH2AimCALHMS7LVVBGg78oY4T6ObOUoQMznWlfqKNXVfHkyPg==",
+    "anonymization_status": "success",
+    "category": "Project Manager",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_018",
+    "anonymized_text": "cloud operations architect devops experience various technologies platforms. cloud operations architect devops devops skills programming languages python, shell scripting frameworks not provided databases not provided cloud aws, azure",
+    "pii_mapping": {
+      "candidate_id": "CAND_018",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703j7lSEY5fhFq-Alf3poLWUeO4Ou0H0FMvKMLtJWIaUUlBqNRfaYp0FxvIMKcxNw2Gx0LsQ0BfDx_TtKjuW8fGztMbyoYD1skNDEE3U0t7XeNhoK5dlbp2UTP8_udt6FWI6GqpUF5uKydvjC9e11H8kau5EZC7vP4mXZNWeGdLx-oJqf6BhjKku3HNa39jMV8k1reb0nb6QDrQntg5DLpQ_n4Y0UWbMlKloYv_lMTuP1fvgDTq3tlofrzbCy-a9c4NJmHl-1gJkR3t8tq0svdleYHdvOO_KGnTi776cFAFi7NigSkpx1Su0hri_oeomVkculVosqkJKCuJ9kYOqvfiJYQ==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_019",
+    "anonymized_text": "java developer vertical software skills programming languages java frameworks spring, hibernate databases mongodb, mysql",
+    "pii_mapping": {
+      "candidate_id": "CAND_019",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jGIfQ-M1Y1AssSjqTvRQ-MF--JLRSS6xsV2AZK_JtVkxjZGaj1GJUC6PGUeweGolExhgPPiiQR2n4kzD0XCNfbLJBBFVG9vYDB6AyRo6Jw2Fmfs2W4zuC-rzyS0znIBVSXunCsRva73hPeEEur4hBPPeJHl9JJS_a_8bNF6uExq33hD3hLvnhKPLL-MWWBQT5I6-NlGUZWZoszb69mSbrJAXL52p_lcYFxOMVma5XGRAVRS4GVsxfkE4pCBLpHl8rNYPvehyoFldXxORJ66jbJlWRd_2_7sAquYLTpyTVW03thEromTfm65wipHYIyJNbUt4Y_G7z1mNbo_GTd8GX1Q==",
+    "anonymization_status": "success",
+    "category": "Software Developer",
+    "raw_data": null,
+    "status": "anonymized"
+  },
+  {
+    "candidate_id": "CAND_020",
+    "anonymized_text": "microsoft certified systems engineer advocate exceptional knowledge administrative procedures, evidence rules trials. able communicate clearly concisely people diverse backgrounds levels authority. focused driven always meet deadlines pretrial procedures, trials appellate briefings effectively utilizing resources. advocate district courts",
+    "pii_mapping": {
+      "candidate_id": "CAND_020",
+      "original_name": null,
+      "original_email": null,
+      "original_phone": null,
+      "original_address": null,
+      "original_location": null,
+      "original_linkedin": null,
+      "original_github": null
+    },
+    "encrypted_pii": "gAAAAABo703jWjbKZhr_AXofaj1LSOZMm6A8oi9DAljipF9DLjGlnc-jAvJUlDNj9qtkQTe-4KUcgYsesVVDevZ20EWmd7mzviyIS0Zm4VSUnfXOz8O82NYGhGhztiv0gcDr-KWJTYxheLlK9Jz0GRUPnSfX5huneJzxOv2yiC8GoAlcN-19SbLUEoT8BSnJEjYHDdcQry4coULIm1_oBfL1USHarZdkum9U1bzpHgko4ebqUeEo1vmvbyTxaogeh3kXnYRMTHWzB19S8G0a1dxHaPfIsvH6sRaolxIXahDeTwjt-TlS7tPZXOCRSS7VRoS8nP9CfROQsxdnD9tfhE1oMk4Ul-z_Aw==",
+    "anonymization_status": "success",
+    "category": "Advocate",
+    "raw_data": null,
+    "status": "anonymized"
+  }
+]

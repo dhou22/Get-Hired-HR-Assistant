@@ -1,0 +1,1578 @@
+2025-10-15 08:16:49,464 - __main__ - INFO - ================================================================================
+2025-10-15 08:16:52,816 - __main__ - INFO - RESUME PROCESSING PIPELINE - START
+2025-10-15 08:16:52,817 - __main__ - INFO - ================================================================================
+2025-10-15 08:16:52,818 - __main__ - INFO - Configuration:
+2025-10-15 08:16:52,818 - __main__ - INFO -   - Resumes to process: 100
+2025-10-15 08:16:52,818 - __main__ - INFO -   - Starting from step: 1
+2025-10-15 08:16:52,819 - __main__ - INFO -   - Use checkpoints: True
+2025-10-15 08:16:52,820 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:16:52,820 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:16:52,820 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:16:52,821 - __main__ - INFO - ================================================================================
+2025-10-15 08:16:52,821 - __main__ - INFO - 
+[STEP 1/6] Fetching HuggingFace Dataset
+2025-10-15 08:16:52,821 - src.step1_fetch_data - INFO - Fetching 100 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:17:46,857 - __main__ - INFO - ================================================================================
+2025-10-15 08:17:46,858 - __main__ - INFO - RESUME PROCESSING PIPELINE - START
+2025-10-15 08:17:46,858 - __main__ - INFO - ================================================================================
+2025-10-15 08:17:46,858 - __main__ - INFO - Configuration:
+2025-10-15 08:17:46,858 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:17:46,858 - __main__ - INFO -   - Starting from step: 1
+2025-10-15 08:17:46,858 - __main__ - INFO -   - Use checkpoints: True
+2025-10-15 08:17:46,858 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:17:46,858 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:17:46,858 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:17:46,858 - __main__ - INFO - ================================================================================
+2025-10-15 08:17:46,858 - __main__ - INFO - 
+[STEP 1/6] Fetching HuggingFace Dataset
+2025-10-15 08:17:46,858 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:18:02,255 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:18:02,255 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:18:02,255 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:18:02,256 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:18:02,256 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:18:02,256 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:18:02,256 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:18:02,256 - src.step1_fetch_data - INFO - Duration: 15.40s
+2025-10-15 08:18:02,256 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:18:02,263 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_081802.json
+2025-10-15 08:18:02,263 - __main__ - INFO - 
+[STEP 2/6] Extracting Text from Resumes
+2025-10-15 08:18:02,263 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:18:02,264 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:18:02,265 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_081802.json
+2025-10-15 08:18:02,265 - __main__ - INFO - 
+[STEP 3/6] Cleaning and Preprocessing Text
+2025-10-15 08:18:02,265 - src.step3_clean_text - INFO - Starting text cleaning for 20 resumes
+2025-10-15 08:18:02,266 - src.step3_clean_text - WARNING - spaCy model not found. Run: python -m spacy download en_core_web_sm
+2025-10-15 08:18:02,266 - src.step3_clean_text - INFO - Falling back to basic cleaning
+2025-10-15 08:18:02,267 - src.step3_clean_text - INFO - ============================================================
+STEP: TEXT CLEANING
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:18:02,268 - src.step3_clean_text - INFO - Checkpoint saved: data/processed/step3_cleaning_20251015_081802.json
+2025-10-15 08:18:02,268 - __main__ - INFO - 
+[STEP 4/6] Anonymizing PII
+2025-10-15 08:18:02,268 - src.step4_anonymize_pii - INFO - Starting PII anonymization for 20 resumes
+2025-10-15 08:18:02,270 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_001
+2025-10-15 08:18:02,271 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_002
+2025-10-15 08:18:02,271 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_003
+2025-10-15 08:18:02,272 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_004
+2025-10-15 08:18:02,273 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_005
+2025-10-15 08:18:02,273 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_006
+2025-10-15 08:18:02,274 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_007
+2025-10-15 08:18:02,274 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_008
+2025-10-15 08:18:02,274 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_009
+2025-10-15 08:18:02,274 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_010
+2025-10-15 08:18:02,275 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_011
+2025-10-15 08:18:02,275 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_012
+2025-10-15 08:18:02,276 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_013
+2025-10-15 08:18:02,276 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_014
+2025-10-15 08:18:02,277 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_015
+2025-10-15 08:18:02,277 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_016
+2025-10-15 08:18:02,277 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_017
+2025-10-15 08:18:02,278 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_018
+2025-10-15 08:18:02,278 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_019
+2025-10-15 08:18:02,278 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_020
+2025-10-15 08:18:02,278 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:18:02,278 - src.step4_anonymize_pii - INFO - STEP: PII ANONYMIZATION
+2025-10-15 08:18:02,278 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:18:02,278 - src.step4_anonymize_pii - INFO - Total Items: 20
+2025-10-15 08:18:02,278 - src.step4_anonymize_pii - INFO - Successful: 20
+2025-10-15 08:18:02,279 - src.step4_anonymize_pii - INFO - Failed: 0
+2025-10-15 08:18:02,279 - src.step4_anonymize_pii - INFO - Skipped: 0
+2025-10-15 08:18:02,279 - src.step4_anonymize_pii - INFO - Success Rate: 100.0%
+2025-10-15 08:18:02,279 - src.step4_anonymize_pii - INFO - Duration: 0.01s
+2025-10-15 08:18:02,279 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:18:02,281 - src.step4_anonymize_pii - INFO - Checkpoint saved: data/processed/step4_anonymization_20251015_081802.json
+2025-10-15 08:18:02,281 - __main__ - INFO - 
+[STEP 5/6] Creating Semantic Chunks
+2025-10-15 08:18:02,281 - src.step5_semantic_chunking - INFO - Starting semantic chunking for 20 resumes
+2025-10-15 08:18:02,281 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_001
+2025-10-15 08:18:02,281 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_001
+2025-10-15 08:18:02,282 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_002
+2025-10-15 08:18:02,282 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_003
+2025-10-15 08:18:02,282 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_003
+2025-10-15 08:18:02,282 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_004
+2025-10-15 08:18:02,282 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_005
+2025-10-15 08:18:02,283 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_005
+2025-10-15 08:18:02,283 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_006
+2025-10-15 08:18:02,283 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_006
+2025-10-15 08:18:02,284 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_007
+2025-10-15 08:18:02,284 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_007
+2025-10-15 08:18:02,284 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_008
+2025-10-15 08:18:02,284 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_008
+2025-10-15 08:18:02,284 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_009
+2025-10-15 08:18:02,284 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_009
+2025-10-15 08:18:02,284 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_010
+2025-10-15 08:18:02,284 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_010
+2025-10-15 08:18:02,284 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_011
+2025-10-15 08:18:02,285 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_011
+2025-10-15 08:18:02,285 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_012
+2025-10-15 08:18:02,285 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_012
+2025-10-15 08:18:02,285 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_013
+2025-10-15 08:18:02,285 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_014
+2025-10-15 08:18:02,285 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_014
+2025-10-15 08:18:02,286 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_015
+2025-10-15 08:18:02,286 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_015
+2025-10-15 08:18:02,286 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_016
+2025-10-15 08:18:02,286 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_017
+2025-10-15 08:18:02,286 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_017
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_018
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_018
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_019
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_019
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_020
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_020
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - INFO - STEP: SEMANTIC CHUNKING
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:18:02,287 - src.step5_semantic_chunking - INFO - Total Items: 20
+2025-10-15 08:18:02,289 - src.step5_semantic_chunking - INFO - Successful: 4
+2025-10-15 08:18:02,289 - src.step5_semantic_chunking - INFO - Failed: 16
+2025-10-15 08:18:02,289 - src.step5_semantic_chunking - INFO - Total Chunks Created: 4
+2025-10-15 08:18:02,289 - src.step5_semantic_chunking - INFO - Avg Chunks per Resume: 1.0
+2025-10-15 08:18:02,290 - src.step5_semantic_chunking - INFO - Success Rate: 20.0%
+2025-10-15 08:18:02,290 - src.step5_semantic_chunking - INFO - Duration: 0.01s
+2025-10-15 08:18:02,290 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:18:02,291 - src.step5_semantic_chunking - INFO - Checkpoint saved: data/processed/step5_chunking_20251015_081802.json
+2025-10-15 08:18:02,291 - __main__ - INFO - 
+[STEP 6/6] Generating Embeddings
+2025-10-15 08:18:02,291 - src.step6_generate_embeddings - INFO - Starting embedding generation for 4 chunks
+2025-10-15 08:18:02,291 - src.step6_generate_embeddings - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:18:02,292 - src.step6_generate_embeddings - INFO - Using device: cpu
+2025-10-15 08:18:02,294 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-10-15 08:18:06,785 - src.step6_generate_embeddings - INFO - Model loaded successfully
+2025-10-15 08:18:06,786 - src.step6_generate_embeddings - INFO - Embedding dimension: 768
+2025-10-15 08:18:06,786 - src.step6_generate_embeddings - INFO - Generating embeddings for 4 chunks
+2025-10-15 08:18:06,786 - src.step6_generate_embeddings - INFO - Device: cpu
+2025-10-15 08:18:06,787 - src.step6_generate_embeddings - INFO - Batch size: 32
+2025-10-15 08:18:06,787 - src.step6_generate_embeddings - INFO - Processing 4 valid chunks (skipped 0 invalid)
+2025-10-15 08:18:06,787 - src.step6_generate_embeddings - INFO - Encoding texts to embeddings...
+2025-10-15 08:18:07,096 - src.step6_generate_embeddings - INFO - Generated 4 embeddings
+2025-10-15 08:18:07,096 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:18:07,097 - src.step6_generate_embeddings - INFO - STEP: EMBEDDING GENERATION
+2025-10-15 08:18:07,097 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:18:07,097 - src.step6_generate_embeddings - INFO - Total Items: 4
+2025-10-15 08:18:07,097 - src.step6_generate_embeddings - INFO - Successful: 4
+2025-10-15 08:18:07,097 - src.step6_generate_embeddings - INFO - Failed: 0
+2025-10-15 08:18:07,097 - src.step6_generate_embeddings - INFO - Success Rate: 100.0%
+2025-10-15 08:18:07,097 - src.step6_generate_embeddings - INFO - Avg Time per Chunk: 1.2014s
+2025-10-15 08:18:07,097 - src.step6_generate_embeddings - INFO - Total Duration: 4.81s
+2025-10-15 08:18:07,098 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:18:07,101 - src.step6_generate_embeddings - INFO - Checkpoint saved: data/processed/step6_embeddings_20251015_081807.json
+2025-10-15 08:18:07,101 - __main__ - INFO - 
+[STEP 7] Storing in Weaviate Vector Database
+2025-10-15 08:18:07,102 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:18:07,102 - __main__ - INFO - Connecting to Weaviate with API key...
+2025-10-15 08:18:07,117 - __main__ - ERROR - Failed to connect to Weaviate: connect_to_custom() missing 4 required positional arguments: 'http_port', 'grpc_host', 'grpc_port', and 'grpc_secure'
+2025-10-15 08:18:07,117 - __main__ - ERROR - Failed to connect to Weaviate. Skipping storage.
+2025-10-15 08:18:07,117 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:18:07,117 - __main__ - INFO - PIPELINE COMPLETE - FINAL REPORT
+2025-10-15 08:18:07,117 - __main__ - INFO - ================================================================================
+2025-10-15 08:18:07,117 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:18:07,117 - __main__ - INFO - Text Extracted: 20/20
+2025-10-15 08:18:07,118 - __main__ - INFO - Text Cleaned: 20/20
+2025-10-15 08:18:07,118 - __main__ - INFO - PII Anonymized: 20/20
+2025-10-15 08:18:07,118 - __main__ - INFO - Chunks Created: 4
+2025-10-15 08:18:07,118 - __main__ - INFO - Embeddings Generated: 4/4
+2025-10-15 08:18:07,118 - __main__ - INFO - Embedding Dimension: 768
+2025-10-15 08:18:07,118 - __main__ - INFO - 
+Total Duration: 20.26s
+2025-10-15 08:18:07,119 - __main__ - INFO - ================================================================================
+2025-10-15 08:18:07,123 - __main__ - INFO - 
+Final output saved to: data/processed/final_output_20251015_081807.json
+2025-10-15 08:24:49,244 - __main__ - INFO - ================================================================================
+2025-10-15 08:24:49,245 - __main__ - INFO - RESUME PROCESSING PIPELINE - START
+2025-10-15 08:24:49,245 - __main__ - INFO - ================================================================================
+2025-10-15 08:24:49,245 - __main__ - INFO - Configuration:
+2025-10-15 08:24:49,245 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:24:49,245 - __main__ - INFO -   - Starting from step: 1
+2025-10-15 08:24:49,245 - __main__ - INFO -   - Use checkpoints: True
+2025-10-15 08:24:49,245 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:24:49,245 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:24:49,245 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:24:49,245 - __main__ - INFO - ================================================================================
+2025-10-15 08:24:49,246 - __main__ - INFO - 
+[STEP 1/6] Fetching HuggingFace Dataset
+2025-10-15 08:24:49,246 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:24:57,917 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:24:57,917 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:24:57,917 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:24:57,917 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:24:57,917 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:24:57,918 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:24:57,918 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:24:57,919 - src.step1_fetch_data - INFO - Duration: 8.67s
+2025-10-15 08:24:57,919 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:24:57,923 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_082457.json
+2025-10-15 08:24:57,924 - __main__ - INFO - 
+[STEP 2/6] Extracting Text from Resumes
+2025-10-15 08:24:57,924 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:24:57,924 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:24:57,928 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_082457.json
+2025-10-15 08:24:57,929 - __main__ - INFO - 
+[STEP 3/6] Cleaning and Preprocessing Text
+2025-10-15 08:24:57,929 - src.step3_clean_text - INFO - Starting text cleaning for 20 resumes
+2025-10-15 08:24:57,929 - src.step3_clean_text - WARNING - spaCy model not found. Run: python -m spacy download en_core_web_sm
+2025-10-15 08:24:57,930 - src.step3_clean_text - INFO - Falling back to basic cleaning
+2025-10-15 08:24:57,931 - src.step3_clean_text - INFO - ============================================================
+STEP: TEXT CLEANING
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:24:57,932 - src.step3_clean_text - INFO - Checkpoint saved: data/processed/step3_cleaning_20251015_082457.json
+2025-10-15 08:24:57,932 - __main__ - INFO - 
+[STEP 4/6] Anonymizing PII
+2025-10-15 08:24:57,932 - src.step4_anonymize_pii - INFO - Starting PII anonymization for 20 resumes
+2025-10-15 08:24:57,935 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_001
+2025-10-15 08:24:57,936 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_002
+2025-10-15 08:24:57,936 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_003
+2025-10-15 08:24:57,937 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_004
+2025-10-15 08:24:57,937 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_005
+2025-10-15 08:24:57,937 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_006
+2025-10-15 08:24:57,937 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_007
+2025-10-15 08:24:57,938 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_008
+2025-10-15 08:24:57,938 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_009
+2025-10-15 08:24:57,938 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_010
+2025-10-15 08:24:57,939 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_011
+2025-10-15 08:24:57,939 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_012
+2025-10-15 08:24:57,939 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_013
+2025-10-15 08:24:57,939 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_014
+2025-10-15 08:24:57,940 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_015
+2025-10-15 08:24:57,940 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_016
+2025-10-15 08:24:57,941 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_017
+2025-10-15 08:24:57,942 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_018
+2025-10-15 08:24:57,942 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_019
+2025-10-15 08:24:57,942 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_020
+2025-10-15 08:24:57,942 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:24:57,942 - src.step4_anonymize_pii - INFO - STEP: PII ANONYMIZATION
+2025-10-15 08:24:57,943 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:24:57,943 - src.step4_anonymize_pii - INFO - Total Items: 20
+2025-10-15 08:24:57,943 - src.step4_anonymize_pii - INFO - Successful: 20
+2025-10-15 08:24:57,943 - src.step4_anonymize_pii - INFO - Failed: 0
+2025-10-15 08:24:57,943 - src.step4_anonymize_pii - INFO - Skipped: 0
+2025-10-15 08:24:57,943 - src.step4_anonymize_pii - INFO - Success Rate: 100.0%
+2025-10-15 08:24:57,944 - src.step4_anonymize_pii - INFO - Duration: 0.01s
+2025-10-15 08:24:57,944 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:24:57,945 - src.step4_anonymize_pii - INFO - Checkpoint saved: data/processed/step4_anonymization_20251015_082457.json
+2025-10-15 08:24:57,945 - __main__ - INFO - 
+[STEP 5/6] Creating Semantic Chunks
+2025-10-15 08:24:57,946 - src.step5_semantic_chunking - INFO - Starting semantic chunking for 20 resumes
+2025-10-15 08:24:57,946 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_001
+2025-10-15 08:24:57,946 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_001
+2025-10-15 08:24:57,946 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_002
+2025-10-15 08:24:57,946 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_003
+2025-10-15 08:24:57,946 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_003
+2025-10-15 08:24:57,947 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_004
+2025-10-15 08:24:57,947 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_005
+2025-10-15 08:24:57,947 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_005
+2025-10-15 08:24:57,947 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_006
+2025-10-15 08:24:57,948 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_006
+2025-10-15 08:24:57,948 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_007
+2025-10-15 08:24:57,948 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_007
+2025-10-15 08:24:57,948 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_008
+2025-10-15 08:24:57,948 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_008
+2025-10-15 08:24:57,948 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_009
+2025-10-15 08:24:57,949 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_009
+2025-10-15 08:24:57,949 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_010
+2025-10-15 08:24:57,949 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_010
+2025-10-15 08:24:57,949 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_011
+2025-10-15 08:24:57,949 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_011
+2025-10-15 08:24:57,949 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_012
+2025-10-15 08:24:57,950 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_012
+2025-10-15 08:24:57,950 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_013
+2025-10-15 08:24:57,950 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_014
+2025-10-15 08:24:57,950 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_014
+2025-10-15 08:24:57,951 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_015
+2025-10-15 08:24:57,951 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_015
+2025-10-15 08:24:57,951 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_016
+2025-10-15 08:24:57,952 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_017
+2025-10-15 08:24:57,952 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_017
+2025-10-15 08:24:57,952 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_018
+2025-10-15 08:24:57,952 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_018
+2025-10-15 08:24:57,952 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_019
+2025-10-15 08:24:57,952 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_019
+2025-10-15 08:24:57,953 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_020
+2025-10-15 08:24:57,953 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_020
+2025-10-15 08:24:57,953 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:24:57,953 - src.step5_semantic_chunking - INFO - STEP: SEMANTIC CHUNKING
+2025-10-15 08:24:57,953 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:24:57,954 - src.step5_semantic_chunking - INFO - Total Items: 20
+2025-10-15 08:24:57,954 - src.step5_semantic_chunking - INFO - Successful: 4
+2025-10-15 08:24:57,954 - src.step5_semantic_chunking - INFO - Failed: 16
+2025-10-15 08:24:57,954 - src.step5_semantic_chunking - INFO - Total Chunks Created: 4
+2025-10-15 08:24:57,954 - src.step5_semantic_chunking - INFO - Avg Chunks per Resume: 1.0
+2025-10-15 08:24:57,955 - src.step5_semantic_chunking - INFO - Success Rate: 20.0%
+2025-10-15 08:24:57,955 - src.step5_semantic_chunking - INFO - Duration: 0.01s
+2025-10-15 08:24:57,955 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:24:57,956 - src.step5_semantic_chunking - INFO - Checkpoint saved: data/processed/step5_chunking_20251015_082457.json
+2025-10-15 08:24:57,956 - __main__ - INFO - 
+[STEP 6/6] Generating Embeddings
+2025-10-15 08:24:57,956 - src.step6_generate_embeddings - INFO - Starting embedding generation for 4 chunks
+2025-10-15 08:24:57,956 - src.step6_generate_embeddings - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:24:57,957 - src.step6_generate_embeddings - INFO - Using device: cpu
+2025-10-15 08:24:57,958 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-10-15 08:25:02,512 - src.step6_generate_embeddings - INFO - Model loaded successfully
+2025-10-15 08:25:02,513 - src.step6_generate_embeddings - INFO - Embedding dimension: 768
+2025-10-15 08:25:02,513 - src.step6_generate_embeddings - INFO - Generating embeddings for 4 chunks
+2025-10-15 08:25:02,513 - src.step6_generate_embeddings - INFO - Device: cpu
+2025-10-15 08:25:02,514 - src.step6_generate_embeddings - INFO - Batch size: 32
+2025-10-15 08:25:02,514 - src.step6_generate_embeddings - INFO - Processing 4 valid chunks (skipped 0 invalid)
+2025-10-15 08:25:02,514 - src.step6_generate_embeddings - INFO - Encoding texts to embeddings...
+2025-10-15 08:25:02,805 - src.step6_generate_embeddings - INFO - Generated 4 embeddings
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - STEP: EMBEDDING GENERATION
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - Total Items: 4
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - Successful: 4
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - Failed: 0
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - Success Rate: 100.0%
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - Avg Time per Chunk: 1.2123s
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - Total Duration: 4.85s
+2025-10-15 08:25:02,806 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:25:02,810 - src.step6_generate_embeddings - INFO - Checkpoint saved: data/processed/step6_embeddings_20251015_082502.json
+2025-10-15 08:25:02,810 - __main__ - INFO - 
+[STEP 7] Storing in Weaviate Vector Database
+2025-10-15 08:25:02,810 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:25:04,004 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-10-15 08:25:05,379 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-10-15 08:25:05,800 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 404 Not Found"
+2025-10-15 08:25:06,190 - httpx - INFO - HTTP Request: POST https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema "HTTP/1.1 200 OK"
+2025-10-15 08:25:06,204 - __main__ - INFO - Storing 4 chunks in Weaviate...
+2025-10-15 08:25:06,427 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 200 OK"
+2025-10-15 08:25:06,683 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-10-15 08:25:07,979 - weaviate-client - ERROR - {'message': 'Failed to send all objects in a batch of 4', 'error': 'WeaviateInsertManyAllFailedError("Every object failed during insertion. Here is the set of all errors: invalid date property \'created_at\' on class \'ResumeChunk\': requires a string with a RFC3339 formatted date, but the given value is \'2025-10-15T08:25:06.434033\'")'}
+2025-10-15 08:25:07,980 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-10-15 08:25:07,981 - weaviate-client - ERROR - {'message': 'Failed to send 4 objects in a batch of 4. Please inspect client.batch.failed_objects or collection.batch.failed_objects for the failed objects.'}
+2025-10-15 08:25:08,007 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:25:08,007 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:25:08,008 - __main__ - INFO - PIPELINE COMPLETE - FINAL REPORT
+2025-10-15 08:25:08,008 - __main__ - INFO - ================================================================================
+2025-10-15 08:25:08,009 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:25:08,009 - __main__ - INFO - Text Extracted: 20/20
+2025-10-15 08:25:08,010 - __main__ - INFO - Text Cleaned: 20/20
+2025-10-15 08:25:08,011 - __main__ - INFO - PII Anonymized: 20/20
+2025-10-15 08:25:08,013 - __main__ - INFO - Chunks Created: 4
+2025-10-15 08:25:08,014 - __main__ - INFO - Embeddings Generated: 4/4
+2025-10-15 08:25:08,014 - __main__ - INFO - Embedding Dimension: 768
+2025-10-15 08:25:08,015 - __main__ - INFO - 
+Total Duration: 18.76s
+2025-10-15 08:25:08,016 - __main__ - INFO - ================================================================================
+2025-10-15 08:25:08,021 - __main__ - INFO - 
+Final output saved to: data/processed/final_output_20251015_082508.json
+2025-10-15 08:29:03,908 - __main__ - INFO - ================================================================================
+2025-10-15 08:29:03,908 - __main__ - INFO - RESUME PROCESSING PIPELINE - START
+2025-10-15 08:29:03,908 - __main__ - INFO - ================================================================================
+2025-10-15 08:29:03,908 - __main__ - INFO - Configuration:
+2025-10-15 08:29:03,908 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:29:03,908 - __main__ - INFO -   - Starting from step: 1
+2025-10-15 08:29:03,909 - __main__ - INFO -   - Use checkpoints: True
+2025-10-15 08:29:03,909 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:29:03,909 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:29:03,909 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:29:03,909 - __main__ - INFO - ================================================================================
+2025-10-15 08:29:03,909 - __main__ - INFO - 
+[STEP 1/6] Fetching HuggingFace Dataset
+2025-10-15 08:29:03,910 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:29:08,369 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:29:08,370 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:29:08,370 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:29:08,371 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:29:08,371 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:29:08,372 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:29:08,372 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:29:08,373 - src.step1_fetch_data - INFO - Duration: 4.46s
+2025-10-15 08:29:08,373 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:29:08,378 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_082908.json
+2025-10-15 08:29:08,379 - __main__ - INFO - 
+[STEP 2/6] Extracting Text from Resumes
+2025-10-15 08:29:08,381 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:29:08,381 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:29:08,383 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_082908.json
+2025-10-15 08:29:08,384 - __main__ - INFO - 
+[STEP 3/6] Cleaning and Preprocessing Text
+2025-10-15 08:29:08,384 - src.step3_clean_text - INFO - Starting text cleaning for 20 resumes
+2025-10-15 08:29:08,384 - src.step3_clean_text - WARNING - spaCy model not found. Run: python -m spacy download en_core_web_sm
+2025-10-15 08:29:08,385 - src.step3_clean_text - INFO - Falling back to basic cleaning
+2025-10-15 08:29:08,387 - src.step3_clean_text - INFO - ============================================================
+STEP: TEXT CLEANING
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:29:08,390 - src.step3_clean_text - INFO - Checkpoint saved: data/processed/step3_cleaning_20251015_082908.json
+2025-10-15 08:29:08,390 - __main__ - INFO - 
+[STEP 4/6] Anonymizing PII
+2025-10-15 08:29:08,390 - src.step4_anonymize_pii - INFO - Starting PII anonymization for 20 resumes
+2025-10-15 08:29:08,393 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_001
+2025-10-15 08:29:08,394 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_002
+2025-10-15 08:29:08,394 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_003
+2025-10-15 08:29:08,395 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_004
+2025-10-15 08:29:08,396 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_005
+2025-10-15 08:29:08,397 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_006
+2025-10-15 08:29:08,398 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_007
+2025-10-15 08:29:08,398 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_008
+2025-10-15 08:29:08,399 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_009
+2025-10-15 08:29:08,399 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_010
+2025-10-15 08:29:08,399 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_011
+2025-10-15 08:29:08,399 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_012
+2025-10-15 08:29:08,400 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_013
+2025-10-15 08:29:08,401 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_014
+2025-10-15 08:29:08,401 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_015
+2025-10-15 08:29:08,402 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_016
+2025-10-15 08:29:08,403 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_017
+2025-10-15 08:29:08,403 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_018
+2025-10-15 08:29:08,403 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_019
+2025-10-15 08:29:08,405 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_020
+2025-10-15 08:29:08,410 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:29:08,410 - src.step4_anonymize_pii - INFO - STEP: PII ANONYMIZATION
+2025-10-15 08:29:08,411 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:29:08,411 - src.step4_anonymize_pii - INFO - Total Items: 20
+2025-10-15 08:29:08,411 - src.step4_anonymize_pii - INFO - Successful: 20
+2025-10-15 08:29:08,412 - src.step4_anonymize_pii - INFO - Failed: 0
+2025-10-15 08:29:08,412 - src.step4_anonymize_pii - INFO - Skipped: 0
+2025-10-15 08:29:08,413 - src.step4_anonymize_pii - INFO - Success Rate: 100.0%
+2025-10-15 08:29:08,413 - src.step4_anonymize_pii - INFO - Duration: 0.02s
+2025-10-15 08:29:08,414 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:29:08,416 - src.step4_anonymize_pii - INFO - Checkpoint saved: data/processed/step4_anonymization_20251015_082908.json
+2025-10-15 08:29:08,416 - __main__ - INFO - 
+[STEP 5/6] Creating Semantic Chunks
+2025-10-15 08:29:08,418 - src.step5_semantic_chunking - INFO - Starting semantic chunking for 20 resumes
+2025-10-15 08:29:08,418 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_001
+2025-10-15 08:29:08,419 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_001
+2025-10-15 08:29:08,419 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_002
+2025-10-15 08:29:08,419 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_003
+2025-10-15 08:29:08,419 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_003
+2025-10-15 08:29:08,420 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_004
+2025-10-15 08:29:08,421 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_005
+2025-10-15 08:29:08,422 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_005
+2025-10-15 08:29:08,422 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_006
+2025-10-15 08:29:08,422 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_006
+2025-10-15 08:29:08,423 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_007
+2025-10-15 08:29:08,423 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_007
+2025-10-15 08:29:08,424 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_008
+2025-10-15 08:29:08,424 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_008
+2025-10-15 08:29:08,425 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_009
+2025-10-15 08:29:08,425 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_009
+2025-10-15 08:29:08,427 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_010
+2025-10-15 08:29:08,428 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_010
+2025-10-15 08:29:08,429 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_011
+2025-10-15 08:29:08,429 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_011
+2025-10-15 08:29:08,429 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_012
+2025-10-15 08:29:08,429 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_012
+2025-10-15 08:29:08,430 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_013
+2025-10-15 08:29:08,430 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_014
+2025-10-15 08:29:08,430 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_014
+2025-10-15 08:29:08,431 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_015
+2025-10-15 08:29:08,431 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_015
+2025-10-15 08:29:08,431 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_016
+2025-10-15 08:29:08,431 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_017
+2025-10-15 08:29:08,432 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_017
+2025-10-15 08:29:08,432 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_018
+2025-10-15 08:29:08,432 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_018
+2025-10-15 08:29:08,432 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_019
+2025-10-15 08:29:08,432 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_019
+2025-10-15 08:29:08,433 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_020
+2025-10-15 08:29:08,433 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_020
+2025-10-15 08:29:08,433 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:29:08,433 - src.step5_semantic_chunking - INFO - STEP: SEMANTIC CHUNKING
+2025-10-15 08:29:08,433 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:29:08,433 - src.step5_semantic_chunking - INFO - Total Items: 20
+2025-10-15 08:29:08,434 - src.step5_semantic_chunking - INFO - Successful: 4
+2025-10-15 08:29:08,434 - src.step5_semantic_chunking - INFO - Failed: 16
+2025-10-15 08:29:08,435 - src.step5_semantic_chunking - INFO - Total Chunks Created: 4
+2025-10-15 08:29:08,435 - src.step5_semantic_chunking - INFO - Avg Chunks per Resume: 1.0
+2025-10-15 08:29:08,435 - src.step5_semantic_chunking - INFO - Success Rate: 20.0%
+2025-10-15 08:29:08,436 - src.step5_semantic_chunking - INFO - Duration: 0.02s
+2025-10-15 08:29:08,436 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:29:08,438 - src.step5_semantic_chunking - INFO - Checkpoint saved: data/processed/step5_chunking_20251015_082908.json
+2025-10-15 08:29:08,438 - __main__ - INFO - 
+[STEP 6/6] Generating Embeddings
+2025-10-15 08:29:08,438 - src.step6_generate_embeddings - INFO - Starting embedding generation for 4 chunks
+2025-10-15 08:29:08,438 - src.step6_generate_embeddings - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:29:08,438 - src.step6_generate_embeddings - INFO - Using device: cpu
+2025-10-15 08:29:08,442 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-10-15 08:29:12,997 - src.step6_generate_embeddings - INFO - Model loaded successfully
+2025-10-15 08:29:12,998 - src.step6_generate_embeddings - INFO - Embedding dimension: 768
+2025-10-15 08:29:12,998 - src.step6_generate_embeddings - INFO - Generating embeddings for 4 chunks
+2025-10-15 08:29:13,000 - src.step6_generate_embeddings - INFO - Device: cpu
+2025-10-15 08:29:13,000 - src.step6_generate_embeddings - INFO - Batch size: 32
+2025-10-15 08:29:13,000 - src.step6_generate_embeddings - INFO - Processing 4 valid chunks (skipped 0 invalid)
+2025-10-15 08:29:13,001 - src.step6_generate_embeddings - INFO - Encoding texts to embeddings...
+2025-10-15 08:29:13,416 - src.step6_generate_embeddings - INFO - Generated 4 embeddings
+2025-10-15 08:29:13,417 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:29:13,417 - src.step6_generate_embeddings - INFO - STEP: EMBEDDING GENERATION
+2025-10-15 08:29:13,417 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:29:13,417 - src.step6_generate_embeddings - INFO - Total Items: 4
+2025-10-15 08:29:13,417 - src.step6_generate_embeddings - INFO - Successful: 4
+2025-10-15 08:29:13,418 - src.step6_generate_embeddings - INFO - Failed: 0
+2025-10-15 08:29:13,418 - src.step6_generate_embeddings - INFO - Success Rate: 100.0%
+2025-10-15 08:29:13,418 - src.step6_generate_embeddings - INFO - Avg Time per Chunk: 1.2448s
+2025-10-15 08:29:13,418 - src.step6_generate_embeddings - INFO - Total Duration: 4.98s
+2025-10-15 08:29:13,418 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:29:13,424 - src.step6_generate_embeddings - INFO - Checkpoint saved: data/processed/step6_embeddings_20251015_082913.json
+2025-10-15 08:29:13,424 - __main__ - INFO - 
+[STEP 7] Storing in Weaviate Vector Database
+2025-10-15 08:29:13,424 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:29:14,158 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-10-15 08:29:15,322 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-10-15 08:29:15,878 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 200 OK"
+2025-10-15 08:29:15,886 - __main__ - INFO - Collection 'ResumeChunk' already exists
+2025-10-15 08:29:15,887 - __main__ - INFO - Storing 4 chunks in Weaviate...
+2025-10-15 08:29:16,229 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 200 OK"
+2025-10-15 08:29:16,456 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-10-15 08:29:17,771 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-10-15 08:29:17,816 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:29:17,816 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:29:17,816 - __main__ - INFO - PIPELINE COMPLETE - FINAL REPORT
+2025-10-15 08:29:17,817 - __main__ - INFO - ================================================================================
+2025-10-15 08:29:17,817 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:29:17,818 - __main__ - INFO - Text Extracted: 20/20
+2025-10-15 08:29:17,819 - __main__ - INFO - Text Cleaned: 20/20
+2025-10-15 08:29:17,819 - __main__ - INFO - PII Anonymized: 20/20
+2025-10-15 08:29:17,820 - __main__ - INFO - Chunks Created: 4
+2025-10-15 08:29:17,820 - __main__ - INFO - Embeddings Generated: 4/4
+2025-10-15 08:29:17,820 - __main__ - INFO - Embedding Dimension: 768
+2025-10-15 08:29:17,821 - __main__ - INFO - 
+Total Duration: 13.91s
+2025-10-15 08:29:17,821 - __main__ - INFO - ================================================================================
+2025-10-15 08:29:17,827 - __main__ - INFO - 
+Final output saved to: data/processed/final_output_20251015_082917.json
+2025-10-15 08:31:43,095 - __main__ - INFO - ================================================================================
+2025-10-15 08:31:43,096 - __main__ - INFO - RESUME PROCESSING PIPELINE - START
+2025-10-15 08:31:43,096 - __main__ - INFO - ================================================================================
+2025-10-15 08:31:43,096 - __main__ - INFO - Configuration:
+2025-10-15 08:31:43,096 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:31:43,096 - __main__ - INFO -   - Starting from step: 1
+2025-10-15 08:31:43,096 - __main__ - INFO -   - Use checkpoints: True
+2025-10-15 08:31:43,096 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:31:43,096 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:31:43,096 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:31:43,096 - __main__ - INFO - ================================================================================
+2025-10-15 08:31:43,096 - __main__ - INFO - 
+[STEP 1/6] Fetching HuggingFace Dataset
+2025-10-15 08:31:43,096 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:31:47,724 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:31:47,724 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:31:47,725 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:31:47,725 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:31:47,725 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:31:47,725 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:31:47,725 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:31:47,726 - src.step1_fetch_data - INFO - Duration: 4.63s
+2025-10-15 08:31:47,726 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:31:47,731 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_083147.json
+2025-10-15 08:31:47,732 - __main__ - INFO - 
+[STEP 2/6] Extracting Text from Resumes
+2025-10-15 08:31:47,732 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:31:47,733 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:31:47,734 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_083147.json
+2025-10-15 08:31:47,734 - __main__ - INFO - 
+[STEP 3/6] Cleaning and Preprocessing Text
+2025-10-15 08:31:47,735 - src.step3_clean_text - INFO - Starting text cleaning for 20 resumes
+2025-10-15 08:31:47,735 - src.step3_clean_text - WARNING - spaCy model not found. Run: python -m spacy download en_core_web_sm
+2025-10-15 08:31:47,736 - src.step3_clean_text - INFO - Falling back to basic cleaning
+2025-10-15 08:31:47,737 - src.step3_clean_text - INFO - ============================================================
+STEP: TEXT CLEANING
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:31:47,738 - src.step3_clean_text - INFO - Checkpoint saved: data/processed/step3_cleaning_20251015_083147.json
+2025-10-15 08:31:47,738 - __main__ - INFO - 
+[STEP 4/6] Anonymizing PII
+2025-10-15 08:31:47,738 - src.step4_anonymize_pii - INFO - Starting PII anonymization for 20 resumes
+2025-10-15 08:31:47,740 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_001
+2025-10-15 08:31:47,741 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_002
+2025-10-15 08:31:47,741 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_003
+2025-10-15 08:31:47,741 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_004
+2025-10-15 08:31:47,741 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_005
+2025-10-15 08:31:47,742 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_006
+2025-10-15 08:31:47,742 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_007
+2025-10-15 08:31:47,742 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_008
+2025-10-15 08:31:47,743 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_009
+2025-10-15 08:31:47,743 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_010
+2025-10-15 08:31:47,744 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_011
+2025-10-15 08:31:47,745 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_012
+2025-10-15 08:31:47,746 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_013
+2025-10-15 08:31:47,746 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_014
+2025-10-15 08:31:47,747 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_015
+2025-10-15 08:31:47,747 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_016
+2025-10-15 08:31:47,748 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_017
+2025-10-15 08:31:47,748 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_018
+2025-10-15 08:31:47,748 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_019
+2025-10-15 08:31:47,748 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_020
+2025-10-15 08:31:47,748 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:31:47,748 - src.step4_anonymize_pii - INFO - STEP: PII ANONYMIZATION
+2025-10-15 08:31:47,749 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:31:47,749 - src.step4_anonymize_pii - INFO - Total Items: 20
+2025-10-15 08:31:47,749 - src.step4_anonymize_pii - INFO - Successful: 20
+2025-10-15 08:31:47,749 - src.step4_anonymize_pii - INFO - Failed: 0
+2025-10-15 08:31:47,750 - src.step4_anonymize_pii - INFO - Skipped: 0
+2025-10-15 08:31:47,750 - src.step4_anonymize_pii - INFO - Success Rate: 100.0%
+2025-10-15 08:31:47,750 - src.step4_anonymize_pii - INFO - Duration: 0.01s
+2025-10-15 08:31:47,750 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:31:47,752 - src.step4_anonymize_pii - INFO - Checkpoint saved: data/processed/step4_anonymization_20251015_083147.json
+2025-10-15 08:31:47,753 - __main__ - INFO - 
+[STEP 5/6] Creating Semantic Chunks
+2025-10-15 08:31:47,753 - src.step5_semantic_chunking - INFO - Starting semantic chunking for 20 resumes
+2025-10-15 08:31:47,753 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_001
+2025-10-15 08:31:47,754 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_001
+2025-10-15 08:31:47,754 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_002
+2025-10-15 08:31:47,754 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_003
+2025-10-15 08:31:47,755 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_003
+2025-10-15 08:31:47,755 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_004
+2025-10-15 08:31:47,755 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_005
+2025-10-15 08:31:47,756 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_005
+2025-10-15 08:31:47,756 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_006
+2025-10-15 08:31:47,756 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_006
+2025-10-15 08:31:47,756 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_007
+2025-10-15 08:31:47,757 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_007
+2025-10-15 08:31:47,757 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_008
+2025-10-15 08:31:47,757 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_008
+2025-10-15 08:31:47,757 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_009
+2025-10-15 08:31:47,757 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_009
+2025-10-15 08:31:47,758 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_010
+2025-10-15 08:31:47,758 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_010
+2025-10-15 08:31:47,758 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_011
+2025-10-15 08:31:47,758 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_011
+2025-10-15 08:31:47,758 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_012
+2025-10-15 08:31:47,758 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_012
+2025-10-15 08:31:47,759 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_013
+2025-10-15 08:31:47,759 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_014
+2025-10-15 08:31:47,759 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_014
+2025-10-15 08:31:47,759 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_015
+2025-10-15 08:31:47,760 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_015
+2025-10-15 08:31:47,760 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_016
+2025-10-15 08:31:47,760 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_017
+2025-10-15 08:31:47,761 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_017
+2025-10-15 08:31:47,761 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_018
+2025-10-15 08:31:47,761 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_018
+2025-10-15 08:31:47,761 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_019
+2025-10-15 08:31:47,761 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_019
+2025-10-15 08:31:47,762 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_020
+2025-10-15 08:31:47,762 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_020
+2025-10-15 08:31:47,762 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:31:47,762 - src.step5_semantic_chunking - INFO - STEP: SEMANTIC CHUNKING
+2025-10-15 08:31:47,762 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:31:47,762 - src.step5_semantic_chunking - INFO - Total Items: 20
+2025-10-15 08:31:47,762 - src.step5_semantic_chunking - INFO - Successful: 4
+2025-10-15 08:31:47,762 - src.step5_semantic_chunking - INFO - Failed: 16
+2025-10-15 08:31:47,763 - src.step5_semantic_chunking - INFO - Total Chunks Created: 4
+2025-10-15 08:31:47,763 - src.step5_semantic_chunking - INFO - Avg Chunks per Resume: 1.0
+2025-10-15 08:31:47,763 - src.step5_semantic_chunking - INFO - Success Rate: 20.0%
+2025-10-15 08:31:47,763 - src.step5_semantic_chunking - INFO - Duration: 0.01s
+2025-10-15 08:31:47,763 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:31:47,764 - src.step5_semantic_chunking - INFO - Checkpoint saved: data/processed/step5_chunking_20251015_083147.json
+2025-10-15 08:31:47,764 - __main__ - INFO - 
+[STEP 6/6] Generating Embeddings
+2025-10-15 08:31:47,764 - src.step6_generate_embeddings - INFO - Starting embedding generation for 4 chunks
+2025-10-15 08:31:47,764 - src.step6_generate_embeddings - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:31:47,764 - src.step6_generate_embeddings - INFO - Using device: cpu
+2025-10-15 08:31:47,767 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-10-15 08:31:51,818 - src.step6_generate_embeddings - INFO - Model loaded successfully
+2025-10-15 08:31:51,819 - src.step6_generate_embeddings - INFO - Embedding dimension: 768
+2025-10-15 08:31:51,819 - src.step6_generate_embeddings - INFO - Generating embeddings for 4 chunks
+2025-10-15 08:31:51,819 - src.step6_generate_embeddings - INFO - Device: cpu
+2025-10-15 08:31:51,820 - src.step6_generate_embeddings - INFO - Batch size: 32
+2025-10-15 08:31:51,820 - src.step6_generate_embeddings - INFO - Processing 4 valid chunks (skipped 0 invalid)
+2025-10-15 08:31:51,821 - src.step6_generate_embeddings - INFO - Encoding texts to embeddings...
+2025-10-15 08:31:52,100 - src.step6_generate_embeddings - INFO - Generated 4 embeddings
+2025-10-15 08:31:52,100 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:31:52,100 - src.step6_generate_embeddings - INFO - STEP: EMBEDDING GENERATION
+2025-10-15 08:31:52,100 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:31:52,100 - src.step6_generate_embeddings - INFO - Total Items: 4
+2025-10-15 08:31:52,101 - src.step6_generate_embeddings - INFO - Successful: 4
+2025-10-15 08:31:52,101 - src.step6_generate_embeddings - INFO - Failed: 0
+2025-10-15 08:31:52,101 - src.step6_generate_embeddings - INFO - Success Rate: 100.0%
+2025-10-15 08:31:52,101 - src.step6_generate_embeddings - INFO - Avg Time per Chunk: 1.084s
+2025-10-15 08:31:52,101 - src.step6_generate_embeddings - INFO - Total Duration: 4.34s
+2025-10-15 08:31:52,101 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:31:52,105 - src.step6_generate_embeddings - INFO - Checkpoint saved: data/processed/step6_embeddings_20251015_083152.json
+2025-10-15 08:31:52,106 - __main__ - INFO - 
+[STEP 7] Storing in Weaviate Vector Database
+2025-10-15 08:31:52,106 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:31:53,024 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-10-15 08:31:54,349 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-10-15 08:31:54,756 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 200 OK"
+2025-10-15 08:31:54,763 - __main__ - INFO - Collection 'ResumeChunk' already exists
+2025-10-15 08:31:54,764 - __main__ - INFO - Storing 4 chunks in Weaviate...
+2025-10-15 08:31:54,998 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 200 OK"
+2025-10-15 08:31:55,293 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-10-15 08:31:56,463 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:31:56,464 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:31:56,464 - __main__ - INFO - PIPELINE COMPLETE - FINAL REPORT
+2025-10-15 08:31:56,465 - __main__ - INFO - ================================================================================
+2025-10-15 08:31:56,465 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:31:56,466 - __main__ - INFO - Text Extracted: 20/20
+2025-10-15 08:31:56,468 - __main__ - INFO - Text Cleaned: 20/20
+2025-10-15 08:31:56,470 - __main__ - INFO - PII Anonymized: 20/20
+2025-10-15 08:31:56,471 - __main__ - INFO - Chunks Created: 4
+2025-10-15 08:31:56,472 - __main__ - INFO - Embeddings Generated: 4/4
+2025-10-15 08:31:56,473 - __main__ - INFO - Embedding Dimension: 768
+2025-10-15 08:31:56,473 - __main__ - INFO - 
+Total Duration: 13.37s
+2025-10-15 08:31:56,474 - __main__ - INFO - ================================================================================
+2025-10-15 08:31:56,489 - __main__ - INFO - 
+Final output saved to: data/processed/final_output_20251015_083156.json
+2025-10-15 08:32:55,047 - __main__ - INFO - ================================================================================
+2025-10-15 08:32:55,047 - __main__ - INFO - RESUME PROCESSING PIPELINE - START
+2025-10-15 08:32:55,047 - __main__ - INFO - ================================================================================
+2025-10-15 08:32:55,047 - __main__ - INFO - Configuration:
+2025-10-15 08:32:55,047 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:32:55,047 - __main__ - INFO -   - Starting from step: 1
+2025-10-15 08:32:55,048 - __main__ - INFO -   - Use checkpoints: True
+2025-10-15 08:32:55,048 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:32:55,048 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:32:55,048 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:32:55,048 - __main__ - INFO - ================================================================================
+2025-10-15 08:32:55,048 - __main__ - INFO - 
+[STEP 1/6] Fetching HuggingFace Dataset
+2025-10-15 08:32:55,049 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:32:59,679 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:32:59,680 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:32:59,680 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:32:59,681 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:32:59,681 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:32:59,681 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:32:59,682 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:32:59,682 - src.step1_fetch_data - INFO - Duration: 4.63s
+2025-10-15 08:32:59,682 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:32:59,688 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_083259.json
+2025-10-15 08:32:59,689 - __main__ - INFO - 
+[STEP 2/6] Extracting Text from Resumes
+2025-10-15 08:32:59,689 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:32:59,690 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:32:59,690 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_083259.json
+2025-10-15 08:32:59,692 - __main__ - INFO - 
+[STEP 3/6] Cleaning and Preprocessing Text
+2025-10-15 08:32:59,692 - src.step3_clean_text - INFO - Starting text cleaning for 20 resumes
+2025-10-15 08:32:59,692 - src.step3_clean_text - WARNING - spaCy model not found. Run: python -m spacy download en_core_web_sm
+2025-10-15 08:32:59,693 - src.step3_clean_text - INFO - Falling back to basic cleaning
+2025-10-15 08:32:59,694 - src.step3_clean_text - INFO - ============================================================
+STEP: TEXT CLEANING
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:32:59,696 - src.step3_clean_text - INFO - Checkpoint saved: data/processed/step3_cleaning_20251015_083259.json
+2025-10-15 08:32:59,696 - __main__ - INFO - 
+[STEP 4/6] Anonymizing PII
+2025-10-15 08:32:59,696 - src.step4_anonymize_pii - INFO - Starting PII anonymization for 20 resumes
+2025-10-15 08:32:59,698 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_001
+2025-10-15 08:32:59,699 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_002
+2025-10-15 08:32:59,699 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_003
+2025-10-15 08:32:59,700 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_004
+2025-10-15 08:32:59,700 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_005
+2025-10-15 08:32:59,700 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_006
+2025-10-15 08:32:59,701 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_007
+2025-10-15 08:32:59,701 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_008
+2025-10-15 08:32:59,701 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_009
+2025-10-15 08:32:59,702 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_010
+2025-10-15 08:32:59,702 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_011
+2025-10-15 08:32:59,702 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_012
+2025-10-15 08:32:59,703 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_013
+2025-10-15 08:32:59,703 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_014
+2025-10-15 08:32:59,703 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_015
+2025-10-15 08:32:59,704 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_016
+2025-10-15 08:32:59,704 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_017
+2025-10-15 08:32:59,704 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_018
+2025-10-15 08:32:59,704 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_019
+2025-10-15 08:32:59,705 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_020
+2025-10-15 08:32:59,705 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:32:59,706 - src.step4_anonymize_pii - INFO - STEP: PII ANONYMIZATION
+2025-10-15 08:32:59,706 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:32:59,706 - src.step4_anonymize_pii - INFO - Total Items: 20
+2025-10-15 08:32:59,706 - src.step4_anonymize_pii - INFO - Successful: 20
+2025-10-15 08:32:59,707 - src.step4_anonymize_pii - INFO - Failed: 0
+2025-10-15 08:32:59,707 - src.step4_anonymize_pii - INFO - Skipped: 0
+2025-10-15 08:32:59,707 - src.step4_anonymize_pii - INFO - Success Rate: 100.0%
+2025-10-15 08:32:59,707 - src.step4_anonymize_pii - INFO - Duration: 0.01s
+2025-10-15 08:32:59,707 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:32:59,708 - src.step4_anonymize_pii - INFO - Checkpoint saved: data/processed/step4_anonymization_20251015_083259.json
+2025-10-15 08:32:59,709 - __main__ - INFO - 
+[STEP 5/6] Creating Semantic Chunks
+2025-10-15 08:32:59,709 - src.step5_semantic_chunking - INFO - Starting semantic chunking for 20 resumes
+2025-10-15 08:32:59,709 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_001
+2025-10-15 08:32:59,709 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_001
+2025-10-15 08:32:59,710 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_002
+2025-10-15 08:32:59,710 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_003
+2025-10-15 08:32:59,710 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_003
+2025-10-15 08:32:59,710 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_004
+2025-10-15 08:32:59,710 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_005
+2025-10-15 08:32:59,711 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_005
+2025-10-15 08:32:59,711 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_006
+2025-10-15 08:32:59,711 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_006
+2025-10-15 08:32:59,711 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_007
+2025-10-15 08:32:59,711 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_007
+2025-10-15 08:32:59,711 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_008
+2025-10-15 08:32:59,713 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_008
+2025-10-15 08:32:59,713 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_009
+2025-10-15 08:32:59,713 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_009
+2025-10-15 08:32:59,713 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_010
+2025-10-15 08:32:59,714 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_010
+2025-10-15 08:32:59,714 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_011
+2025-10-15 08:32:59,714 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_011
+2025-10-15 08:32:59,714 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_012
+2025-10-15 08:32:59,714 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_012
+2025-10-15 08:32:59,714 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_013
+2025-10-15 08:32:59,714 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_014
+2025-10-15 08:32:59,715 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_014
+2025-10-15 08:32:59,715 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_015
+2025-10-15 08:32:59,715 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_015
+2025-10-15 08:32:59,715 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_016
+2025-10-15 08:32:59,716 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_017
+2025-10-15 08:32:59,716 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_017
+2025-10-15 08:32:59,716 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_018
+2025-10-15 08:32:59,716 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_018
+2025-10-15 08:32:59,716 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_019
+2025-10-15 08:32:59,717 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_019
+2025-10-15 08:32:59,717 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_020
+2025-10-15 08:32:59,717 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_020
+2025-10-15 08:32:59,717 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:32:59,717 - src.step5_semantic_chunking - INFO - STEP: SEMANTIC CHUNKING
+2025-10-15 08:32:59,717 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:32:59,718 - src.step5_semantic_chunking - INFO - Total Items: 20
+2025-10-15 08:32:59,718 - src.step5_semantic_chunking - INFO - Successful: 4
+2025-10-15 08:32:59,718 - src.step5_semantic_chunking - INFO - Failed: 16
+2025-10-15 08:32:59,718 - src.step5_semantic_chunking - INFO - Total Chunks Created: 4
+2025-10-15 08:32:59,718 - src.step5_semantic_chunking - INFO - Avg Chunks per Resume: 1.0
+2025-10-15 08:32:59,719 - src.step5_semantic_chunking - INFO - Success Rate: 20.0%
+2025-10-15 08:32:59,720 - src.step5_semantic_chunking - INFO - Duration: 0.01s
+2025-10-15 08:32:59,720 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:32:59,721 - src.step5_semantic_chunking - INFO - Checkpoint saved: data/processed/step5_chunking_20251015_083259.json
+2025-10-15 08:32:59,722 - __main__ - INFO - 
+[STEP 6/6] Generating Embeddings
+2025-10-15 08:32:59,722 - src.step6_generate_embeddings - INFO - Starting embedding generation for 4 chunks
+2025-10-15 08:32:59,722 - src.step6_generate_embeddings - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:32:59,722 - src.step6_generate_embeddings - INFO - Using device: cpu
+2025-10-15 08:32:59,724 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-10-15 08:33:04,515 - src.step6_generate_embeddings - INFO - Model loaded successfully
+2025-10-15 08:33:04,515 - src.step6_generate_embeddings - INFO - Embedding dimension: 768
+2025-10-15 08:33:04,516 - src.step6_generate_embeddings - INFO - Generating embeddings for 4 chunks
+2025-10-15 08:33:04,516 - src.step6_generate_embeddings - INFO - Device: cpu
+2025-10-15 08:33:04,516 - src.step6_generate_embeddings - INFO - Batch size: 32
+2025-10-15 08:33:04,517 - src.step6_generate_embeddings - INFO - Processing 4 valid chunks (skipped 0 invalid)
+2025-10-15 08:33:04,517 - src.step6_generate_embeddings - INFO - Encoding texts to embeddings...
+2025-10-15 08:33:04,816 - src.step6_generate_embeddings - INFO - Generated 4 embeddings
+2025-10-15 08:33:04,816 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:33:04,816 - src.step6_generate_embeddings - INFO - STEP: EMBEDDING GENERATION
+2025-10-15 08:33:04,817 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:33:04,817 - src.step6_generate_embeddings - INFO - Total Items: 4
+2025-10-15 08:33:04,817 - src.step6_generate_embeddings - INFO - Successful: 4
+2025-10-15 08:33:04,817 - src.step6_generate_embeddings - INFO - Failed: 0
+2025-10-15 08:33:04,817 - src.step6_generate_embeddings - INFO - Success Rate: 100.0%
+2025-10-15 08:33:04,817 - src.step6_generate_embeddings - INFO - Avg Time per Chunk: 1.2735s
+2025-10-15 08:33:04,818 - src.step6_generate_embeddings - INFO - Total Duration: 5.09s
+2025-10-15 08:33:04,818 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:33:04,825 - src.step6_generate_embeddings - INFO - Checkpoint saved: data/processed/step6_embeddings_20251015_083304.json
+2025-10-15 08:33:04,825 - __main__ - INFO - 
+[STEP 7] Storing in Weaviate Vector Database
+2025-10-15 08:33:04,826 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:33:05,574 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-10-15 08:33:06,983 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-10-15 08:33:07,387 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 200 OK"
+2025-10-15 08:33:07,393 - __main__ - INFO - Collection 'ResumeChunk' already exists
+2025-10-15 08:33:07,395 - __main__ - INFO - Storing 4 chunks in Weaviate...
+2025-10-15 08:33:07,653 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 200 OK"
+2025-10-15 08:33:07,961 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-10-15 08:33:09,131 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:33:09,132 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:33:09,133 - __main__ - INFO - PIPELINE COMPLETE - FINAL REPORT
+2025-10-15 08:33:09,134 - __main__ - INFO - ================================================================================
+2025-10-15 08:33:09,135 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:33:09,136 - __main__ - INFO - Text Extracted: 20/20
+2025-10-15 08:33:09,139 - __main__ - INFO - Text Cleaned: 20/20
+2025-10-15 08:33:09,141 - __main__ - INFO - PII Anonymized: 20/20
+2025-10-15 08:33:09,142 - __main__ - INFO - Chunks Created: 4
+2025-10-15 08:33:09,144 - __main__ - INFO - Embeddings Generated: 4/4
+2025-10-15 08:33:09,145 - __main__ - INFO - Embedding Dimension: 768
+2025-10-15 08:33:09,146 - __main__ - INFO - 
+Total Duration: 14.09s
+2025-10-15 08:33:09,147 - __main__ - INFO - ================================================================================
+2025-10-15 08:33:09,156 - __main__ - INFO - 
+Final output saved to: data/processed/final_output_20251015_083309.json
+2025-10-15 08:34:06,364 - __main__ - INFO - ================================================================================
+2025-10-15 08:34:06,365 - __main__ - INFO - RESUME PROCESSING PIPELINE - START
+2025-10-15 08:34:06,365 - __main__ - INFO - ================================================================================
+2025-10-15 08:34:06,365 - __main__ - INFO - Configuration:
+2025-10-15 08:34:06,365 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:34:06,365 - __main__ - INFO -   - Starting from step: 1
+2025-10-15 08:34:06,366 - __main__ - INFO -   - Use checkpoints: True
+2025-10-15 08:34:06,366 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:34:06,366 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:34:06,366 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:34:06,366 - __main__ - INFO - ================================================================================
+2025-10-15 08:34:06,366 - __main__ - INFO - 
+[STEP 1/6] Fetching HuggingFace Dataset
+2025-10-15 08:34:06,366 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:34:10,642 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:34:10,642 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:34:10,643 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:34:10,643 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:34:10,644 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:34:10,644 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:34:10,644 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:34:10,645 - src.step1_fetch_data - INFO - Duration: 4.28s
+2025-10-15 08:34:10,645 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:34:10,650 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_083410.json
+2025-10-15 08:34:10,650 - __main__ - INFO - 
+[STEP 2/6] Extracting Text from Resumes
+2025-10-15 08:34:10,651 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:34:10,651 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:34:10,652 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_083410.json
+2025-10-15 08:34:10,652 - __main__ - INFO - 
+[STEP 3/6] Cleaning and Preprocessing Text
+2025-10-15 08:34:10,652 - src.step3_clean_text - INFO - Starting text cleaning for 20 resumes
+2025-10-15 08:34:10,653 - src.step3_clean_text - WARNING - spaCy model not found. Run: python -m spacy download en_core_web_sm
+2025-10-15 08:34:10,653 - src.step3_clean_text - INFO - Falling back to basic cleaning
+2025-10-15 08:34:10,655 - src.step3_clean_text - INFO - ============================================================
+STEP: TEXT CLEANING
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:34:10,657 - src.step3_clean_text - INFO - Checkpoint saved: data/processed/step3_cleaning_20251015_083410.json
+2025-10-15 08:34:10,658 - __main__ - INFO - 
+[STEP 4/6] Anonymizing PII
+2025-10-15 08:34:10,658 - src.step4_anonymize_pii - INFO - Starting PII anonymization for 20 resumes
+2025-10-15 08:34:10,660 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_001
+2025-10-15 08:34:10,661 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_002
+2025-10-15 08:34:10,661 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_003
+2025-10-15 08:34:10,662 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_004
+2025-10-15 08:34:10,663 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_005
+2025-10-15 08:34:10,663 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_006
+2025-10-15 08:34:10,664 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_007
+2025-10-15 08:34:10,664 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_008
+2025-10-15 08:34:10,665 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_009
+2025-10-15 08:34:10,666 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_010
+2025-10-15 08:34:10,666 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_011
+2025-10-15 08:34:10,667 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_012
+2025-10-15 08:34:10,667 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_013
+2025-10-15 08:34:10,668 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_014
+2025-10-15 08:34:10,669 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_015
+2025-10-15 08:34:10,669 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_016
+2025-10-15 08:34:10,670 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_017
+2025-10-15 08:34:10,670 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_018
+2025-10-15 08:34:10,671 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_019
+2025-10-15 08:34:10,671 - src.step4_anonymize_pii - INFO - Successfully anonymized CAND_020
+2025-10-15 08:34:10,671 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:34:10,672 - src.step4_anonymize_pii - INFO - STEP: PII ANONYMIZATION
+2025-10-15 08:34:10,672 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:34:10,672 - src.step4_anonymize_pii - INFO - Total Items: 20
+2025-10-15 08:34:10,673 - src.step4_anonymize_pii - INFO - Successful: 20
+2025-10-15 08:34:10,673 - src.step4_anonymize_pii - INFO - Failed: 0
+2025-10-15 08:34:10,673 - src.step4_anonymize_pii - INFO - Skipped: 0
+2025-10-15 08:34:10,673 - src.step4_anonymize_pii - INFO - Success Rate: 100.0%
+2025-10-15 08:34:10,673 - src.step4_anonymize_pii - INFO - Duration: 0.01s
+2025-10-15 08:34:10,674 - src.step4_anonymize_pii - INFO - ============================================================
+2025-10-15 08:34:10,676 - src.step4_anonymize_pii - INFO - Checkpoint saved: data/processed/step4_anonymization_20251015_083410.json
+2025-10-15 08:34:10,676 - __main__ - INFO - 
+[STEP 5/6] Creating Semantic Chunks
+2025-10-15 08:34:10,676 - src.step5_semantic_chunking - INFO - Starting semantic chunking for 20 resumes
+2025-10-15 08:34:10,676 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_001
+2025-10-15 08:34:10,677 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_001
+2025-10-15 08:34:10,677 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_002
+2025-10-15 08:34:10,677 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_003
+2025-10-15 08:34:10,677 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_003
+2025-10-15 08:34:10,677 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_004
+2025-10-15 08:34:10,678 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_005
+2025-10-15 08:34:10,678 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_005
+2025-10-15 08:34:10,678 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_006
+2025-10-15 08:34:10,678 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_006
+2025-10-15 08:34:10,679 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_007
+2025-10-15 08:34:10,679 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_007
+2025-10-15 08:34:10,679 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_008
+2025-10-15 08:34:10,679 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_008
+2025-10-15 08:34:10,679 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_009
+2025-10-15 08:34:10,679 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_009
+2025-10-15 08:34:10,679 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_010
+2025-10-15 08:34:10,680 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_010
+2025-10-15 08:34:10,680 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_011
+2025-10-15 08:34:10,680 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_011
+2025-10-15 08:34:10,680 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_012
+2025-10-15 08:34:10,680 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_012
+2025-10-15 08:34:10,680 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_013
+2025-10-15 08:34:10,681 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_014
+2025-10-15 08:34:10,681 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_014
+2025-10-15 08:34:10,681 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_015
+2025-10-15 08:34:10,681 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_015
+2025-10-15 08:34:10,681 - src.step5_semantic_chunking - INFO - Created 1 chunks for CAND_016
+2025-10-15 08:34:10,682 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_017
+2025-10-15 08:34:10,682 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_017
+2025-10-15 08:34:10,682 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_018
+2025-10-15 08:34:10,682 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_018
+2025-10-15 08:34:10,683 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_019
+2025-10-15 08:34:10,683 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_019
+2025-10-15 08:34:10,683 - src.step5_semantic_chunking - WARNING - Could not create any chunks for CAND_020
+2025-10-15 08:34:10,683 - src.step5_semantic_chunking - WARNING - No chunks generated for CAND_020
+2025-10-15 08:34:10,683 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:34:10,684 - src.step5_semantic_chunking - INFO - STEP: SEMANTIC CHUNKING
+2025-10-15 08:34:10,684 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:34:10,684 - src.step5_semantic_chunking - INFO - Total Items: 20
+2025-10-15 08:34:10,684 - src.step5_semantic_chunking - INFO - Successful: 4
+2025-10-15 08:34:10,684 - src.step5_semantic_chunking - INFO - Failed: 16
+2025-10-15 08:34:10,684 - src.step5_semantic_chunking - INFO - Total Chunks Created: 4
+2025-10-15 08:34:10,685 - src.step5_semantic_chunking - INFO - Avg Chunks per Resume: 1.0
+2025-10-15 08:34:10,685 - src.step5_semantic_chunking - INFO - Success Rate: 20.0%
+2025-10-15 08:34:10,685 - src.step5_semantic_chunking - INFO - Duration: 0.01s
+2025-10-15 08:34:10,685 - src.step5_semantic_chunking - INFO - ============================================================
+2025-10-15 08:34:10,686 - src.step5_semantic_chunking - INFO - Checkpoint saved: data/processed/step5_chunking_20251015_083410.json
+2025-10-15 08:34:10,686 - __main__ - INFO - 
+[STEP 6/6] Generating Embeddings
+2025-10-15 08:34:10,686 - src.step6_generate_embeddings - INFO - Starting embedding generation for 4 chunks
+2025-10-15 08:34:10,686 - src.step6_generate_embeddings - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:34:10,687 - src.step6_generate_embeddings - INFO - Using device: cpu
+2025-10-15 08:34:10,688 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-10-15 08:34:14,982 - src.step6_generate_embeddings - INFO - Model loaded successfully
+2025-10-15 08:34:14,982 - src.step6_generate_embeddings - INFO - Embedding dimension: 768
+2025-10-15 08:34:14,983 - src.step6_generate_embeddings - INFO - Generating embeddings for 4 chunks
+2025-10-15 08:34:14,983 - src.step6_generate_embeddings - INFO - Device: cpu
+2025-10-15 08:34:14,983 - src.step6_generate_embeddings - INFO - Batch size: 32
+2025-10-15 08:34:14,983 - src.step6_generate_embeddings - INFO - Processing 4 valid chunks (skipped 0 invalid)
+2025-10-15 08:34:14,984 - src.step6_generate_embeddings - INFO - Encoding texts to embeddings...
+2025-10-15 08:34:15,278 - src.step6_generate_embeddings - INFO - Generated 4 embeddings
+2025-10-15 08:34:15,278 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:34:15,278 - src.step6_generate_embeddings - INFO - STEP: EMBEDDING GENERATION
+2025-10-15 08:34:15,278 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:34:15,278 - src.step6_generate_embeddings - INFO - Total Items: 4
+2025-10-15 08:34:15,278 - src.step6_generate_embeddings - INFO - Successful: 4
+2025-10-15 08:34:15,279 - src.step6_generate_embeddings - INFO - Failed: 0
+2025-10-15 08:34:15,279 - src.step6_generate_embeddings - INFO - Success Rate: 100.0%
+2025-10-15 08:34:15,279 - src.step6_generate_embeddings - INFO - Avg Time per Chunk: 1.148s
+2025-10-15 08:34:15,279 - src.step6_generate_embeddings - INFO - Total Duration: 4.59s
+2025-10-15 08:34:15,279 - src.step6_generate_embeddings - INFO - ============================================================
+2025-10-15 08:34:15,283 - src.step6_generate_embeddings - INFO - Checkpoint saved: data/processed/step6_embeddings_20251015_083415.json
+2025-10-15 08:34:15,284 - __main__ - INFO - 
+[STEP 7] Storing in Weaviate Vector Database
+2025-10-15 08:34:15,284 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:34:16,151 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-10-15 08:34:17,247 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-10-15 08:34:17,487 - __main__ - INFO -  Successfully connected to Weaviate
+2025-10-15 08:34:17,735 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 200 OK"
+2025-10-15 08:34:17,747 - __main__ - INFO - Collection 'ResumeChunk' already exists
+2025-10-15 08:34:17,749 - __main__ - INFO - Storing 4 chunks in Weaviate...
+2025-10-15 08:34:17,964 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/schema/ResumeChunk "HTTP/1.1 200 OK"
+2025-10-15 08:34:18,190 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-10-15 08:34:19,452 - httpx - INFO - HTTP Request: GET https://w9mq67gltrg1hley170psw.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-10-15 08:34:19,826 - __main__ - INFO -  Stored 4 chunks in Weaviate
+2025-10-15 08:34:19,827 - __main__ - INFO -  Successfully stored 4 chunks in Weaviate
+2025-10-15 08:34:19,830 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:34:19,831 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:34:19,832 - __main__ - INFO - PIPELINE COMPLETE - FINAL REPORT
+2025-10-15 08:34:19,833 - __main__ - INFO - ================================================================================
+2025-10-15 08:34:19,835 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:34:19,836 - __main__ - INFO - Text Extracted: 20/20
+2025-10-15 08:34:19,837 - __main__ - INFO - Text Cleaned: 20/20
+2025-10-15 08:34:19,839 - __main__ - INFO - PII Anonymized: 20/20
+2025-10-15 08:34:19,841 - __main__ - INFO - Chunks Created: 4
+2025-10-15 08:34:19,842 - __main__ - INFO - Embeddings Generated: 4/4
+2025-10-15 08:34:19,844 - __main__ - INFO - Embedding Dimension: 768
+2025-10-15 08:34:19,846 - __main__ - INFO - 
+Total Duration: 13.47s
+2025-10-15 08:34:19,847 - __main__ - INFO - ================================================================================
+2025-10-15 08:34:19,859 - __main__ - INFO - 
+Final output saved to: data/processed/final_output_20251015_083419.json
+2025-10-15 08:42:02 - __main__ - INFO - ================================================================================
+2025-10-15 08:42:02 - __main__ - INFO - SIMPLIFIED RESUME PIPELINE - START
+2025-10-15 08:42:02 - __main__ - INFO - ================================================================================
+2025-10-15 08:42:02 - __main__ - INFO - Configuration:
+2025-10-15 08:42:02 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:42:02 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:42:02 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:42:02 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:42:02 - __main__ - INFO - ================================================================================
+2025-10-15 08:42:02 - __main__ - INFO - 
+[STEP 1/3] Fetching Resume Data
+2025-10-15 08:42:02 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - Duration: 3.80s
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:42:06 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_084206.json
+2025-10-15 08:42:06 - __main__ - INFO - Fetched 20 resumes
+2025-10-15 08:42:06 - __main__ - INFO - 
+[STEP 2/3] Extracting Text Representation
+2025-10-15 08:42:06 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:42:06 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:42:06 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_084206.json
+2025-10-15 08:42:06 - __main__ - INFO - Extracted text from 20 resumes
+2025-10-15 08:42:06 - __main__ - INFO - 
+[STEP 3/3] Generating Embeddings
+2025-10-15 08:42:06 - __main__ - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:42:06 - __main__ - INFO - Using device: cpu
+2025-10-15 08:42:10 - __main__ - INFO - Model loaded successfully (dimension: 768)
+2025-10-15 08:42:10 - __main__ - INFO - Generating embeddings for 20 resumes
+2025-10-15 08:42:10 - __main__ - INFO - Processing 20 valid resumes
+2025-10-15 08:42:10 - __main__ - INFO - Encoding resumes to embeddings...
+2025-10-15 08:42:11 - __main__ - INFO - Generated 20 embeddings
+2025-10-15 08:42:11 - __main__ - INFO - Generated 20 embeddings
+2025-10-15 08:42:11 - __main__ - INFO - 
+[STEP 4] Storing in Weaviate
+2025-10-15 08:42:11 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:42:13 - __main__ - INFO - Successfully connected to Weaviate
+2025-10-15 08:42:13 - __main__ - ERROR - Failed to create schema: Collection may not have been created properly.! Unexpected status code: 422, with response body: {'error': [{'message': "property 'personal_info': At least one nested property is required for data type object/object[]"}]}.
+2025-10-15 08:42:13 - __main__ - ERROR - Weaviate storage failed: Collection may not have been created properly.! Unexpected status code: 422, with response body: {'error': [{'message': "property 'personal_info': At least one nested property is required for data type object/object[]"}]}.
+2025-10-15 08:42:13 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:42:13 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:42:13 - __main__ - INFO - PIPELINE COMPLETE - SUMMARY
+2025-10-15 08:42:13 - __main__ - INFO - ================================================================================
+2025-10-15 08:42:13 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:42:13 - __main__ - INFO - Text Extracted: 20
+2025-10-15 08:42:13 - __main__ - INFO - Embeddings Generated: 20/20
+2025-10-15 08:42:13 - __main__ - INFO - 
+Total Duration: 10.89s
+2025-10-15 08:42:13 - __main__ - INFO - ================================================================================
+2025-10-15 08:42:13 - __main__ - INFO - 
+Final output saved to: data/processed/final_resumes_20251015_084213.json
+2025-10-15 08:45:29 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:45:31 - __main__ - INFO - Connected successfully
+2025-10-15 08:45:32 - __main__ - INFO - Found 1 collection(s)
+2025-10-15 08:45:32 - __main__ - INFO -   - ResumeChunk
+2025-10-15 08:45:32 - __main__ - INFO - Deleting collection: ResumeChunk
+2025-10-15 08:45:32 - __main__ - INFO -   Deleted: ResumeChunk
+2025-10-15 08:45:32 - __main__ - INFO -   Collection 'Resume' does not exist
+2025-10-15 08:45:32 - __main__ - INFO - 
+Cleanup complete! You can now run the new pipeline.
+2025-10-15 08:45:32 - __main__ - INFO - Run: python pipeline.py
+2025-10-15 08:45:49 - __main__ - INFO - ================================================================================
+2025-10-15 08:45:49 - __main__ - INFO - SIMPLIFIED RESUME PIPELINE - START
+2025-10-15 08:45:49 - __main__ - INFO - ================================================================================
+2025-10-15 08:45:49 - __main__ - INFO - Configuration:
+2025-10-15 08:45:49 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:45:49 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:45:49 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:45:49 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:45:49 - __main__ - INFO - ================================================================================
+2025-10-15 08:45:49 - __main__ - INFO - 
+[STEP 1/3] Fetching Resume Data
+2025-10-15 08:45:49 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - Duration: 3.96s
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:45:53 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_084553.json
+2025-10-15 08:45:53 - __main__ - INFO - Fetched 20 resumes
+2025-10-15 08:45:53 - __main__ - INFO - 
+[STEP 2/3] Extracting Text Representation
+2025-10-15 08:45:53 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:45:53 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:45:53 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_084553.json
+2025-10-15 08:45:53 - __main__ - INFO - Extracted text from 20 resumes
+2025-10-15 08:45:53 - __main__ - INFO - 
+[STEP 3/3] Generating Embeddings
+2025-10-15 08:45:53 - __main__ - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:45:53 - __main__ - INFO - Using device: cpu
+2025-10-15 08:45:56 - __main__ - INFO - Model loaded successfully (dimension: 768)
+2025-10-15 08:45:56 - __main__ - INFO - Generating embeddings for 20 resumes
+2025-10-15 08:45:56 - __main__ - INFO - Processing 20 valid resumes
+2025-10-15 08:45:56 - __main__ - INFO - Encoding resumes to embeddings...
+2025-10-15 08:45:58 - __main__ - INFO - Generated 20 embeddings
+2025-10-15 08:45:58 - __main__ - INFO - Generated 20 embeddings
+2025-10-15 08:45:58 - __main__ - INFO - 
+[STEP 4] Storing in Weaviate
+2025-10-15 08:45:58 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:46:00 - __main__ - INFO - Successfully connected to Weaviate
+2025-10-15 08:46:00 - __main__ - ERROR - Failed to create schema: Collection may not have been created properly.! Unexpected status code: 422, with response body: {'error': [{'message': "property 'personal_info': At least one nested property is required for data type object/object[]"}]}.
+2025-10-15 08:46:00 - __main__ - ERROR - Weaviate storage failed: Collection may not have been created properly.! Unexpected status code: 422, with response body: {'error': [{'message': "property 'personal_info': At least one nested property is required for data type object/object[]"}]}.
+2025-10-15 08:46:00 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:46:00 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:46:00 - __main__ - INFO - PIPELINE COMPLETE - SUMMARY
+2025-10-15 08:46:00 - __main__ - INFO - ================================================================================
+2025-10-15 08:46:00 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:46:00 - __main__ - INFO - Text Extracted: 20
+2025-10-15 08:46:00 - __main__ - INFO - Embeddings Generated: 20/20
+2025-10-15 08:46:00 - __main__ - INFO - 
+Total Duration: 11.32s
+2025-10-15 08:46:00 - __main__ - INFO - ================================================================================
+2025-10-15 08:46:00 - __main__ - INFO - 
+Final output saved to: data/processed/final_resumes_20251015_084600.json
+2025-10-15 08:48:41 - __main__ - INFO - ================================================================================
+2025-10-15 08:48:41 - __main__ - INFO - SIMPLIFIED RESUME PIPELINE - START
+2025-10-15 08:48:41 - __main__ - INFO - ================================================================================
+2025-10-15 08:48:41 - __main__ - INFO - Configuration:
+2025-10-15 08:48:41 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:48:41 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:48:41 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:48:41 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:48:41 - __main__ - INFO - ================================================================================
+2025-10-15 08:48:41 - __main__ - INFO - 
+[STEP 1/3] Fetching Resume Data
+2025-10-15 08:48:41 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - Duration: 4.70s
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:48:46 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_084846.json
+2025-10-15 08:48:46 - __main__ - INFO - Fetched 20 resumes
+2025-10-15 08:48:46 - __main__ - INFO - 
+[STEP 2/3] Extracting Text Representation
+2025-10-15 08:48:46 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:48:46 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:48:46 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_084846.json
+2025-10-15 08:48:46 - __main__ - INFO - Extracted text from 20 resumes
+2025-10-15 08:48:46 - __main__ - INFO - 
+[STEP 3/3] Generating Embeddings
+2025-10-15 08:48:46 - __main__ - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:48:46 - __main__ - INFO - Using device: cpu
+2025-10-15 08:48:50 - __main__ - INFO - Model loaded successfully (dimension: 768)
+2025-10-15 08:48:50 - __main__ - INFO - Generating embeddings for 20 resumes
+2025-10-15 08:48:50 - __main__ - INFO - Processing 20 valid resumes
+2025-10-15 08:48:50 - __main__ - INFO - Encoding resumes to embeddings...
+2025-10-15 08:48:51 - __main__ - INFO - Generated 20 embeddings
+2025-10-15 08:48:51 - __main__ - INFO - Generated 20 embeddings
+2025-10-15 08:48:51 - __main__ - INFO - 
+[STEP 4] Storing in Weaviate
+2025-10-15 08:48:51 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:48:53 - __main__ - INFO - Successfully connected to Weaviate
+2025-10-15 08:48:53 - __main__ - ERROR - Failed to create schema: Collection may not have been created properly.! Unexpected status code: 422, with response body: {'error': [{'message': "property 'personal_info': At least one nested property is required for data type object/object[]"}]}.
+2025-10-15 08:48:53 - __main__ - ERROR - Weaviate storage failed: Collection may not have been created properly.! Unexpected status code: 422, with response body: {'error': [{'message': "property 'personal_info': At least one nested property is required for data type object/object[]"}]}.
+2025-10-15 08:48:53 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:48:53 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:48:53 - __main__ - INFO - PIPELINE COMPLETE - SUMMARY
+2025-10-15 08:48:53 - __main__ - INFO - ================================================================================
+2025-10-15 08:48:53 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:48:53 - __main__ - INFO - Text Extracted: 20
+2025-10-15 08:48:53 - __main__ - INFO - Embeddings Generated: 20/20
+2025-10-15 08:48:53 - __main__ - INFO - 
+Total Duration: 12.25s
+2025-10-15 08:48:53 - __main__ - INFO - ================================================================================
+2025-10-15 08:48:54 - __main__ - INFO - 
+Final output saved to: data/processed/final_resumes_20251015_084853.json
+2025-10-15 08:51:16 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:51:18 - __main__ - INFO - Connected successfully
+2025-10-15 08:51:19 - __main__ - INFO - Creating collection 'Resume'...
+2025-10-15 08:51:19 - __main__ - INFO - Successfully created collection 'Resume'
+2025-10-15 08:51:19 - __main__ - INFO - 
+Verifying schema...
+2025-10-15 08:51:19 - __main__ - ERROR - Failed to create schema: '_Property' object has no attribute 'skip_vectorization'
+Traceback (most recent call last):
+  File "c:\Users\dhouh\OneDrive\Bureau\Get-hired-n8n\create_schema.py", line 228, in create_resume_schema
+    skip = "🚫 Skip" if prop.skip_vectorization else "✅ Vector"
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_Property' object has no attribute 'skip_vectorization'
+2025-10-15 08:51:57 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:51:58 - __main__ - INFO - Connected successfully
+2025-10-15 08:51:59 - __main__ - WARNING - Collection 'Resume' already exists
+2025-10-15 08:52:02 - __main__ - INFO - Deleting existing collection 'Resume'...
+2025-10-15 08:52:02 - __main__ - INFO - Deleted successfully
+2025-10-15 08:52:02 - __main__ - INFO - Creating collection 'Resume'...
+2025-10-15 08:52:03 - __main__ - INFO - Successfully created collection 'Resume'
+2025-10-15 08:52:03 - __main__ - INFO - 
+Verifying schema...
+2025-10-15 08:53:01 - __main__ - INFO - ================================================================================
+2025-10-15 08:53:01 - __main__ - INFO - SIMPLIFIED RESUME PIPELINE - START
+2025-10-15 08:53:01 - __main__ - INFO - ================================================================================
+2025-10-15 08:53:01 - __main__ - INFO - Configuration:
+2025-10-15 08:53:01 - __main__ - INFO -   - Resumes to process: 20
+2025-10-15 08:53:01 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:53:01 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:53:01 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:53:01 - __main__ - INFO - ================================================================================
+2025-10-15 08:53:01 - __main__ - INFO - 
+[STEP 1/3] Fetching Resume Data
+2025-10-15 08:53:01 - src.step1_fetch_data - INFO - Fetching 20 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - Total Items: 20
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - Successful: 20
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - Duration: 3.98s
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:53:05 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_085305.json
+2025-10-15 08:53:05 - __main__ - INFO - Fetched 20 resumes
+2025-10-15 08:53:05 - __main__ - INFO - 
+[STEP 2/3] Extracting Text Representation
+2025-10-15 08:53:05 - src.step2_extract_text - INFO - Starting text extraction for 20 resumes
+2025-10-15 08:53:05 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 20
+Successful: 20
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:53:05 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_085305.json
+2025-10-15 08:53:05 - __main__ - INFO - Extracted text from 20 resumes
+2025-10-15 08:53:05 - __main__ - INFO - 
+[STEP 3/3] Generating Embeddings
+2025-10-15 08:53:05 - __main__ - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:53:05 - __main__ - INFO - Using device: cpu
+2025-10-15 08:53:09 - __main__ - INFO - Model loaded successfully (dimension: 768)
+2025-10-15 08:53:09 - __main__ - INFO - Generating embeddings for 20 resumes
+2025-10-15 08:53:09 - __main__ - INFO - Processing 20 valid resumes
+2025-10-15 08:53:09 - __main__ - INFO - Encoding resumes to embeddings...
+2025-10-15 08:53:10 - __main__ - INFO - Generated 20 embeddings
+2025-10-15 08:53:10 - __main__ - INFO - Generated 20 embeddings
+2025-10-15 08:53:10 - __main__ - INFO - 
+[STEP 4] Storing in Weaviate
+2025-10-15 08:53:10 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:53:12 - __main__ - INFO - Successfully connected to Weaviate
+2025-10-15 08:53:12 - __main__ - INFO - Collection 'Resume' already exists
+2025-10-15 08:53:12 - __main__ - INFO - Storing 20 resumes in Weaviate...
+2025-10-15 08:53:12 - __main__ - ERROR - Failed to store CAND_013: 'NoneType' object has no attribute 'get'
+2025-10-15 08:53:12 - __main__ - ERROR - Failed to store CAND_016: 'NoneType' object has no attribute 'get'
+2025-10-15 08:53:14 - __main__ - INFO - Stored 18 resumes in Weaviate
+2025-10-15 08:53:14 - __main__ - WARNING - Failed to store 2 resumes
+2025-10-15 08:53:14 - __main__ - INFO - Successfully stored 18 resumes in Weaviate
+2025-10-15 08:53:14 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:53:14 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:53:14 - __main__ - INFO - PIPELINE COMPLETE - SUMMARY
+2025-10-15 08:53:14 - __main__ - INFO - ================================================================================
+2025-10-15 08:53:14 - __main__ - INFO - Resumes Fetched: 20
+2025-10-15 08:53:14 - __main__ - INFO - Text Extracted: 20
+2025-10-15 08:53:14 - __main__ - INFO - Embeddings Generated: 20/20
+2025-10-15 08:53:14 - __main__ - INFO - 
+Total Duration: 12.86s
+2025-10-15 08:53:14 - __main__ - INFO - ================================================================================
+2025-10-15 08:53:14 - __main__ - INFO - 
+Final output saved to: data/processed/final_resumes_20251015_085314.json
+2025-10-15 08:55:21 - __main__ - INFO - ================================================================================
+2025-10-15 08:55:21 - __main__ - INFO - SIMPLIFIED RESUME PIPELINE - START
+2025-10-15 08:55:21 - __main__ - INFO - ================================================================================
+2025-10-15 08:55:21 - __main__ - INFO - Configuration:
+2025-10-15 08:55:21 - __main__ - INFO -   - Resumes to process: 50
+2025-10-15 08:55:21 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:55:21 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:55:21 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:55:21 - __main__ - INFO - ================================================================================
+2025-10-15 08:55:21 - __main__ - INFO - 
+[STEP 1/3] Fetching Resume Data
+2025-10-15 08:55:21 - src.step1_fetch_data - INFO - Fetching 50 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:55:25 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:55:25 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:55:25 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:55:25 - src.step1_fetch_data - INFO - Total Items: 50
+2025-10-15 08:55:25 - src.step1_fetch_data - INFO - Successful: 50
+2025-10-15 08:55:25 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:55:25 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:55:25 - src.step1_fetch_data - INFO - Duration: 3.72s
+2025-10-15 08:55:25 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:55:25 - src.step1_fetch_data - ERROR - ❌ Failed to fetch dataset: Object of type datetime is not JSON serializable
+2025-10-15 08:55:25 - __main__ - ERROR - Pipeline failed: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "c:\Users\dhouh\OneDrive\Bureau\Get-hired-n8n\pipeline.py", line 397, in run
+    self.results['fetched'] = step1_fetch(num_resumes, offset)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\dhouh\OneDrive\Bureau\Get-hired-n8n\src\step1_fetch_data.py", line 172, in run
+    return fetcher.fetch_resumes(limit, offset)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\dhouh\OneDrive\Bureau\Get-hired-n8n\src\step1_fetch_data.py", line 125, in fetch_resumes
+    checkpoint_file = save_checkpoint(processed_resumes, "step1_fetch")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\dhouh\OneDrive\Bureau\Get-hired-n8n\src\utils.py", line 91, in save_checkpoint
+    json.dump(data, f, indent=2, ensure_ascii=False)
+  File "C:\Users\dhouh\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\dhouh\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Users\dhouh\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\dhouh\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\dhouh\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\dhouh\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\dhouh\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\dhouh\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\dhouh\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2025-10-15 08:58:16 - __main__ - INFO - ================================================================================
+2025-10-15 08:58:16 - __main__ - INFO - SIMPLIFIED RESUME PIPELINE - START
+2025-10-15 08:58:16 - __main__ - INFO - ================================================================================
+2025-10-15 08:58:16 - __main__ - INFO - Configuration:
+2025-10-15 08:58:16 - __main__ - INFO -   - Resumes to process: 50
+2025-10-15 08:58:16 - __main__ - INFO -   - Store in Weaviate: True
+2025-10-15 08:58:16 - __main__ - INFO -   - Embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:58:16 - __main__ - INFO -   - Batch size: 32
+2025-10-15 08:58:16 - __main__ - INFO - ================================================================================
+2025-10-15 08:58:16 - __main__ - INFO - 
+[STEP 1/3] Fetching Resume Data
+2025-10-15 08:58:16 - src.step1_fetch_data - INFO - Fetching 50 resumes from HuggingFace dataset 'datasetmaster/resumes' (split: train)
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - STEP: FETCH DATA
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - Total Items: 50
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - Successful: 50
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - Failed: 0
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - Success Rate: 100.0%
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - Duration: 4.09s
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - ============================================================
+2025-10-15 08:58:20 - src.step1_fetch_data - INFO - Checkpoint saved: data/processed/step1_fetch_20251015_085820.json
+2025-10-15 08:58:20 - __main__ - INFO - Fetched 50 resumes
+2025-10-15 08:58:20 - __main__ - INFO - 
+[STEP 2/3] Extracting Text Representation
+2025-10-15 08:58:20 - src.step2_extract_text - INFO - Starting text extraction for 50 resumes
+2025-10-15 08:58:20 - src.step2_extract_text - INFO - ============================================================
+STEP: TEXT EXTRACTION
+============================================================
+Total Items: 50
+Successful: 50
+Failed: 0
+Success Rate: 100.0%
+Duration: 0.00s
+============================================================
+2025-10-15 08:58:20 - src.step2_extract_text - INFO - Checkpoint saved: data/processed/step2_extraction_20251015_085820.json
+2025-10-15 08:58:20 - __main__ - INFO - Extracted text from 50 resumes
+2025-10-15 08:58:20 - __main__ - INFO - 
+[STEP 3/3] Generating Embeddings
+2025-10-15 08:58:20 - __main__ - INFO - Loading embedding model: BAAI/bge-base-en-v1.5
+2025-10-15 08:58:20 - __main__ - INFO - Using device: cpu
+2025-10-15 08:58:24 - __main__ - INFO - Model loaded successfully (dimension: 768)
+2025-10-15 08:58:24 - __main__ - INFO - Generating embeddings for 50 resumes
+2025-10-15 08:58:24 - __main__ - INFO - Processing 50 valid resumes
+2025-10-15 08:58:24 - __main__ - INFO - Encoding resumes to embeddings...
+2025-10-15 08:58:26 - __main__ - INFO - Generated 50 embeddings
+2025-10-15 08:58:26 - __main__ - INFO - Generated 50 embeddings
+2025-10-15 08:58:26 - __main__ - INFO - 
+[STEP 4] Storing in Weaviate
+2025-10-15 08:58:26 - __main__ - INFO - Connecting to Weaviate...
+2025-10-15 08:58:28 - __main__ - INFO - Successfully connected to Weaviate
+2025-10-15 08:58:29 - __main__ - INFO - Collection 'Resume' already exists
+2025-10-15 08:58:29 - __main__ - INFO - Storing 50 resumes in Weaviate...
+2025-10-15 08:58:29 - __main__ - ERROR - Failed to store CAND_013: 'NoneType' object has no attribute 'get'
+2025-10-15 08:58:29 - __main__ - ERROR - Failed to store CAND_016: 'NoneType' object has no attribute 'get'
+2025-10-15 08:58:29 - __main__ - ERROR - Failed to store CAND_046: 'NoneType' object has no attribute 'get'
+2025-10-15 08:58:31 - __main__ - INFO - Stored 47 resumes in Weaviate
+2025-10-15 08:58:31 - __main__ - WARNING - Failed to store 3 resumes
+2025-10-15 08:58:31 - __main__ - INFO - Successfully stored 47 resumes in Weaviate
+2025-10-15 08:58:31 - __main__ - INFO - Closed Weaviate connection
+2025-10-15 08:58:31 - __main__ - INFO - 
+================================================================================
+2025-10-15 08:58:31 - __main__ - INFO - PIPELINE COMPLETE - SUMMARY
+2025-10-15 08:58:31 - __main__ - INFO - ================================================================================
+2025-10-15 08:58:31 - __main__ - INFO - Resumes Fetched: 50
+2025-10-15 08:58:31 - __main__ - INFO - Text Extracted: 50
+2025-10-15 08:58:31 - __main__ - INFO - Embeddings Generated: 50/50
+2025-10-15 08:58:31 - __main__ - INFO - 
+Total Duration: 15.37s
+2025-10-15 08:58:31 - __main__ - INFO - ================================================================================
+2025-10-15 08:58:31 - __main__ - INFO - 
+Final output saved to: data/processed/final_resumes_20251015_085831.json
