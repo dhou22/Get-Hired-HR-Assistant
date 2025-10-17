@@ -1,3 +1,4 @@
+
 # Get Hired - AI HR Manager Assistant
 
 <div align="center">
@@ -10,7 +11,8 @@
 [![Weaviate Vector DB](https://img.shields.io/badge/VectorDB-Weaviate-1f8a70.svg)](https://weaviate.io/)
 [![n8n Automation](https://img.shields.io/badge/Workflow-n8n-FF6B35.svg)](https://n8n.io/)
 
-**Intelligent resume matching system using semantic embeddings and vector search for HR recruitment workflows**
+**Intelligent resume matching system using semantic embeddings and vector search for HR recruitment workflows** <br> 
+[Overview](#overview) • [Architecture](#architecture) • [Quick Start](#quick-start) • [API Reference](#api-reference) • [Configuration](#configuration) • [Contributing](#contributing)
 
 </div>
 
@@ -58,10 +60,9 @@
 - [Project Structure](#project-structure)
 - [Troubleshooting](#troubleshooting)
 - [Security Considerations](#security-considerations)
-- [Contributing](#contributing)
 - [Resources & References](#resources--references)
 - [License](#license)
-- [Support & Feedback](#support--feedback)
+
 
 ---
 
@@ -894,98 +895,14 @@ mypy src/
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
 
-### MIT License Summary
-
-- ✅ Commercial use
-- ✅ Modification
-- ✅ Distribution
-- ✅ Private use
-- ❌ Liability
-- ❌ Warranty
-
-**Full license text:** [MIT License](https://opensource.org/licenses/MIT)
-
 ---
 
-## Support & Feedback
-
-### Getting Help
-
-For issues, questions, or feature requests:
-
-1. **Check Documentation**: Review this README and linked resources
-2. **Search Issues**: Check [GitHub Issues](https://github.com/yourusername/get-hired/issues) for existing solutions
-3. **Open New Issue**: Create detailed issue with:
-   - System information (OS, Python version)
-   - Steps to reproduce
-   - Error messages and logs
-   - Expected vs actual behavior
 
 ### Contact
 
-- **GitHub Issues**: [https://github.com/yourusername/get-hired/issues](https://github.com/yourusername/get-hired/issues)
-- **Discussions**: [https://github.com/yourusername/get-hired/discussions](https://github.com/yourusername/get-hired/discussions)
-- **Email**: support@yourdomain.com
-- **Discord**: [Community Server](https://discord.gg/your-server)
+- **LinkedIn**: https://www.linkedin.com/in/dhouha-meliane/
+- **Email**: dhouha.meliane@esprit.tn
 
-### Feature Requests
-
-We welcome feature suggestions! Please:
-1. Check existing feature requests in GitHub Issues
-2. Provide clear use case and expected benefit
-3. Include mockups or examples if applicable
-4. Vote on existing requests you'd like to see implemented
-
-### Reporting Security Vulnerabilities
-
-**Do not** open public issues for security vulnerabilities.
-
-Email security concerns to: **security@yourdomain.com**
-
-We will respond within 48 hours with:
-- Acknowledgment of receipt
-- Initial assessment
-- Timeline for resolution
-- Credit in release notes (if desired)
-
----
-
-## Changelog
-
-### Version 1.0.0 (October 2025)
-- ✨ Initial release
-- 🚀 Multi-format resume processing (PDF, DOCX, JSON)
-- 🔍 Semantic search with BAAI/bge-base-en-v1.5
-- 💾 Weaviate cloud integration
-- 🤖 n8n AI agent workflow
-- 🛡️ Anti-hallucination guardrails
-- 📊 Comprehensive benchmarking
-- 🔒 PII anonymization
-- 📝 REST API with Flask
-- 🌐 Cloudflare Tunnel deployment
-
-### Roadmap
-
-**Version 1.1.0 (Q1 2026)**
-- [ ] Multi-language resume support
-- [ ] Advanced candidate scoring algorithms
-- [ ] Resume parsing improvements
-- [ ] Performance optimization
-- [ ] Enhanced error handling
-
-**Version 1.2.0 (Q2 2026)**
-- [ ] Real-time resume processing
-- [ ] Candidate recommendation engine
-- [ ] Integration with ATS systems
-- [ ] Advanced analytics dashboard
-- [ ] Mobile app support
-
-**Version 2.0.0 (Q3 2026)**
-- [ ] Multi-tenant architecture
-- [ ] Enterprise SSO integration
-- [ ] Custom embedding fine-tuning
-- [ ] Advanced workflow templates
-- [ ] Machine learning-based ranking
 
 ---
 
@@ -1008,11 +925,7 @@ This project builds upon excellent open-source libraries:
 - PyPDF2
 - python-docx
 
-### Contributors
 
-Thank you to all contributors who have helped improve Get Hired!
-
-[View full contributor list](https://github.com/yourusername/get-hired/graphs/contributors)
 
 ### Research & Inspiration
 
@@ -1039,47 +952,9 @@ If you use Get Hired in your research or project, please cite:
 
 ---
 
-## Frequently Asked Questions (FAQ)
-
-### General Questions
-
-**Q: What makes Get Hired different from traditional ATS systems?**  
-A: Get Hired uses semantic embeddings to understand the meaning of resumes and job requirements, not just keyword matching. This captures transferable skills, contextual experience, and hidden qualifications.
-
-**Q: Can I use this for free?**  
-A: Yes! The code is open-source (MIT license). You'll need to pay for cloud services (Weaviate, n8n, etc.) based on usage.
-
-**Q: How accurate is the candidate matching?**  
-A: Our benchmarks show 89.2% Mean Reciprocal Rank on resume retrieval tasks, significantly outperforming keyword-based systems.
-
-### Technical Questions
-
-**Q: What embedding models are supported?**  
-A: Any Sentence Transformers model. We recommend BAAI/bge-base-en-v1.5 for production use.
-
-**Q: Can I self-host everything?**  
-A: Yes! All components support self-hosting: Weaviate (Docker), n8n (Docker), and the Flask API.
-
-**Q: What's the maximum number of resumes I can process?**  
-A: No hard limit. System scales with your infrastructure. Tested with 1M+ resumes.
-
-**Q: Does it support languages other than English?**  
-A: Currently optimized for English. Multilingual support planned for v1.1.0.
-
-### Security & Privacy
-
-**Q: How is PII handled?**  
-A: Step 4 of the pipeline anonymizes personally identifiable information using spaCy NER.
-
-**Q: Is data encrypted?**  
-A: Yes, use Weaviate's encryption at rest and TLS for data in transit.
-
-**Q: Is this GDPR compliant?**  
-A: The system provides tools for compliance (PII anonymization, data deletion), but you're responsible for implementing proper data handling policies.
 
 ---
 
 **Last Updated**: October 17, 2025  
-**Maintained By**: Your Organization  
 **Status**: Active Development  
 **Version**: 1.0.0
