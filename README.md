@@ -322,6 +322,10 @@ This section details technology choices with quantitative benchmarking justifica
 
 ---
 
+<img width="1270" height="406" alt="image" src="https://github.com/user-attachments/assets/c91559d2-395a-4e81-af0d-2efd0f64048e" />
+
+---
+
 ## Performance Benchmarks
 
 ### Embedding Model Quality Comparison
