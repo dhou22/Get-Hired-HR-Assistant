@@ -425,7 +425,7 @@ Cost per 1M resumes processed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/get-hired.git
+git clone https://github.com/dhou22/get-hired.git
 cd get-hired
 ```
 
