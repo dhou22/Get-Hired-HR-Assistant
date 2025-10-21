@@ -780,8 +780,8 @@ Contributions are welcome. Please follow these guidelines:
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/get-hired.git
-cd get-hired
+git clone https://github.com/dhou22/Get-Hired-HR-Assistant.git
+cd Get-Hired-HR-Assistant
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -947,9 +947,9 @@ If you use Get Hired in your research or project, please cite:
 ```bibtex
 @software{get_hired_2025,
   title = {Get Hired: AI HR Manager Assistant},
-  author = {Your Organization},
+  author = {dhouha meliane},
   year = {2025},
-  url = {https://github.com/yourusername/get-hired},
+  url = {https://github.com/dhou22/Get-Hired-HR-Assistant},
   version = {1.0.0}
 }
 ```
